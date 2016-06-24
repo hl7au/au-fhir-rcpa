@@ -1,0 +1,315 @@
+{
+	"source": "rcpa.xml",
+	"tool": {
+		"type": "jekyll"
+	},
+	"canonicalBase": "http://hl7.org.au/fhir/rcpa",
+	"spreadsheets": ["prostate-radical-spreadsheet.xml",
+	"colorectal-spreadsheet.xml"],
+	"resources": {
+		"StructureDefinition/Colorectal": {
+			"defns": "index.html#definitions",
+			"base": "index.html#logical"
+		},
+		"CodeSystem/extramural-vein-invasion": {
+			"base": "cs-extramural-vein-invasion.html"
+		},
+		"CodeSystem/focal-non-focal": {
+			"base": "cs-focal-non-focal.html"
+		},
+		"CodeSystem/intramural-vein-invasion": {
+			"base": "cs-intramural-vein-invasion.html"
+		},
+		"CodeSystem/involved-notinvolved": {
+			"base": "cs-involved-notinvolved.html"
+		},
+		"CodeSystem/involved-notinvolved-indeterminate": {
+			"base": "cs-involved-notinvolved-indeterminate.html"
+		},
+		"CodeSystem/involved-notinvolved-na": {
+			"base": "cs-involved-notinvolved-na.html"
+		},
+		"CodeSystem/mutated-wildtype": {
+			"base": "cs-mutated-wildtype.html"
+		},
+		"CodeSystem/new-cancer-or-recurrence": {
+			"base": "cs-new-cancer-or-recurrence.html"
+		},
+		"CodeSystem/none-identified-present": {
+			"base": "cs-none-identified-present.html"
+		},
+		"CodeSystem/notidentified-present": {
+			"base": "cs-notidentified-present.html"
+		},
+		"CodeSystem/notidentified-present-indeterminate": {
+			"base": "cs-.html"
+		},
+		"CodeSystem/notidentified-present-presentextensive": {
+			"base": "cs-notidentified-present-presentextensive.html"
+		},
+		"CodeSystem/perforation-type": {
+			"base": "cs-perforation-type.html"
+		},
+		"CodeSystem/perineural-invasion": {
+			"base": "cs-perineural-invasion.html"
+		},
+		"CodeSystem/present-absent-ns": {
+			"base": "cs-present-absent-ns.html"
+		},
+		"CodeSystem/prostate-rad-margin-positivity": {
+			"base": "cs-prostate-rad-margin-positivity.html"
+		},
+		"CodeSystem/prostate-rad-seminal-vesicles-micro": {
+			"base": "cs-prostate-rad-seminal-vesicles-micro.html"
+		},
+		"CodeSystem/prostate-rad-tumour-locations": {
+			"base": "cs-prostate-rad-tumour-locations.html"
+		},
+		"CodeSystem/prostate-rad-tumour-type": {
+			"base": "cs-prostate-rad-tumour-type.html"
+		},
+		"CodeSystem/received-notreceived": {
+			"base": "cs-received-notreceived.html"
+		},
+		"CodeSystem/residual-tumour-status": {
+			"base": "cs-residual-tumour-status.html"
+		},
+		"CodeSystem/response-to-neoadjuvant-therapy": {
+			"base": "cs-response-to-neoadjuvant-therapy.html"
+		},
+		"CodeSystem/small-vessel-invasion": {
+			"base": "cs-small-vessel-invasion.html"
+		},
+		"CodeSystem/stain-type": {
+			"base": "cs-stain-type.html"
+		},
+		"CodeSystem/unstable-stable": {
+			"base": "cs-unstable-stable.html"
+		},
+		"CodeSystem/yes-no-ns": {
+			"base": "cs-yes-no-ns.html"
+		},
+		"CodeSystem/cancer-primary-or-recurrence": {
+			"base": "cs-cancer-primary-or-recurrence.html"
+		},
+		"CodeSystem/crc-operation-type": {
+			"base": "cs-crc-operation-type.html"
+		},
+		"CodeSystem/crc-peritoneum-invasion": {
+			"base": "cs-crc-peritoneum-invasion.html"
+		},
+		"CodeSystem/crc-rel-anterior-peritoneal-reflection": {
+			"base": "cs-crc-rel-anterior-peritoneal-reflection.html"
+		},
+		"CodeSystem/crc-tumour-stage-grouping": {
+			"base": "cs-crc-tumour-stage-grouping.html"
+		},
+		"CodeSystem/crc-tumour-stage-n": {
+			"base": "cs-crc-tumour-stage-n.html"
+		},
+		"CodeSystem/crc-tumour-stage-t": {
+			"base": "cs-crc-tumour-stage-t.html"
+		},
+		"CodeSystem/dysplasia": {
+			"base": "cs-dysplasia.html"
+		},
+		"ValueSet/crc-intactness-of-mesorectum": {
+			"base": "vs-crc-intactness-of-mesorectum"
+		},
+		"ValueSet/crc-involved-notinvolved": {
+			"base": "vs-crc-involved-notinvolved"
+		},
+		"ValueSet/crc-operation-type": {
+			"base": "vs-crc-operation-type"
+		},
+		"ValueSet/crc-peritoneum-invasion": {
+			"base": "vs-crc-peritoneum-invasion"
+		},
+		"ValueSet/crc-rel-anterior-peritoneal-reflection": {
+			"base": "vs-crc-rel-anterior-peritoneal-reflection"
+		},
+		"ValueSet/crc-tumour-location": {
+			"base": "vs-crc-tumour-location"
+		},
+		"ValueSet/crc-tumour-stage-grouping": {
+			"base": "vs-crc-tumour-stage-grouping"
+		},
+		"ValueSet/crc-tumour-stage-m": {
+			"base": "vs-crc-tumour-stage-m"
+		},
+		"ValueSet/crc-tumour-stage-n": {
+			"base": "vs-crc-tumour-stage-n"
+		},
+		"ValueSet/crc-tumour-stage-t": {
+			"base": "vs-crc-tumour-stage-t"
+		},
+		"ValueSet/crc-tumour-type": {
+			"base": "vs-crc-tumour-type"
+		},
+		"ValueSet/distal-proximal": {
+			"base": "vs-distal-proximal"
+		},
+		"ValueSet/dysplasia": {
+			"base": "vs-dysplasia"
+		},
+		"ValueSet/extramural-vein-invasion": {
+			"base": "vs-extramural-vein-invasion"
+		},
+		"ValueSet/focal-non-focal": {
+			"base": "vs-focal-non-focal"
+		},
+		"ValueSet/gleeson-grade-primary": {
+			"base": "vs-gleeson-grade-primary"
+		},
+		"ValueSet/gleeson-grade-secondary": {
+			"base": "vs-gleeson-grade-secondary"
+		},
+		"ValueSet/gleeson-grade-tertiary": {
+			"base": "vs-gleeson-grade-tertiary"
+		},
+		"ValueSet/hi-lo-ultralo": {
+			"base": "vs-hi-lo-ultralo"
+		},
+		"ValueSet/histological-grade": {
+			"base": "vs-histological-grade"
+		},
+		"ValueSet/intramural-vein-invasion": {
+			"base": "vs-intramural-vein-invasion"
+		},
+		"ValueSet/involved-notinvolved": {
+			"base": "vs-involved-notinvolved"
+		},
+		"ValueSet/involved-notinvolved-indeterminate": {
+			"base": "vs-involved-notinvolved-indeterminate"
+		},
+		"ValueSet/involved-notinvolved-na": {
+			"base": "vs-involved-notinvolved-na"
+		},
+		"ValueSet/laterality": {
+			"base": "vs-laterality"
+		},
+		"ValueSet/margin-status": {
+			"base": "vs-margin-status"
+		},
+		"ValueSet/MedicinesTerminology": {
+			"base": "vs-MedicinesTerminology"
+		},
+		"ValueSet/msi-options": {
+			"base": "vs-msi-options"
+		},
+		"ValueSet/mutated-wildtype": {
+			"base": "vs-mutated-wildtype"
+		},
+		"ValueSet/new-cancer-or-recurrence": {
+			"base": "vs-new-cancer-or-recurrence"
+		},
+		"ValueSet/nodule-location": {
+			"base": "vs-nodule-location"
+		},
+		"ValueSet/none-identified-present": {
+			"base": "vs-none-identified-present"
+		},
+		"ValueSet/notidentified-present": {
+			"base": "vs-notidentified-present"
+		},
+		"ValueSet/notidentified-present-indeterminate": {
+			"base": "vs-notidentified-present-indeterminate"
+		},
+		"ValueSet/notidentified-present-presentextensive": {
+			"base": "vs-notidentified-present-presentextensive"
+		},
+		"ValueSet/perforation-type": {
+			"base": "vs-perforation-type"
+		},
+		"ValueSet/perineural-invasion": {
+			"base": "vs-perineural-invasion"
+		},
+		"ValueSet/present-absent": {
+			"base": "vs-present-absent"
+		},
+		"ValueSet/present-absent-na": {
+			"base": "vs-present-absent-na"
+		},
+		"ValueSet/present-absent-ns": {
+			"base": "vs-present-absent-ns"
+		},
+		"ValueSet/prostate-rad-bladder-neck": {
+			"base": "vs-prostate-rad-bladder-neck"
+		},
+		"ValueSet/prostate-rad-epe-extent": {
+			"base": "vs-prostate-rad-epe-extent"
+		},
+		"ValueSet/prostate-rad-extraprostatic-extension": {
+			"base": "vs-prostate-rad-extraprostatic-extension"
+		},
+		"ValueSet/prostate-rad-margin-positivity": {
+			"base": "vs-prostate-rad-margin-positivity"
+		},
+		"ValueSet/prostate-rad-nodule-plane": {
+			"base": "vs-prostate-rad-nodule-plane"
+		},
+		"ValueSet/prostate-rad-seminal-vesicles-macro": {
+			"base": "vs-prostate-rad-seminal-vesicles-macro"
+		},
+		"ValueSet/prostate-rad-seminal-vesicles-micro": {
+			"base": "vs-prostate-rad-seminal-vesicles-micro"
+		},
+		"ValueSet/prostate-rad-tumour-locations": {
+			"base": "vs-prostate-rad-tumour-locations"
+		},
+		"ValueSet/prostate-rad-tumour-stage-m": {
+			"base": "vs-prostate-rad-tumour-stage-m"
+		},
+		"ValueSet/prostate-rad-tumour-stage-n": {
+			"base": "vs-prostate-rad-tumour-stage-n"
+		},
+		"ValueSet/prostate-rad-tumour-stage-t": {
+			"base": "vs-prostate-rad-tumour-stage-t"
+		},
+		"ValueSet/prostate-rad-tumour-type": {
+			"base": "vs-prostate-rad-tumour-type"
+		},
+		"ValueSet/received-notreceived": {
+			"base": "vs-received-notreceived"
+		},
+		"ValueSet/residual-tumour-status": {
+			"base": "vs-residual-tumour-status"
+		},
+		"ValueSet/response-to-neoadjuvant-therapy": {
+			"base": "vs-response-to-neoadjuvant-therapy"
+		},
+		"ValueSet/small-vessel-invasion": {
+			"base": "vs-small-vessel-invasion"
+		},
+		"ValueSet/stain-type": {
+			"base": "vs-stain-type"
+		},
+		"ValueSet/SubstanceAgentValues": {
+			"base": "vs-SubstanceAgentValues"
+		},
+		"ValueSet/unstable-stable": {
+			"base": "vs-unstable-stable"
+		},
+		"ValueSet/yes-no": {
+			"base": "vs-yes-no"
+		},
+		"ValueSet/yes-no-ns": {
+			"base": "vs-yes-no-ns"
+		},
+		"ValueSet/cancer-primary-or-recurrence": {
+			"base": "vs-cancer-primary-or-recurrence"
+		},
+		"ValueSet/ClinicalManifestationValues": {
+			"base": "vs-ClinicalManifestationValues"
+		},
+		"ValueSet/course-type": {
+			"base": "vs-course-type"
+		},
+		"ValueSet/crc-coexist-path-abnormalities": {
+			"base": "vs-crc-coexist-path-abnormalities"
+		},
+		"ValueSet/crc-deg-inv-bowel-wall": {
+			"base": "vs-crc-deg-inv-bowel-wall"
+		}
+	}
+}
