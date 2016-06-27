@@ -1,11 +1,20 @@
 {
-	"source": "rcpa.xml",
-	"tool": {
-		"type": "jekyll"
-	},
+	"tool": "jekyll",
+  "paths" : {
+    "resources" : "resources",
+    "pages" : "pages",
+    "temp" : "temp",
+    "output" : "output",
+    "qa" : "qa",
+    "specification" : "c:\\work\\org.hl7.fhir\\build\\publish",
+    "instance-template" : "instance-template.html"
+  },
 	"canonicalBase": "http://hl7.org.au/fhir/rcpa",
-	"spreadsheets": ["prostate-radical-spreadsheet.xml",
-	"colorectal-spreadsheet.xml"],
+	"source": "rcpa.xml",
+	"spreadsheets": [
+    "prostate-radical-spreadsheet.xml",
+	  "colorectal-spreadsheet.xml"
+  ],
 	"resources": {
 		"StructureDefinition/Colorectal": {
 			"defns": "index.html#definitions",
