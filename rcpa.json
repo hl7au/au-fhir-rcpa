@@ -12,8 +12,8 @@
 	"canonicalBase": "http://hl7.org.au/fhir/rcpa",
 	"source": "rcpa.xml",
 	"spreadsheets": [
-    "prostate-radical-spreadsheet.xml",
-	  "colorectal-spreadsheet.xml"
+	  "colorectal-spreadsheet.xml",
+    "prostate-radical-spreadsheet.xml"
   ],
 	"resources": {
 		"StructureDefinition/Colorectal": {
