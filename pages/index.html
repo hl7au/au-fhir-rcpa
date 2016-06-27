@@ -5,7 +5,7 @@ category: home
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Colorectal Implementation Guide (NEHTA)</title>
+  <title>Structured Cancer Reporting Implementation Guide (NEHTA)</title>
 
   {% include header.html %}
 
@@ -31,47 +31,58 @@ category: home
 
 <div class="col-9">
 
-<h1>Colorectal Report</h1>
+<h1>Structural Cancer Reporting</h1>
 
 <h1>Table of Contents</h1>
 
 <p>
-Parts of this spec:
+Welcome to the RCPA / HL7 Australia FHIR Implementation Guide.
+This implementation guide describes how to implement the RCPA/CAP 
+structured cancer reporting protocols for data exchange.
+</p>
+<p>
+This guide is solely concerned with the correct representation 
+of the data elements, in order to support successful exchange of
+data after the protocols have been correctly followed by 
+the clinical and pathology staff during the sampling.
+</p>
+<p>
+Protocols included in this Implementation Guide:
 </p>
 <ul>
- <li><a href="#intro">Introduction</a></li>
- <li><a href="#logical">Logical Colorectal Report</a></li>
- <li>Resource Mapping Table </li>
- <li><a href="#definitions">Data Element Definitions</a></li>
- <li><a href="#examples">Examples</a></li>
- <li><a href="terminology.html">Code Systems &amp; ValueSets</a></li>
- <li>FHIR Profiles &amp; ValueSets</li>
- <li>How to wrap FHIR resources in V2 messages</li>
+ <li>
+   Colorectal Cancer:
+   <ul>
+    <li><a href="colorectal.html">Logical Model</a></li>
+    <li><a href="colorectal.html#definitions">Definitions</a></li>
+   </ul>
+   <p>Examples:</p>
+   <ul>
+    {% include example-list-colorectal.xhtml %}     
+   </ul>   
+ </li>
+ <li>
+   Prostate Cancer
+   <ul>
+    <li><a href="prostate.html">Logical Model</a></li>
+    <li><a href="prostate.html#definitions">Definitions</a></li>
+   </ul>
+   <p>Examples:</p>
+   <ul>
+    {% include example-list-prostate.xhtml %}     
+   </ul>   
+ </li>
 </ul> 
 
-<a name="intro"> </a>
-<h1>Introduction</h1>
-
 <p>
-Where David describes this thing
+In addition, there is supporting terminology:
 </p>
-
-<a name="logical"> </a>
-<h1>Colorectal Report</h1>
-
-{% include Colorectal-diff.xhtml %}
-
-<a name="definitions"> </a>
-<h1>Data Element Definitions</h1>
-
-{% include Colorectal-dict.xhtml %}
-
-<a name="examples"> </a>
-<h1>Examples</h1>
-
-<ul>
- <li><a href="example1.html">Example 1</a></li>
-</ul>
+<table class="grid">
+<tr><td colspan="2"><b>Code Systems</b></td></tr>
+{% include table-codesystems.xhtml %}
+<tr><td colspan="2"><b>Value Sets</b></td></tr>
+{% include table-valuesets.xhtml %}
+</table>
 
 </div>
 
