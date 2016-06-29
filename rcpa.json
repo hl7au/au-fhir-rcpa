@@ -22,106 +22,106 @@
 			"base": "index.html#logical"
 		},
 		"CodeSystem/extramural-vein-invasion": {
-			"base": "cs-extramural-vein-invasion.html"
+			"base": "CodeSystem-extramural-vein-invasion.html"
 		},
 		"CodeSystem/focal-non-focal": {
-			"base": "cs-focal-non-focal.html"
+			"base": "CodeSystem-focal-non-focal.html"
 		},
 		"CodeSystem/intramural-vein-invasion": {
-			"base": "cs-intramural-vein-invasion.html"
+			"base": "CodeSystem-intramural-vein-invasion.html"
 		},
 		"CodeSystem/involved-notinvolved": {
-			"base": "cs-involved-notinvolved.html"
+			"base": "CodeSystem-involved-notinvolved.html"
 		},
 		"CodeSystem/involved-notinvolved-indeterminate": {
-			"base": "cs-involved-notinvolved-indeterminate.html"
+			"base": "CodeSystem-involved-notinvolved-indeterminate.html"
 		},
 		"CodeSystem/involved-notinvolved-na": {
-			"base": "cs-involved-notinvolved-na.html"
+			"base": "CodeSystem-involved-notinvolved-na.html"
 		},
 		"CodeSystem/mutated-wildtype": {
-			"base": "cs-mutated-wildtype.html"
+			"base": "CodeSystem-mutated-wildtype.html"
 		},
 		"CodeSystem/new-cancer-or-recurrence": {
-			"base": "cs-new-cancer-or-recurrence.html"
+			"base": "CodeSystem-new-cancer-or-recurrence.html"
 		},
 		"CodeSystem/none-identified-present": {
-			"base": "cs-none-identified-present.html"
+			"base": "CodeSystem-none-identified-present.html"
 		},
 		"CodeSystem/notidentified-present": {
-			"base": "cs-notidentified-present.html"
+			"base": "CodeSystem-notidentified-present.html"
 		},
 		"CodeSystem/notidentified-present-indeterminate": {
-			"base": "cs-.html"
+			"base": "CodeSystem-.html"
 		},
 		"CodeSystem/notidentified-present-presentextensive": {
-			"base": "cs-notidentified-present-presentextensive.html"
+			"base": "CodeSystem-notidentified-present-presentextensive.html"
 		},
 		"CodeSystem/perforation-type": {
-			"base": "cs-perforation-type.html"
+			"base": "CodeSystem-perforation-type.html"
 		},
 		"CodeSystem/perineural-invasion": {
-			"base": "cs-perineural-invasion.html"
+			"base": "CodeSystem-perineural-invasion.html"
 		},
 		"CodeSystem/present-absent-ns": {
-			"base": "cs-present-absent-ns.html"
+			"base": "CodeSystem-present-absent-ns.html"
 		},
 		"CodeSystem/prostate-rad-margin-positivity": {
-			"base": "cs-prostate-rad-margin-positivity.html"
+			"base": "CodeSystem-prostate-rad-margin-positivity.html"
 		},
 		"CodeSystem/prostate-rad-seminal-vesicles-micro": {
-			"base": "cs-prostate-rad-seminal-vesicles-micro.html"
+			"base": "CodeSystem-prostate-rad-seminal-vesicles-micro.html"
 		},
 		"CodeSystem/prostate-rad-tumour-locations": {
-			"base": "cs-prostate-rad-tumour-locations.html"
+			"base": "CodeSystem-prostate-rad-tumour-locations.html"
 		},
 		"CodeSystem/prostate-rad-tumour-type": {
-			"base": "cs-prostate-rad-tumour-type.html"
+			"base": "CodeSystem-prostate-rad-tumour-type.html"
 		},
 		"CodeSystem/received-notreceived": {
-			"base": "cs-received-notreceived.html"
+			"base": "CodeSystem-received-notreceived.html"
 		},
 		"CodeSystem/residual-tumour-status": {
-			"base": "cs-residual-tumour-status.html"
+			"base": "CodeSystem-residual-tumour-status.html"
 		},
 		"CodeSystem/response-to-neoadjuvant-therapy": {
-			"base": "cs-response-to-neoadjuvant-therapy.html"
+			"base": "CodeSystem-response-to-neoadjuvant-therapy.html"
 		},
 		"CodeSystem/small-vessel-invasion": {
-			"base": "cs-small-vessel-invasion.html"
+			"base": "CodeSystem-small-vessel-invasion.html"
 		},
 		"CodeSystem/stain-type": {
-			"base": "cs-stain-type.html"
+			"base": "CodeSystem-stain-type.html"
 		},
 		"CodeSystem/unstable-stable": {
-			"base": "cs-unstable-stable.html"
+			"base": "CodeSystem-unstable-stable.html"
 		},
 		"CodeSystem/yes-no-ns": {
-			"base": "cs-yes-no-ns.html"
+			"base": "CodeSystem-yes-no-ns.html"
 		},
 		"CodeSystem/cancer-primary-or-recurrence": {
-			"base": "cs-cancer-primary-or-recurrence.html"
+			"base": "CodeSystem-cancer-primary-or-recurrence.html"
 		},
 		"CodeSystem/crc-operation-type": {
-			"base": "cs-crc-operation-type.html"
+			"base": "CodeSystem-crc-operation-type.html"
 		},
 		"CodeSystem/crc-peritoneum-invasion": {
-			"base": "cs-crc-peritoneum-invasion.html"
+			"base": "CodeSystem-crc-peritoneum-invasion.html"
 		},
 		"CodeSystem/crc-rel-anterior-peritoneal-reflection": {
-			"base": "cs-crc-rel-anterior-peritoneal-reflection.html"
+			"base": "CodeSystem-crc-rel-anterior-peritoneal-reflection.html"
 		},
 		"CodeSystem/crc-tumour-stage-grouping": {
-			"base": "cs-crc-tumour-stage-grouping.html"
+			"base": "CodeSystem-crc-tumour-stage-grouping.html"
 		},
 		"CodeSystem/crc-tumour-stage-n": {
-			"base": "cs-crc-tumour-stage-n.html"
+			"base": "CodeSystem-crc-tumour-stage-n.html"
 		},
 		"CodeSystem/crc-tumour-stage-t": {
-			"base": "cs-crc-tumour-stage-t.html"
+			"base": "CodeSystem-crc-tumour-stage-t.html"
 		},
 		"CodeSystem/dysplasia": {
-			"base": "cs-dysplasia.html"
+			"base": "CodeSystem-dysplasia.html"
 		},
 		"ValueSet/crc-intactness-of-mesorectum": {
 			"base": "vs-crc-intactness-of-mesorectum.html"
