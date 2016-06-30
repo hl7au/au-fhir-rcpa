@@ -7,9 +7,9 @@
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>Grahame</Author>
-  <LastAuthor>Grahame Grieve</LastAuthor>
+  <LastAuthor>David McKillop</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
-  <LastSaved>2016-06-29T01:11:39Z</LastSaved>
+  <LastSaved>2016-06-30T01:03:55Z</LastSaved>
   <Version>14.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -20,8 +20,8 @@
    <Path>\work\subversion\fhir\build\source\colorectal\Archive\Invariants</Path>
    <SheetName>Invariants</SheetName>
   </SupBook>
-  <WindowHeight>8796</WindowHeight>
-  <WindowWidth>18000</WindowWidth>
+  <WindowHeight>8472</WindowHeight>
+  <WindowWidth>19056</WindowWidth>
   <WindowTopX>288</WindowTopX>
   <WindowTopY>-84</WindowTopY>
   <TabRatio>735</TabRatio>
@@ -416,6 +416,20 @@
    <Borders/>
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000"/>
    <Interior/>
+  </Style>
+  <Style ss:ID="s117">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s118">
+   <Alignment ss:Vertical="Top" ss:ReadingOrder="LeftToRight" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+   <NumberFormat/>
   </Style>
   <Style ss:ID="s119">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:ShrinkToFit="1"
@@ -982,20 +996,6 @@
    <Interior/>
    <NumberFormat/>
    <Protection/>
-  </Style>
-  <Style ss:ID="s190">
-   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
-   <Borders/>
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
-   <Interior/>
-   <NumberFormat/>
-  </Style>
-  <Style ss:ID="s191">
-   <Alignment ss:Vertical="Top" ss:ReadingOrder="LeftToRight" ss:WrapText="1"/>
-   <Borders/>
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
-   <Interior/>
-   <NumberFormat/>
   </Style>
  </Styles>
  <Names>
@@ -1934,7 +1934,7 @@
     <Cell ss:StyleID="s94"><Data ss:Type="String" x:Ticked="1">27919.1000043</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="28.8">
-    <Cell ss:StyleID="s96"><Data ss:Type="String">Colorectal.preAnalytic.typeOfProcedure</Data><NamedCell
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Colorectal.preAnalytic.typeOfOperation.other</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s86"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s86"><Data ss:Type="String">0..1</Data><NamedCell
@@ -1957,9 +1957,9 @@
     <Cell ss:Index="21" ss:StyleID="s86"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s86"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s86"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s86"><Data ss:Type="String">Procedure type</Data><NamedCell
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Procedure type - other</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s98"><Data ss:Type="String">Type of procedure</Data><NamedCell
+    <Cell ss:StyleID="s98"><Data ss:Type="String">Type of procedure - other</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1974,7 +1974,7 @@
     <Cell ss:StyleID="s100"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s86"/>
-    <Cell ss:Index="43" ss:StyleID="s94"/>
+    <Cell ss:Index="43" ss:StyleID="s94"><Data ss:Type="Number">27928.100004299999</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="44.550000000000004">
     <Cell ss:StyleID="s96"><Data ss:Type="String">Colorectal.preAnalytic.anteriorResectionType</Data><NamedCell
@@ -2466,8 +2466,8 @@
     <Cell ss:StyleID="s100"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s86"/>
-    <Cell ss:StyleID="s107"><Data ss:Type="Number">250429001</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Macroscopic specimen observation (finding)</Data></Cell>
+    <Cell ss:StyleID="s119"/>
+    <Cell ss:StyleID="s119"/>
     <Cell><Data ss:Type="String">70949-3</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">Pathology report.section heading</Data></Cell>
     <Cell ss:StyleID="s94"><Data ss:Type="String" x:Ticked="1">27906.1000043</Data></Cell>
@@ -3905,6 +3905,7 @@
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s86"/>
     <Cell ss:Index="42" ss:StyleID="s69"/>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">28404.100004299999</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="130.19999999999999">
     <Cell ss:StyleID="s96"><Data ss:Type="String">Colorectal.micro.lymphNodesDetails.site</Data><NamedCell
@@ -4637,8 +4638,8 @@
     <Cell ss:StyleID="s86"/>
     <Cell><Data ss:Type="Number">371498006</Data></Cell>
     <Cell><Data ss:Type="String">Additional pathologic finding in tumor specimen (observable entity)</Data></Cell>
-    <Cell ss:StyleID="s190"><Data ss:Type="String">81317-0</Data></Cell>
-    <Cell ss:StyleID="s191"><Data ss:Type="String">Additional pathological findings</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">81317-0</Data></Cell>
+    <Cell ss:StyleID="s118"><Data ss:Type="String">Additional pathological findings</Data></Cell>
     <Cell ss:StyleID="s94"><Data ss:Type="String" x:Ticked="1">28244.1000043</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="160.80000000000001">
@@ -4773,6 +4774,7 @@
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s86"/>
     <Cell ss:Index="42" ss:StyleID="s69"/>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">28426.100004299999</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="31.799999999999997">
     <Cell ss:StyleID="s96"><Data ss:Type="String">Colorectal.micro.otherAbnormality</Data><NamedCell
@@ -5378,6 +5380,7 @@
     <Cell ss:StyleID="s100"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s86"/>
+    <Cell ss:Index="43" ss:StyleID="s94"><Data ss:Type="String" x:Ticked="1">28399.1000043</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="46.2">
     <Cell ss:StyleID="s96"><Data ss:Type="String">Colorectal.ancillaryTests.msi.code</Data><NamedCell
@@ -5431,7 +5434,6 @@
     <Cell><Data ss:Type="String">Degree of microsatellite instability (observable entity)</Data></Cell>
     <Cell><Data ss:Type="String">43368-0</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">Microsatellite instability [Identifier] in Tissue by Molecular genetics method Nominal</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String" x:Ticked="1">28399.1000043</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s96"><Data ss:Type="String">Colorectal.ancillaryTests.msi.comments</Data><NamedCell
@@ -5557,6 +5559,7 @@
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s86"/>
     <Cell ss:Index="42" ss:StyleID="s69"/>
+    <Cell ss:StyleID="s94"><Data ss:Type="String" x:Ticked="1">28454.1000043</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="44.550000000000004">
     <Cell ss:StyleID="s96"><Data ss:Type="String">Colorectal.ancillaryTests.braf.code</Data><NamedCell
@@ -5610,7 +5613,6 @@
     <Cell ss:StyleID="s86"/>
     <Cell ss:Index="41"><Data ss:Type="String">58483-9 </Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">BRAF gene mutation analysis</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String" x:Ticked="1">28454.1000043</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="28.8">
     <Cell ss:StyleID="s96"><Data ss:Type="String">Colorectal.ancillaryTests.braf.comments</Data><NamedCell
@@ -5735,6 +5737,7 @@
     <Cell ss:StyleID="s100"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s86"/>
+    <Cell ss:Index="43" ss:StyleID="s94"><Data ss:Type="String" x:Ticked="1">28461.1000043</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45.449999999999996">
     <Cell ss:StyleID="s96"><Data ss:Type="String">Colorectal.ancillaryTests.kras.code</Data><NamedCell
@@ -5789,7 +5792,6 @@
     <Cell ss:StyleID="s86"/>
     <Cell ss:Index="41"><Data ss:Type="String">21703-4</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">KRAS gene mutations tested for</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String" x:Ticked="1">28461.1000043</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="52.8">
     <Cell ss:StyleID="s96"><Data ss:Type="String">Colorectal.ancillaryTests.kras.comments</Data><NamedCell
@@ -6438,6 +6440,7 @@
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s86"/>
     <Cell ss:Index="42" ss:StyleID="s69"/>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">28473.100004299999</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45.449999999999996">
     <Cell ss:StyleID="s96"><Data ss:Type="String">Colorectal.synthesisOverview.overarchingComment</Data><NamedCell
@@ -6743,7 +6746,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>62</TopRowBottomPane>
+   <TopRowBottomPane>99</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>32</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -6761,8 +6764,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>65</ActiveRow>
-     <ActiveCol>40</ActiveCol>
+     <ActiveRow>102</ActiveRow>
+     <ActiveCol>41</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -6819,14 +6822,14 @@
    xmlns="urn:schemas-microsoft-com:office:excel">
   </AutoFilter>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C24:R65C24,R67C24:R110C24</Range>
+   <Range>R2C24:R110C24</Range>
    <Condition>
     <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:yellow'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R58C11:R58C13,R12C12:R12C13,R62C11:R62C13,R33C13,R27C15:R32C15,R40C15,R15C15,R43C15:R46C15,R48C15,R36C15,R74C14:R110C14,R86C5:R87C9,R82C5:R83C9,R59C16:R62C16,R2C10:R11C13,R12C10,R33C10:R33C11,R59C10:R61C13,R13C10:R32C13,R90C5:R110C9,R63C10:R65C13,R54C5:R65C9,R2C14:R65C14,R34C10:R57C13,R52C5:R53C8,R2C1:R65C4,R53C9,R2C5:R51C9,R2C21:R65C38,R67C21:R110C38,R67C1:R110C4,R67C14:R72C14,R67C5:R79C9,R67C10:R110C13</Range>
+   <Range>R58C11:R58C13,R12C12:R12C13,R62C11:R62C13,R33C13,R27C15:R32C15,R40C15,R15C15,R43C15:R46C15,R48C15,R36C15,R74C14:R110C14,R86C5:R87C9,R82C5:R83C9,R59C16:R62C16,R2C10:R11C13,R12C10,R33C10:R33C11,R59C10:R61C13,R13C10:R32C13,R90C5:R110C9,R63C10:R65C13,R54C5:R65C9,R2C14:R65C14,R34C10:R57C13,R52C5:R53C8,R2C1:R65C4,R53C9,R2C5:R51C9,R67C1:R110C4,R67C14:R72C14,R67C5:R79C9,R67C10:R110C13,R66C1:R66C14,R2C21:R110C38</Range>
    <Condition>
     <Value1>RC3=&quot;0..0&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
@@ -6837,7 +6840,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C1,R101C1:R110C1,R7C1,R91C1:R99C1,R83C1:R85C1,R87C1:R89C1,R55C1,R10C1:R53C1,R57C1:R65C1,R68C1:R81C1</Range>
+   <Range>R2C1,R101C1:R110C1,R7C1,R91C1:R99C1,R83C1:R85C1,R87C1:R89C1,R55C1,R10C1:R53C1,R68C1:R81C1,R57C1:R66C1</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,R[-1]C=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
@@ -6851,35 +6854,35 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R3C3:R65C3,R2C25:R65C25,R67C25:R110C25,R67C3:R110C3</Range>
+   <Range>R3C3:R110C3,R2C25:R110C25</Range>
    <Condition>
     <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R58C11:R58C13,R12C12:R12C13,R62C11:R62C13,R33C13,R27C15:R32C15,R40C15,R15C15,R43C15:R46C15,R48C15,R36C15,R73C26,R90C23:R110C23,R74C14:R79C14,R82C23:R83C23,R86C23:R87C23,R59C16:R62C16,R97C37,R2C10:R11C13,R12C10,R33C10:R33C11,R59C10:R61C13,R13C10:R32C13,R63C10:R65C13,R82C10:R83C14,R86C10:R87C14,R90C10:R110C14,R2C14:R65C14,R2C23:R65C23,R34C10:R57C13,R2C5,R67C23:R79C23,R67C14:R72C14,R67C10:R79C13</Range>
+   <Range>R58C11:R58C13,R12C12:R12C13,R62C11:R62C13,R33C13,R27C15:R32C15,R40C15,R15C15,R43C15:R46C15,R48C15,R36C15,R73C26,R90C23:R110C23,R74C14:R79C14,R82C23:R83C23,R86C23:R87C23,R59C16:R62C16,R97C37,R2C10:R11C13,R12C10,R33C10:R33C11,R59C10:R61C13,R13C10:R32C13,R63C10:R65C13,R82C10:R83C14,R86C10:R87C14,R90C10:R110C14,R2C14:R65C14,R34C10:R57C13,R2C5,R67C14:R72C14,R67C10:R79C13,R66C10:R66C14,R2C23:R79C23</Range>
    <Condition>
     <Value1>AND(SEARCH(&quot;|&quot;,RC5)&lt;&gt;0,RC&lt;&gt;&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R90C21:R110C21,R90C23:R110C23,R82C21:R83C21,R86C21:R87C21,R82C23:R83C23,R86C23:R87C23,R2C21:R65C21,R2C23:R65C23,R67C23:R79C23,R67C21:R79C21</Range>
+   <Range>R90C21:R110C21,R90C23:R110C23,R82C21:R83C21,R86C21:R87C21,R82C23:R83C23,R86C23:R87C23,R2C21:R79C21,R2C23:R79C23</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,NOT(EXACT(LEFT(RC5,1),LOWER(LEFT(RC5,1)))))</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C21:R65C22,R67C21:R110C22</Range>
+   <Range>R2C21:R110C22</Range>
    <Condition>
     <Value1>AND(RC21&lt;&gt;&quot;&quot;,RC22&lt;&gt;&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R90C24:R110C25,R2C24:R65C25,R67C24:R88C25</Range>
+   <Range>R90C24:R110C25,R2C24:R88C25</Range>
    <Condition>
     <Value1>AND(RC24&lt;&gt;&quot;&quot;,RC24=RC25)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
@@ -6893,7 +6896,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R3C32:R65C33,R67C32:R110C33</Range>
+   <Range>R3C32:R110C33</Range>
    <Condition>
     <Value1>AND(RC1&lt;&gt;&quot;&quot;,ISERR(SEARCH(&quot;N/A&quot;,R2C)),RC=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:orange'/>
@@ -6907,7 +6910,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R58C11:R58C13,R12C12:R12C13,R62C11:R62C13,R33C13,R27C15:R32C15,R40C15,R15C15,R43C15:R46C15,R48C15,R36C15,R74C14:R110C14,R86C5:R87C9,R82C5:R83C9,R59C16:R62C16,R2C10:R11C13,R12C10,R33C10:R33C11,R59C10:R61C13,R13C10:R32C13,R90C5:R110C9,R63C10:R65C13,R54C5:R65C9,R2C14:R65C14,R34C10:R57C13,R52C5:R53C8,R2C1:R65C4,R53C9,R2C5:R51C9,R2C21:R65C38,R67C21:R110C38,R67C1:R110C4,R67C14:R72C14,R67C5:R79C9,R67C10:R110C13</Range>
+   <Range>R58C11:R58C13,R12C12:R12C13,R62C11:R62C13,R33C13,R27C15:R32C15,R40C15,R15C15,R43C15:R46C15,R48C15,R36C15,R74C14:R110C14,R86C5:R87C9,R82C5:R83C9,R59C16:R62C16,R2C10:R11C13,R12C10,R33C10:R33C11,R59C10:R61C13,R13C10:R32C13,R90C5:R110C9,R63C10:R65C13,R54C5:R65C9,R2C14:R65C14,R34C10:R57C13,R52C5:R53C8,R2C1:R65C4,R53C9,R2C5:R51C9,R67C1:R110C4,R67C14:R72C14,R67C5:R79C9,R67C10:R110C13,R66C1:R66C14,R2C21:R110C38</Range>
    <Condition>
     <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
@@ -6935,7 +6938,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R5C35,R98C35:R99C35,R7C35,R55C35,R65C35</Range>
+   <Range>R5C35,R98C35:R99C35,R7C35,R55C35,R65C35:R66C35</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(R[2]C1,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(R[2]C1,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
@@ -7076,87 +7079,6 @@
    <Range>R52C35:R53C35</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(R[4]C1,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(R[4]C1,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R66C24</Range>
-   <Condition>
-    <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:yellow'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R66C1:R66C14,R66C21:R66C38</Range>
-   <Condition>
-    <Value1>RC3=&quot;0..0&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
-   </Condition>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,RC1=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R66C1</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,R[-1]C=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R66C3,R66C25</Range>
-   <Condition>
-    <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R66C10:R66C14,R66C23</Range>
-   <Condition>
-    <Value1>AND(SEARCH(&quot;|&quot;,RC5)&lt;&gt;0,RC&lt;&gt;&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R66C21,R66C23</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,NOT(EXACT(LEFT(RC5,1),LOWER(LEFT(RC5,1)))))</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R66C21:R66C22</Range>
-   <Condition>
-    <Value1>AND(RC21&lt;&gt;&quot;&quot;,RC22&lt;&gt;&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R66C24:R66C25</Range>
-   <Condition>
-    <Value1>AND(RC24&lt;&gt;&quot;&quot;,RC24=RC25)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R66C32:R66C33</Range>
-   <Condition>
-    <Value1>AND(RC1&lt;&gt;&quot;&quot;,ISERR(SEARCH(&quot;N/A&quot;,R2C)),RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:orange'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R66C1:R66C14,R66C21:R66C38</Range>
-   <Condition>
-    <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R66C35</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(R[2]C1,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(R[2]C1,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
@@ -10444,7 +10366,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>34</TopRowBottomPane>
+   <TopRowBottomPane>1</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -10457,7 +10379,6 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>1</ActiveRow>
     </Pane>
     <Pane>
      <Number>0</Number>
