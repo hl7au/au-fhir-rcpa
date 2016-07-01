@@ -9,7 +9,7 @@
   <Author>Grahame</Author>
   <LastAuthor>David McKillop</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
-  <LastSaved>2016-07-01T04:41:01Z</LastSaved>
+  <LastSaved>2016-07-01T04:52:26Z</LastSaved>
   <Version>14.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -4222,7 +4222,6 @@
     <Cell ss:StyleID="s85"/>
     <Cell ss:Index="34"><Data ss:Type="String">67211-3 </Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">TNM pathologic staging - distant metastases - M</Data></Cell>
-    <Cell><Data ss:Type="String">28976.1000043</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="46.2">
     <Cell ss:StyleID="s92"><Data ss:Type="String">Prostate.synthesisOverview.tumourStage.stagingSystemDetails</Data><NamedCell
@@ -4696,7 +4695,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>65</TopRowBottomPane>
+   <TopRowBottomPane>1</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>25</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -4710,12 +4709,11 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>1</ActiveRow>
     </Pane>
     <Pane>
      <Number>0</Number>
      <ActiveRow>67</ActiveRow>
-     <ActiveCol>35</ActiveCol>
+     <ActiveCol>36</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
