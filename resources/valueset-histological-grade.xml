@@ -2,7 +2,7 @@
 
 
 <ValueSet xmlns="http://hl7.org/fhir">
-    <id value="nehta-histological-grade"/>
+    <id value="histological-grade"/>
     <meta>
         <lastUpdated value="2015-06-11T16:01:03.224+10:00"/>
         <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>

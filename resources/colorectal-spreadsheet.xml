@@ -9,7 +9,7 @@
   <Author>Grahame</Author>
   <LastAuthor>Grahame Grieve</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
-  <LastSaved>2016-07-03T23:52:50Z</LastSaved>
+  <LastSaved>2016-07-04T00:27:36Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -20,8 +20,8 @@
    <Path>\work\subversion\fhir\build\source\colorectal\Archive\Invariants</Path>
    <SheetName>Invariants</SheetName>
   </SupBook>
-  <WindowHeight>7344</WindowHeight>
-  <WindowWidth>23016</WindowWidth>
+  <WindowHeight>17724</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <TabRatio>735</TabRatio>
@@ -1116,28 +1116,8 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s212">
-   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
-   <Borders/>
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333399"/>
-   <Interior ss:Color="#C6E0B4" ss:Pattern="Solid"/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="s217">
-   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
-   <Borders/>
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333399"/>
-   <Interior ss:Color="#F8CBAD" ss:Pattern="Solid"/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="s218">
+  <Style ss:ID="s207">
    <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="7" ss:Color="#333333"/>
-  </Style>
-  <Style ss:ID="s227">
-   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="7" ss:Color="#333333"/>
-   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
   </Style>
  </Styles>
  <Names>
@@ -2295,7 +2275,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28278.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s116"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s207"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3981,7 +3962,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[11]"><Data ss:Type="String">33732-9</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s116"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s207"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6151,7 +6133,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28436.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s212"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6198,7 +6180,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28399.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s217"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6254,7 +6236,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[11]"><Data ss:Type="String">43368-0</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s218"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
+    <Cell ss:StyleID="s110"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6308,7 +6290,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28453.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s212"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6360,7 +6342,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28447.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s212"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6407,7 +6389,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28454.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s217"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6466,7 +6448,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[11]"><Data ss:Type="String">58483-9 </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s218"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
+    <Cell ss:StyleID="s110"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6516,7 +6498,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28460.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s212"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6567,7 +6549,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28459.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s212"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6616,7 +6598,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28461.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s217"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6675,7 +6657,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[11]"><Data ss:Type="String">21703-4</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s218"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
+    <Cell ss:StyleID="s110"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6725,7 +6707,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28465.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s212"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6776,7 +6758,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28466.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s212"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6827,7 +6809,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28253.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s217"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6952,7 +6934,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[9]"><Data ss:Type="Number">78873005</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s218"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
+    <Cell ss:StyleID="s110"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7009,7 +6991,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[9]"><Data ss:Type="Number">277206009</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s227"><Data ss:Type="String">http://fhir.hl7.org.au/rcpa/CodeSystem/crc-tumour-stage-n</Data><NamedCell
+    <Cell ss:StyleID="s117"><Data ss:Type="String">http://fhir.hl7.org.au/rcpa/CodeSystem/crc-tumour-stage-n</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7066,7 +7048,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28552.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s218"><Data ss:Type="String">http://loinc.org</Data><NamedCell
+    <Cell ss:StyleID="s110"><Data ss:Type="String">http://loinc.org</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7137,7 +7119,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[11]"><Data ss:Type="String">21902-2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s218"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
+    <Cell ss:StyleID="s110"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7197,7 +7179,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[9]"><Data ss:Type="Number">443941007</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s212"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7332,7 +7314,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[11]"><Data ss:Type="String">22637-3</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s212"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7391,7 +7373,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="String">28472.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s218"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
+    <Cell ss:StyleID="s110"><Data ss:Type="String">http://snomed.info/sct</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7443,7 +7425,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[13]"><Data ss:Type="Number">28473.100004299999</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s212"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7496,7 +7478,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109" ss:Formula="=RC[11]"><Data ss:Type="String">22638-1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s212"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7787,9 +7769,9 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>1</TopRowBottomPane>
+   <TopRowBottomPane>13</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>26</LeftColumnRightPane>
+   <LeftColumnRightPane>24</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -7801,10 +7783,11 @@
     </Pane>
     <Pane>
      <Number>2</Number>
+     <ActiveRow>1</ActiveRow>
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>100</ActiveRow>
+     <ActiveRow>15</ActiveRow>
      <ActiveCol>33</ActiveCol>
     </Pane>
    </Panes>
@@ -7869,7 +7852,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R58C11:R58C13,R12C12:R12C13,R62C11:R62C13,R33C13,R27C15:R32C15,R40C15,R15C15,R43C15:R46C15,R48C15,R36C15,R74C14:R110C14,R86C5:R87C9,R82C5:R83C9,R59C16:R62C16,R2C10:R11C13,R12C10,R33C10:R33C11,R59C10:R61C13,R13C10:R32C13,R90C5:R110C9,R63C10:R65C13,R54C5:R65C9,R2C14:R65C14,R34C10:R57C13,R52C5:R53C8,R2C1:R65C4,R53C9,R2C5:R51C9,R67C1:R110C4,R67C14:R72C14,R67C5:R79C9,R67C10:R110C13,R66C1:R66C14,R2C21:R9C41,R11C21:R11C41,R10C21:R10C33,R10C35:R10C41,R13C21:R14C41,R12C21:R12C33,R12C35:R12C41,R16C21:R17C41,R15C21:R15C33,R15C35:R15C41,R20C21:R35C41,R18C21:R19C33,R18C35:R19C41,R37C21:R50C41,R36C21:R36C33,R36C35:R36C41,R52C21:R55C41,R51C21:R51C33,R51C35:R51C41,R58C21:R58C41,R56C21:R57C33,R56C35:R57C41,R61C21:R61C41,R59C21:R60C33,R59C35:R60C41,R64C21:R64C41,R62C21:R63C33,R62C35:R63C41,R66C21:R70C41,R65C21:R65C33,R65C35:R65C41,R71C21:R71C33,R71C35:R71C41,R79C21:R80C41,R72C21:R74C41,R75C21:R78C33,R75C35:R78C41,R82C21:R84C41,R81C21:R81C33,R81C35:R81C41,R86C21:R88C41,R85C21:R85C33,R85C35:R85C41,R90C21:R92C41,R89C21:R89C33,R89C35:R89C41,R95C21:R95C41,R93C21:R94C33,R93C35:R94C41,R98C21:R100C41,R96C21:R97C33,R96C35:R97C41,R102C21:R110C41,R101C21:R101C33,R101C35:R101C41</Range>
+   <Range>R58C11:R58C13,R12C12:R12C13,R62C11:R62C13,R33C13,R27C15:R32C15,R40C15,R15C15,R43C15:R46C15,R48C15,R36C15,R74C14:R110C14,R86C5:R87C9,R82C5:R83C9,R59C16:R62C16,R2C10:R11C13,R12C10,R33C10:R33C11,R59C10:R61C13,R13C10:R32C13,R90C5:R110C9,R63C10:R65C13,R54C5:R65C9,R2C14:R65C14,R34C10:R57C13,R52C5:R53C8,R2C1:R65C4,R53C9,R2C5:R51C9,R67C1:R110C4,R67C14:R72C14,R67C5:R79C9,R67C10:R110C13,R66C1:R66C14,R2C21:R9C41,R11C21:R11C41,R10C21:R10C33,R10C35:R10C41,R13C21:R14C41,R12C21:R12C33,R12C35:R12C41,R16C21:R16C41,R15C21:R15C33,R15C35:R15C41,R20C21:R35C41,R37C21:R43C41,R36C21:R36C33,R36C35:R36C41,R52C21:R55C41,R51C21:R51C33,R51C35:R51C41,R58C21:R58C41,R56C21:R57C33,R56C35:R57C41,R61C21:R61C41,R59C21:R60C33,R59C35:R60C41,R64C21:R64C41,R62C21:R63C33,R62C35:R63C41,R66C21:R70C41,R65C21:R65C33,R65C35:R65C41,R71C21:R71C33,R71C35:R71C41,R79C21:R80C41,R72C21:R74C41,R75C21:R78C33,R75C35:R78C41,R82C21:R84C41,R81C21:R81C33,R81C35:R81C41,R86C21:R88C41,R85C21:R85C33,R85C35:R85C41,R90C21:R92C41,R89C21:R89C33,R89C35:R89C41,R95C21:R95C41,R93C21:R94C33,R93C35:R94C41,R98C21:R100C41,R96C21:R97C33,R96C35:R97C41,R102C21:R110C41,R101C21:R101C33,R101C35:R101C41,R93C34,R45C21:R50C41,R44C21:R44C33,R44C35:R44C41,R17C21:R19C33,R17C35:R19C41</Range>
    <Condition>
     <Value1>RC3=&quot;0..0&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
@@ -7936,7 +7919,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R3C35:R110C36</Range>
+   <Range>R3C35:R110C36,R93C34</Range>
    <Condition>
     <Value1>AND(RC1&lt;&gt;&quot;&quot;,ISERR(SEARCH(&quot;N/A&quot;,R2C)),RC=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:orange'/>
@@ -7950,7 +7933,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R58C11:R58C13,R12C12:R12C13,R62C11:R62C13,R33C13,R27C15:R32C15,R40C15,R15C15,R43C15:R46C15,R48C15,R36C15,R74C14:R110C14,R86C5:R87C9,R82C5:R83C9,R59C16:R62C16,R2C10:R11C13,R12C10,R33C10:R33C11,R59C10:R61C13,R13C10:R32C13,R90C5:R110C9,R63C10:R65C13,R54C5:R65C9,R2C14:R65C14,R34C10:R57C13,R52C5:R53C8,R2C1:R65C4,R53C9,R2C5:R51C9,R67C1:R110C4,R67C14:R72C14,R67C5:R79C9,R67C10:R110C13,R66C1:R66C14,R2C21:R9C41,R11C21:R11C41,R10C21:R10C33,R10C35:R10C41,R13C21:R14C41,R12C21:R12C33,R12C35:R12C41,R16C21:R17C41,R15C21:R15C33,R15C35:R15C41,R20C21:R35C41,R18C21:R19C33,R18C35:R19C41,R37C21:R50C41,R36C21:R36C33,R36C35:R36C41,R52C21:R55C41,R51C21:R51C33,R51C35:R51C41,R58C21:R58C41,R56C21:R57C33,R56C35:R57C41,R61C21:R61C41,R59C21:R60C33,R59C35:R60C41,R64C21:R64C41,R62C21:R63C33,R62C35:R63C41,R66C21:R70C41,R65C21:R65C33,R65C35:R65C41,R71C21:R71C33,R71C35:R71C41,R79C21:R80C41,R72C21:R74C41,R75C21:R78C33,R75C35:R78C41,R82C21:R84C41,R81C21:R81C33,R81C35:R81C41,R86C21:R88C41,R85C21:R85C33,R85C35:R85C41,R90C21:R92C41,R89C21:R89C33,R89C35:R89C41,R95C21:R95C41,R93C21:R94C33,R93C35:R94C41,R98C21:R100C41,R96C21:R97C33,R96C35:R97C41,R102C21:R110C41,R101C21:R101C33,R101C35:R101C41</Range>
+   <Range>R58C11:R58C13,R12C12:R12C13,R62C11:R62C13,R33C13,R27C15:R32C15,R40C15,R15C15,R43C15:R46C15,R48C15,R36C15,R74C14:R110C14,R86C5:R87C9,R82C5:R83C9,R59C16:R62C16,R2C10:R11C13,R12C10,R33C10:R33C11,R59C10:R61C13,R13C10:R32C13,R90C5:R110C9,R63C10:R65C13,R54C5:R65C9,R2C14:R65C14,R34C10:R57C13,R52C5:R53C8,R2C1:R65C4,R53C9,R2C5:R51C9,R67C1:R110C4,R67C14:R72C14,R67C5:R79C9,R67C10:R110C13,R66C1:R66C14,R2C21:R9C41,R11C21:R11C41,R10C21:R10C33,R10C35:R10C41,R13C21:R14C41,R12C21:R12C33,R12C35:R12C41,R16C21:R16C41,R15C21:R15C33,R15C35:R15C41,R20C21:R35C41,R37C21:R43C41,R36C21:R36C33,R36C35:R36C41,R52C21:R55C41,R51C21:R51C33,R51C35:R51C41,R58C21:R58C41,R56C21:R57C33,R56C35:R57C41,R61C21:R61C41,R59C21:R60C33,R59C35:R60C41,R64C21:R64C41,R62C21:R63C33,R62C35:R63C41,R66C21:R70C41,R65C21:R65C33,R65C35:R65C41,R71C21:R71C33,R71C35:R71C41,R79C21:R80C41,R72C21:R74C41,R75C21:R78C33,R75C35:R78C41,R82C21:R84C41,R81C21:R81C33,R81C35:R81C41,R86C21:R88C41,R85C21:R85C33,R85C35:R85C41,R90C21:R92C41,R89C21:R89C33,R89C35:R89C41,R95C21:R95C41,R93C21:R94C33,R93C35:R94C41,R98C21:R100C41,R96C21:R97C33,R96C35:R97C41,R102C21:R110C41,R101C21:R101C33,R101C35:R101C41,R93C34,R45C21:R50C41,R44C21:R44C33,R44C35:R44C41,R17C21:R19C33,R17C35:R19C41</Range>
    <Condition>
     <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
@@ -8120,31 +8103,6 @@
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(R[4]C1,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(R[4]C1,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R93C34</Range>
-   <Condition>
-    <Value1>RC3=&quot;0..0&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
-   </Condition>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,RC1=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R93C34</Range>
-   <Condition>
-    <Value1>AND(RC1&lt;&gt;&quot;&quot;,ISERR(SEARCH(&quot;N/A&quot;,R2C)),RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:orange'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R93C34</Range>
-   <Condition>
-    <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
    </Condition>
   </ConditionalFormatting>
  </Worksheet>
@@ -11431,7 +11389,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>1</TopRowBottomPane>
+   <TopRowBottomPane>4</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -11444,10 +11402,11 @@
     </Pane>
     <Pane>
      <Number>2</Number>
+     <ActiveRow>1</ActiveRow>
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>8</ActiveRow>
+     <ActiveRow>18</ActiveRow>
      <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
