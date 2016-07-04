@@ -13,7 +13,7 @@
 <!-- <extension url="http://hl7.org/fhir/StructureDefinition/valueset-oid">
         <valueUri value="2.16.840.1.113883.4.642.2.493"/>             
     </extension> -->
-  <url value="http://hl7.org.au/fhir/rcpa/ValueSet/dysplasia"/>
+  <url value="http://fhir.hl7.org.au/rcpa/ValueSet/dysplasia"/>
   <version value="20150619"/>
   <name value="Dysplasia"/>
   <status value="draft"/>
@@ -33,7 +33,7 @@
   <description value="Indicates the presence or absence of dysplasia"/>
   <compose>
     <include>
-      <system value="http://hl7.org.au/fhir/rcpa/CodeSystem/dysplasia"/>
+      <system value="http://fhir.hl7.org.au/rcpa/CodeSystem/dysplasia"/>
     </include>
   </compose>
 </ValueSet>

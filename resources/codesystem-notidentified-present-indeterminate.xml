@@ -2,7 +2,7 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="notidentified-present-indeterminate"/>
-  <url value="http://hl7.org.au/fhir/rcpa/CodeSystem/notidentified-present-indeterminate"/>
+  <url value="http://fhir.hl7.org.au/rcpa/CodeSystem/notidentified-present-indeterminate"/>
   <version value="20151105"/>
   <name value="NotIdentifiedPresentIndeterminate"/>
   <status value="active"/>

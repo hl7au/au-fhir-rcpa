@@ -2,7 +2,7 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="prostate-rad-tumour-locations"/>
-  <url value="http://hl7.org.au/fhir/rcpa/CodeSystem/prostate-rad-tumour-locations"/>
+  <url value="http://fhir.hl7.org.au/rcpa/CodeSystem/prostate-rad-tumour-locations"/>
   <version value="20150618"/>
   <name value="ProstateRadTumourLocations"/>
   <status value="active"/>

@@ -2,7 +2,7 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="involved-notinvolved-na"/>
-  <url value="http://hl7.org.au/fhir/rcpa/CodeSystem/involved-notinvolved-na"/>
+  <url value="http://fhir.hl7.org.au/rcpa/CodeSystem/involved-notinvolved-na"/>
   <version value="20150618"/>
   <name value="InvolvedNotinvolvedNA"/>
   <status value="active"/>
