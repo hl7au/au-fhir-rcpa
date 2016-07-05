@@ -25,6 +25,10 @@
 			"defns": "index.html#definitions",
 			"base": "index.html#logical"
 		},
+		"StructureMap/Colorectal-map": {
+			"defns": "index.html#definitions",
+			"base": "index.html#logical"
+		},
 		"CodeSystem/extramural-vein-invasion": {
 			"base": "CodeSystem-extramural-vein-invasion.html"
 		},

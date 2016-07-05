@@ -10,7 +10,7 @@
   <LastAuthor>David McKillop</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
   <LastSaved>2016-07-01T04:52:26Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
@@ -20,12 +20,13 @@
    <Path>\work\subversion\fhir\build\source\colorectal\Archive\Invariants</Path>
    <SheetName>Invariants</SheetName>
   </SupBook>
-  <WindowHeight>8136</WindowHeight>
-  <WindowWidth>19680</WindowWidth>
-  <WindowTopX>72</WindowTopX>
-  <WindowTopY>276</WindowTopY>
+  <WindowHeight>9948</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <TabRatio>735</TabRatio>
   <ActiveSheet>1</ActiveSheet>
+  <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -1014,10 +1015,10 @@
  </Worksheet>
  <Worksheet ss:Name="Data Elements">
   <Names>
-   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="='Data Elements'!R1C1:R78C30"
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="='Data Elements'!R1C1:R78C29"
     ss:Hidden="1"/>
   </Names>
-  <Table ss:ExpandedColumnCount="36" ss:ExpandedRowCount="106" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="35" ss:ExpandedRowCount="106" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s68" ss:DefaultRowHeight="15">
    <Column ss:StyleID="s69" ss:AutoFitWidth="0" ss:Width="246.6"/>
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="77.399999999999991"/>
@@ -1026,16 +1027,15 @@
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="91.199999999999989"/>
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="28.8"/>
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="27"/>
-   <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="99.6"/>
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="106.80000000000001"/>
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="157.19999999999999"/>
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="158.4"/>
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="170.4" ss:Span="1"/>
-   <Column ss:Index="14" ss:StyleID="s68" ss:AutoFitWidth="0"
+   <Column ss:Index="13" ss:StyleID="s68" ss:AutoFitWidth="0"
     ss:Width="218.39999999999998"/>
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="235.2"/>
    <Column ss:StyleID="s68" ss:Width="51.6" ss:Span="1"/>
-   <Column ss:Index="18" ss:StyleID="s68" ss:AutoFitWidth="0"
+   <Column ss:Index="17" ss:StyleID="s68" ss:AutoFitWidth="0"
     ss:Width="80.400000000000006"/>
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="120.60000000000001"/>
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="161.4"/>
@@ -1052,7 +1052,7 @@
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="78"/>
    <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="80.400000000000006"
     ss:Span="1"/>
-   <Column ss:Index="34" ss:StyleID="s68" ss:AutoFitWidth="0"
+   <Column ss:Index="33" ss:StyleID="s68" ss:AutoFitWidth="0"
     ss:Width="71.400000000000006"/>
    <Column ss:StyleID="s71" ss:AutoFitWidth="0" ss:Width="84"/>
    <Column ss:StyleID="s70" ss:AutoFitWidth="0" ss:Width="84"/>
@@ -1084,8 +1084,6 @@
     <Cell ss:StyleID="s75"><Data ss:Type="String">Summary</Data><Comment
       ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><Font
         html:Face="Tahoma" x:Family="Swiss" html:Size="8" html:Color="#000000">If Y, element is included in the summary view (query with _summary=true).  Default is N</Font></ss:Data></Comment><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Logical Mapping</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s75"><Data ss:Type="String">Binding</Data><Comment
       ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><Font
@@ -1178,8 +1176,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s83"><Data ss:Type="String">dr := DiagnosticReport</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1205,7 +1201,7 @@
     <Cell ss:StyleID="s90"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">70949-3</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">70949-3</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">Pathology report.section heading</Data></Cell>
     <Cell><Data ss:Type="String">28992.1000043</Data></Cell>
    </Row>
@@ -1221,8 +1217,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Y</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String">dr.subject</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1267,8 +1261,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Y</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">!req := dr.request-&gt;DiagnosticOrder; req[orderer := $value]</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1315,8 +1307,6 @@
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String">dr[performer := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1361,8 +1351,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">req := dr.request-&gt;DiagnosticOrder; req[orderer := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1389,7 +1377,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s101"><Data ss:Type="String">70949-3</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s101"><Data ss:Type="String">70949-3</Data></Cell>
     <Cell ss:StyleID="s102"><Data ss:Type="String">Pathology report.section heading</Data></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">28592.1000043</Data></Cell>
    </Row>
@@ -1404,8 +1392,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String">req.reason[text := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1432,7 +1418,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">55752-0 &#10;&#10;</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">55752-0 &#10;&#10;</Data></Cell>
     <Cell ss:StyleID="s102"><Data ss:Type="String">Clinical information &#10;</Data></Cell>
     <Cell><Data ss:Type="String">28589.1000043</Data></Cell>
    </Row>
@@ -1447,8 +1433,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String" x:Ticked="1">sp.text</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1474,7 +1458,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s106"><Data ss:Type="String">29306-8</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s106"><Data ss:Type="String">29306-8</Data></Cell>
     <Cell ss:StyleID="s106"><Data ss:Type="String">Surgery procedure</Data></Cell>
     <Cell><Data ss:Type="String">28993.1000043</Data></Cell>
    </Row>
@@ -1489,8 +1473,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String" x:Ticked="1">sp := dr.specimen-&gt;Specimen; sp[type := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1516,7 +1498,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">22633-2</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">22633-2</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Path report.site of origin </Data></Cell>
     <Cell><Data ss:Type="String">28994.1000043</Data></Cell>
    </Row>
@@ -1531,8 +1513,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String">req.reason[text := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Core biopsy Gleason score: 3+3=6</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1564,7 +1544,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">55752-0</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">55752-0</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Clinical information</Data></Cell>
     <Cell><Data ss:Type="String">28995.1000043</Data></Cell>
    </Row>
@@ -1579,8 +1559,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">req.supportingInformation -&gt; Observation[code := %map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1606,7 +1584,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s108"><Data ss:Type="String">81167-9</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s108"><Data ss:Type="String">81167-9</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Cancer treatment^preoperative</Data></Cell>
     <Cell><Data ss:Type="String">29002.1000043</Data></Cell>
    </Row>
@@ -1621,9 +1599,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">dr.result[text := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="10" ss:StyleID="s85"><Data ss:Type="String">6.3ug/L</Data><NamedCell
+    <Cell ss:Index="9" ss:StyleID="s85"><Data ss:Type="String">6.3ug/L</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">5.0ug/L</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1654,7 +1630,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s110"><Data ss:Type="String">2857-1</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s110"><Data ss:Type="String">2857-1</Data></Cell>
     <Cell ss:StyleID="s110"><Data ss:Type="String">Prostate specific Ag</Data></Cell>
     <Cell><Data ss:Type="String">29003.1000043</Data></Cell>
    </Row>
@@ -1669,9 +1645,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">si.text</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="10" ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="9" ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1695,7 +1669,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s111"><Data ss:Type="String">LN-RCPA-00085</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s111"><Data ss:Type="String">LN-RCPA-00085</Data></Cell>
     <Cell ss:StyleID="s112"><Data ss:Type="String">Clinical details of anatomical extent of the tumour</Data></Cell>
     <Cell><Data ss:Type="String">29006.1000043</Data></Cell>
    </Row>
@@ -1710,8 +1684,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">dr[identifier := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1738,7 +1710,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s113"><Data ss:Type="String">57723-9 </Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s113"><Data ss:Type="String">57723-9 </Data></Cell>
     <Cell ss:StyleID="s113"><Data ss:Type="String">Unique bar code number </Data></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">29013.1000043</Data></Cell>
    </Row>
@@ -1753,9 +1725,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">Practitioner.name[text := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="10" ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="9" ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1780,7 +1750,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s113"><Data ss:Type="String">18600-7</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s113"><Data ss:Type="String">18600-7</Data></Cell>
     <Cell ss:StyleID="s113"><Data ss:Type="String">Primary practitioner ID</Data></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">29014.1000043</Data></Cell>
    </Row>
@@ -1795,8 +1765,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">req.note[text := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1823,7 +1791,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">8251-1</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">8251-1</Data></Cell>
     <Cell><Data ss:Type="String">Service comment</Data></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">29015.1000043</Data></Cell>
    </Row>
@@ -1838,8 +1806,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">macro := dr.result-&gt;Observation[code := %map-codes]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1866,7 +1832,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">70949-3</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">70949-3</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">Pathology report.section heading</Data></Cell>
     <Cell><Data ss:Type="String">28858.1000043</Data></Cell>
    </Row>
@@ -1881,8 +1847,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String">sp1 := dr.specimen-&gt;Specimen; sp1.collection[quantity := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">39.5g</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1916,7 +1880,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s114"><Data ss:Type="String">29638-4</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s114"><Data ss:Type="String">29638-4</Data></Cell>
     <Cell ss:StyleID="s106"><Data ss:Type="String">Specimen weight </Data></Cell>
     <Cell><Data ss:Type="String">28865.1000043</Data></Cell>
    </Row>
@@ -1931,8 +1895,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String" x:Ticked="1">macro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">42x37x32mm</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1967,7 +1929,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s112"><Data ss:Type="String">LN-RCPA-00086</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s112"><Data ss:Type="String">LN-RCPA-00086</Data></Cell>
     <Cell ss:StyleID="s112"><Data ss:Type="String">Specimen dimensions</Data></Cell>
     <Cell><Data ss:Type="String">29016.1000043</Data></Cell>
    </Row>
@@ -1982,8 +1944,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">macro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">SeminalVesiclesMacro</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2012,7 +1972,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s112"><Data ss:Type="String">LN-RCPA-00087</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s112"><Data ss:Type="String">LN-RCPA-00087</Data></Cell>
     <Cell ss:StyleID="s112"><Data ss:Type="String">Presence of Seminal vesicles</Data></Cell>
     <Cell><Data ss:Type="String">28513.1000043</Data></Cell>
    </Row>
@@ -2028,8 +1988,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">macro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">LymphNodes</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><Data ss:Type="String">Not applicable</Data><NamedCell
@@ -2062,7 +2020,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s112"><Data ss:Type="String">LN-RCPA-00088</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s112"><Data ss:Type="String">LN-RCPA-00088</Data></Cell>
     <Cell ss:StyleID="s112"><Data ss:Type="String">Presence of lymph nodes</Data></Cell>
     <Cell><Data ss:Type="String">28866.1000043</Data></Cell>
    </Row>
@@ -2077,8 +2035,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">macro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">LymphNodesLaterality</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2107,7 +2063,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s102"><Data ss:Type="String">20228-3</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s102"><Data ss:Type="String">20228-3</Data></Cell>
     <Cell ss:StyleID="s106"><Data ss:Type="String">Laterality </Data></Cell>
     <Cell><Data ss:Type="String">29023.1000043</Data></Cell>
    </Row>
@@ -2122,8 +2078,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">macro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2150,11 +2104,11 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s102"><Data ss:Type="String">39111-0</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s102"><Data ss:Type="String">39111-0</Data></Cell>
     <Cell ss:StyleID="s106"><Data ss:Type="String">Body site</Data></Cell>
     <Cell><Data ss:Type="String">29029.1000043</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="81.599999999999994">
+   <Row ss:AutoFitHeight="0" ss:Height="81.45">
     <Cell ss:StyleID="s92"><Data ss:Type="String">Prostate.macro.lymphNodes.noLymphNodes</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2165,8 +2119,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">macro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2192,11 +2144,11 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s115"><Data ss:Type="String">21894-1</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s115"><Data ss:Type="String">21894-1</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Regional lymph nodes examined</Data></Cell>
     <Cell ss:StyleID="s116"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="84.600000000000009">
+   <Row ss:AutoFitHeight="0" ss:Height="84.449999999999989">
     <Cell ss:StyleID="s92"><Data ss:Type="String">Prostate.macro.lymphNodes.noLymphNodesPositive</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2207,8 +2159,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">macro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2234,7 +2184,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s115"><Data ss:Type="String">21893-3</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s115"><Data ss:Type="String">21893-3</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Regional lymph nodes positive</Data></Cell>
     <Cell ss:StyleID="s116"/>
    </Row>
@@ -2249,8 +2199,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">macro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2277,7 +2225,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">81178-6</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">81178-6</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tissue block description and site</Data></Cell>
     <Cell><Data ss:Type="String">29031.1000043</Data></Cell>
    </Row>
@@ -2292,8 +2240,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">macro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Volume: 2.7cm3 (3D volume estimate method).</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2326,7 +2272,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s106"><Data ss:Type="String">22634-0 </Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s106"><Data ss:Type="String">22634-0 </Data></Cell>
     <Cell ss:StyleID="s106"><Data ss:Type="String">Path report.gross observation</Data></Cell>
     <Cell><Data ss:Type="String">29032.1000043</Data></Cell>
    </Row>
@@ -2341,8 +2287,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro := dr.result-&gt;Observation[code := %map-codes]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2369,7 +2313,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">70949-3</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">70949-3</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">Pathology report.section heading</Data></Cell>
     <Cell><Data ss:Type="String">28869.1000043</Data></Cell>
    </Row>
@@ -2385,8 +2329,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">TumourType</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Adenocarcinoma, NOS, acinar</Data><NamedCell
@@ -2420,7 +2362,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">44639-3</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">44639-3</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Histologic type </Data></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">28870.1000043</Data></Cell>
    </Row>
@@ -2435,8 +2377,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Tumour extent: Multifocal</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2469,7 +2409,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="36" ss:StyleID="s116"><Data ss:Type="String">Field wasn't in protocol but should have been!!</Data></Cell>
+    <Cell ss:Index="35" ss:StyleID="s116"><Data ss:Type="String">Field wasn't in protocol but should have been!!</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45.449999999999996">
     <Cell ss:StyleID="s92"><Data ss:Type="String">Prostate.micro.tumourLocation</Data><NamedCell
@@ -2482,9 +2422,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s117"><Data ss:Type="String">micro := BodySite[code := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="10" ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="9" ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2510,7 +2448,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="35" ss:StyleID="s68"/>
+    <Cell ss:Index="34" ss:StyleID="s68"/>
     <Cell><Data ss:Type="String">28271.1000043</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60.45">
@@ -2525,8 +2463,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">TumourLocationQuadrant</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2555,7 +2491,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s111"><Data ss:Type="String">LN-RCPA-00089</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s111"><Data ss:Type="String">LN-RCPA-00089</Data></Cell>
     <Cell ss:StyleID="s118"><Data ss:Type="String">Tumour location of the largest nodule located by quadrant</Data></Cell>
     <Cell><Data ss:Type="String">28272.1000043</Data></Cell>
    </Row>
@@ -2570,8 +2506,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">TumourLocationPlane</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2600,7 +2534,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00090</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00090</Data></Cell>
     <Cell ss:StyleID="s118"><Data ss:Type="String">Tumour location of the largest nodule located by plane</Data></Cell>
     <Cell><Data ss:Type="String">28469.1000043</Data></Cell>
    </Row>
@@ -2615,8 +2549,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">TumourLocationOtherNodules</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2645,7 +2577,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00091</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00091</Data></Cell>
     <Cell ss:StyleID="s118"><Data ss:Type="String">Presence of other nodules &gt; 10mm in diameter</Data></Cell>
     <Cell ss:StyleID="s103"/>
    </Row>
@@ -2660,8 +2592,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">TumourLocationOtherNodulesQuadrant</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2689,7 +2619,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00092</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00092</Data></Cell>
     <Cell ss:StyleID="s118"><Data ss:Type="String">Tumour location by quadrant</Data></Cell>
     <Cell><Data ss:Type="String">28487.1000043</Data></Cell>
    </Row>
@@ -2704,8 +2634,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">TumourLocationOtherNodulesPlane</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2733,7 +2661,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00093</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00093</Data></Cell>
     <Cell ss:StyleID="s118"><Data ss:Type="String">Tumour location by plane</Data></Cell>
     <Cell><Data ss:Type="String">28497.1000043</Data></Cell>
    </Row>
@@ -2748,8 +2676,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2777,7 +2703,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s111"><Data ss:Type="String">LN-RCPA-00094</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s111"><Data ss:Type="String">LN-RCPA-00094</Data></Cell>
     <Cell ss:StyleID="s111"><Data ss:Type="String">Intraglandular extent</Data></Cell>
     <Cell><Data ss:Type="String">28906.1000043</Data></Cell>
    </Row>
@@ -2792,8 +2718,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2822,7 +2746,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">44657-5</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">44657-5</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Dominant nodule.max.dimension</Data></Cell>
     <Cell><Data ss:Type="String">28908.1000043</Data></Cell>
    </Row>
@@ -2837,8 +2761,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2866,7 +2788,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="35" ss:StyleID="s68"/>
+    <Cell ss:Index="34" ss:StyleID="s68"/>
     <Cell><Data ss:Type="String">28880.1000043</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="70.8">
@@ -2880,8 +2802,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">GleesonGradePrimary</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="Number">3</Data><NamedCell
@@ -2915,7 +2835,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">44641-9</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">44641-9</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Gleason pattern.primary</Data></Cell>
     <Cell><Data ss:Type="String">28503.1000043</Data></Cell>
    </Row>
@@ -2930,8 +2850,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">GleesonGradeSecondary</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="Number">4</Data><NamedCell
@@ -2965,7 +2883,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">44642-7</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">44642-7</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Gleason pattern.secondary</Data></Cell>
     <Cell><Data ss:Type="String">28504.1000043</Data></Cell>
    </Row>
@@ -2980,8 +2898,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">GleesonGradeTertiary</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">-</Data><NamedCell
@@ -3015,7 +2931,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">44643-5</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">44643-5</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Gleason pattern.tertiary </Data></Cell>
     <Cell><Data ss:Type="String">28505.1000043</Data></Cell>
    </Row>
@@ -3030,8 +2946,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Composite Gleason Score (ISUP) 2005): 3+4=7&#10;Index carcinoma score (ISUP 2005): 4+3=7&#10;% High Grade (4/5): 40% (composite), 65% index.&#10;Intraduct carcinoma: Absent.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3063,7 +2977,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">35266-6</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">35266-6</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Gleason score</Data></Cell>
     <Cell><Data ss:Type="String">28903.1000043</Data></Cell>
    </Row>
@@ -3079,8 +2993,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">ExtraprostaticExtension</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><Data ss:Type="String">Negative</Data><NamedCell
@@ -3116,7 +3028,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">44627-8</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">44627-8</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Extraprostatic extension </Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="58.8">
@@ -3130,8 +3042,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">ExtraprostaticExtensionExtent</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3162,7 +3072,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00096</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00096</Data></Cell>
     <Cell ss:StyleID="s118"><Data ss:Type="String">Extent of extraprostatic extension</Data></Cell>
     <Cell><Data ss:Type="String">28911.1000043</Data></Cell>
    </Row>
@@ -3178,8 +3088,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">ExtraprostaticExtensionLocations</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3211,7 +3119,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00095</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00095</Data></Cell>
     <Cell ss:StyleID="s118"><Data ss:Type="String">Location(s) of extraprostatic extension</Data></Cell>
     <Cell><Data ss:Type="String">28566.1000043</Data></Cell>
    </Row>
@@ -3226,8 +3134,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3255,7 +3161,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s117"/>
+    <Cell ss:Index="33" ss:StyleID="s117"/>
     <Cell ss:StyleID="s117"/>
     <Cell ss:StyleID="s116"/>
    </Row>
@@ -3271,8 +3177,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">MarginStatus</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><Data ss:Type="String">Negative</Data><NamedCell
@@ -3307,7 +3211,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">44670-8</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">44670-8</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Margin involvement </Data></Cell>
     <Cell><Data ss:Type="String">28929.1000043</Data></Cell>
    </Row>
@@ -3322,8 +3226,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">MarginLocation</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3351,7 +3253,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">44678-1</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">44678-1</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Margin(s) involved by invasive carcinoma</Data></Cell>
     <Cell><Data ss:Type="String">28936.1000043</Data></Cell>
    </Row>
@@ -3366,8 +3268,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Tumour location:&#10;Quadrants: Anterior left greater than right plus posterior right and left.&#10;Zones: Transitional, peripheral and anterior fibromuscular.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3399,7 +3299,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="35" ss:StyleID="s68"/>
+    <Cell ss:Index="34" ss:StyleID="s68"/>
     <Cell ss:StyleID="s116"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="58.8">
@@ -3413,8 +3313,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3444,7 +3342,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s120"><Data ss:Type="String">21891-7 </Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s120"><Data ss:Type="String">21891-7 </Data></Cell>
     <Cell ss:StyleID="s120"><Data ss:Type="String">Extent of disease</Data></Cell>
     <Cell><Data ss:Type="String">28511.1000043</Data></Cell>
    </Row>
@@ -3459,8 +3357,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3489,7 +3385,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00097</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00097</Data></Cell>
     <Cell ss:StyleID="s118"><Data ss:Type="String">Gleason score at margin</Data></Cell>
     <Cell><Data ss:Type="String">28516.1000043</Data></Cell>
    </Row>
@@ -3504,8 +3400,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">MarginPositivity</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3535,7 +3429,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00098</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s119"><Data ss:Type="String">LN-RCPA-00098</Data></Cell>
     <Cell ss:StyleID="s118"><Data ss:Type="String">Type of margin involvement</Data></Cell>
     <Cell ss:StyleID="s116"><Data ss:Type="String">28520.1000043</Data></Cell>
    </Row>
@@ -3551,8 +3445,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">SeminalVesiclesMicro</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Not involved</Data><NamedCell
@@ -3588,7 +3480,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">44626-0 </Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">44626-0 </Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Seminal vesicle invasion </Data></Cell>
     <Cell><Data ss:Type="String">28920.1000043</Data></Cell>
    </Row>
@@ -3603,8 +3495,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">BladderNeck</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3632,7 +3522,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s111"><Data ss:Type="String">LN-RCPA-00099</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s111"><Data ss:Type="String">LN-RCPA-00099</Data></Cell>
     <Cell ss:StyleID="s111"><Data ss:Type="String">Bladder neck involvement</Data></Cell>
     <Cell ss:StyleID="s116"><Data ss:Type="String">28975.1000043</Data></Cell>
    </Row>
@@ -3647,8 +3537,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3678,7 +3566,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="35" ss:StyleID="s68"/>
+    <Cell ss:Index="34" ss:StyleID="s68"/>
     <Cell><Data ss:Type="String">28965.1000043</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="32.549999999999997">
@@ -3692,14 +3580,12 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="14" ss:StyleID="s85"><Data ss:Type="Number">5</Data><NamedCell
+    <Cell ss:Index="13" ss:StyleID="s85"><Data ss:Type="Number">5</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="Number">7</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3722,7 +3608,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">44621-1</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">44621-1</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Regional lymph nodes examined </Data></Cell>
     <Cell><Data ss:Type="String">28968.1000043</Data></Cell>
    </Row>
@@ -3738,14 +3624,12 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="Number">0</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="14" ss:StyleID="s85"><Data ss:Type="Number">0</Data><NamedCell
+    <Cell ss:Index="13" ss:StyleID="s85"><Data ss:Type="Number">0</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="Number">0</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3769,7 +3653,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">21893-3</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">21893-3</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Regional lymph nodes positive</Data></Cell>
     <Cell><Data ss:Type="String">28970.1000043</Data></Cell>
    </Row>
@@ -3785,8 +3669,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">LymphNodesLaterality</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3815,7 +3697,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">20228-3</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">20228-3</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Laterality </Data></Cell>
     <Cell><Data ss:Type="String">28520.1000043</Data></Cell>
    </Row>
@@ -3830,8 +3712,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3857,7 +3737,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">21892-5</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">21892-5</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Lymph node involvement</Data></Cell>
     <Cell><Data ss:Type="String">28524.1000043</Data></Cell>
    </Row>
@@ -3872,8 +3752,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3901,7 +3779,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">33728-7</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">33728-7</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Size.max.dimension</Data></Cell>
     <Cell><Data ss:Type="String">28975.1000043</Data></Cell>
    </Row>
@@ -3916,8 +3794,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">LymphovascularInvasion</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><Data ss:Type="String">Absent</Data><NamedCell
@@ -3951,7 +3827,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s107"><Data ss:Type="String">59544-7</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s107"><Data ss:Type="String">59544-7</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Lymph-vascular invasion</Data></Cell>
     <Cell><Data ss:Type="String">28946.1000043</Data></Cell>
    </Row>
@@ -3966,8 +3842,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">micro.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3994,7 +3868,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s106"><Data ss:Type="String">22635-7</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s106"><Data ss:Type="String">22635-7</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Path report.microscopic observation</Data></Cell>
     <Cell><Data ss:Type="String">28526.1000043</Data></Cell>
    </Row>
@@ -4009,8 +3883,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">synthesis := dr.result-&gt;Observation[code := %map-codes]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4037,7 +3909,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">70949-3</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">70949-3</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">Pathology report.section heading</Data></Cell>
     <Cell><Data ss:Type="String">28527.1000043</Data></Cell>
    </Row>
@@ -4052,8 +3924,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">synthesis.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">pT2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4087,7 +3957,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34" ss:StyleID="s106"><Data ss:Type="String">21902-2</Data></Cell>
+    <Cell ss:Index="33" ss:StyleID="s106"><Data ss:Type="String">21902-2</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Stage group.pathology </Data></Cell>
     <Cell><Data ss:Type="String">28525.1000043</Data></Cell>
    </Row>
@@ -4102,8 +3972,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">synthesis.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">TumourStageT</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4132,7 +4000,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">21899-0</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">21899-0</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">Primary tumor.pathology</Data></Cell>
     <Cell><Data ss:Type="String">28950.1000043</Data></Cell>
    </Row>
@@ -4147,8 +4015,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">synthesis.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">TumourStageN</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4176,7 +4042,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">21900-6</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">21900-6</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">Regional lymph nodes.pathology</Data></Cell>
     <Cell><Data ss:Type="String">28961.1000043</Data></Cell>
    </Row>
@@ -4191,8 +4057,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">synthesis.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">TumourStageM</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4220,7 +4084,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">67211-3 </Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">67211-3 </Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">TNM pathologic staging - distant metastases - M</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="46.2">
@@ -4234,8 +4098,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">synthesis.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4263,7 +4125,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">67203-0</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">67203-0</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">AJCC cancer staging manual</Data></Cell>
     <Cell ss:StyleID="s116"/>
    </Row>
@@ -4278,8 +4140,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">synthesis.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Adenocarcinoma</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4313,7 +4173,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">34574-4</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">34574-4</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">Path report.final diagnosis</Data></Cell>
     <Cell><Data ss:Type="String">28533.1000043</Data></Cell>
    </Row>
@@ -4328,8 +4188,6 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">synthesis.related[type:='has-member'].target-&gt;Observation[code:=%map-codes; value[x] := $value]</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4358,7 +4216,7 @@
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"/>
-    <Cell ss:Index="34"><Data ss:Type="String">22638-1</Data></Cell>
+    <Cell ss:Index="33"><Data ss:Type="String">22638-1</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">Path report.comments</Data></Cell>
     <Cell><Data ss:Type="String">28991.1000043</Data></Cell>
    </Row>
@@ -4381,7 +4239,6 @@
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4400,40 +4257,6 @@
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s97"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s92"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4480,6 +4303,37 @@
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s97"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s92"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4513,7 +4367,6 @@
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4532,7 +4385,6 @@
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4565,7 +4417,6 @@
     <Cell ss:StyleID="s122"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s122"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s122"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s122"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s122"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s122"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4697,7 +4548,7 @@
    <SplitHorizontal>1</SplitHorizontal>
    <TopRowBottomPane>1</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>25</LeftColumnRightPane>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -4705,35 +4556,33 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveCol>1</ActiveCol>
     </Pane>
     <Pane>
      <Number>2</Number>
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>67</ActiveRow>
-     <ActiveCol>36</ActiveCol>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C8:R11C9,R14C9,R32C8:R71C8,R32C9:R78C9,R16C9:R30C9,R12C8:R30C8</Range>
+   <Range>R14C8,R32C8:R78C8,R16C8:R30C8,R2C8:R11C8</Range>
    <Type>List</Type>
    <CellRangeList/>
    <Value>&quot;Bindings!A2..A30&quot;</Value>
    <ErrorHide/>
   </DataValidation>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R72C8:R78C8,R3C6:R78C7</Range>
+   <Range>R3C6:R78C7</Range>
    <Type>List</Type>
    <CellRangeList/>
    <Value>&quot;Y,N&quot;</Value>
   </DataValidation>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C28:R78C28</Range>
+   <Range>R2C27:R78C27</Range>
    <Type>List</Type>
    <CellRangeList/>
    <Value>&quot;left,right,up,down,[xpixels];[ypixels]&quot;</Value>
@@ -4741,7 +4590,7 @@
    <ErrorStyle>Info</ErrorStyle>
   </DataValidation>
   <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C25:R78C27</Range>
+   <Range>R2C24:R78C26</Range>
    <Type>List</Type>
    <CellRangeList/>
    <Value>&quot;N/A&quot;</Value>
@@ -4766,18 +4615,18 @@
    <Value>'\work\subversion\fhir\build\source\colorectal\Archive\[Invariants]Invariants'!#REF!</Value>
    <ErrorHide/>
   </DataValidation>
-  <AutoFilter x:Range="R1C1:R78C30"
+  <AutoFilter x:Range="R1C1:R78C29"
    xmlns="urn:schemas-microsoft-com:office:excel">
   </AutoFilter>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R15C20:R16C20,R35C20:R36C20,R49C20:R56C20,R2C19:R24C19,R26C19:R78C19</Range>
+   <Range>R15C19:R16C19,R35C19:R36C19,R49C19:R56C19,R2C18:R78C18</Range>
    <Condition>
     <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:yellow'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R31C10:R36C31,R57C14:R58C31,R73C5:R78C31,R2C9:R11C31,R12C10:R13C31,R59C9:R72C31,R57C9:R58C12,R14C9:R14C31,R16C9:R23C31,R15C10:R15C31,R24C1:R24C31,R32C8:R72C8,R37C9:R56C31,R2C1:R23C8,R26C8:R30C31,R26C5:R72C7,R26C4:R106C4,R26C1:R78C3</Range>
+   <Range>R31C9:R36C30,R57C13:R58C30,R2C8:R11C30,R12C9:R13C30,R59C8:R72C30,R57C8:R58C11,R14C8:R14C30,R16C8:R23C30,R15C9:R15C30,R37C8:R56C30,R2C1:R23C7,R26C5:R72C7,R26C4:R106C4,R26C1:R78C3,R73C5:R78C30,R26C8:R30C30,R24C1:R25C30</Range>
    <Condition>
     <Value1>RC3=&quot;0..0&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
@@ -4795,70 +4644,70 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C29,R2C3:R2C4,R2C6:R2C18</Range>
+   <Range>R2C28,R2C3:R2C4,R2C6:R2C17</Range>
    <Condition>
     <Value1>RC&lt;&gt;&quot;&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C20:R24C20,R3C3:R24C3,R26C3:R78C3,R26C20:R78C20</Range>
+   <Range>R2C19:R78C19,R3C3:R78C3</Range>
    <Condition>
     <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R57C10:R58C12,R57C14:R58C15,R59C10:R78C15,R2C5,R2C18:R24C18,R2C10:R24C15,R26C10:R56C15,R26C18:R78C18</Range>
+   <Range>R57C9:R58C11,R57C13:R58C14,R59C9:R78C14,R2C5,R2C17:R78C17,R2C9:R56C14</Range>
    <Condition>
     <Value1>AND(SEARCH(&quot;|&quot;,RC5)&lt;&gt;0,RC&lt;&gt;&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C16:R24C16,R2C18:R24C18,R26C18:R78C18,R26C16:R78C16</Range>
+   <Range>R2C15:R78C15,R2C17:R78C17</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,NOT(EXACT(LEFT(RC5,1),LOWER(LEFT(RC5,1)))))</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C16:R24C17,R26C16:R78C17</Range>
+   <Range>R2C15:R78C16</Range>
    <Condition>
-    <Value1>AND(RC16&lt;&gt;&quot;&quot;,RC17&lt;&gt;&quot;&quot;)</Value1>
+    <Value1>AND(RC15&lt;&gt;&quot;&quot;,RC16&lt;&gt;&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C19:R24C20,R26C19:R78C20</Range>
+   <Range>R2C18:R78C19</Range>
    <Condition>
-    <Value1>AND(RC19&lt;&gt;&quot;&quot;,RC19=RC20)</Value1>
+    <Value1>AND(RC18&lt;&gt;&quot;&quot;,RC18=RC19)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C25:R2C26</Range>
+   <Range>R2C24:R2C25</Range>
    <Condition>
     <Value1>RC=&quot;&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:orange'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R3C25:R24C26,R26C25:R78C26</Range>
+   <Range>R3C24:R78C25</Range>
    <Condition>
     <Value1>AND(RC1&lt;&gt;&quot;&quot;,ISERR(SEARCH(&quot;N/A&quot;,R2C)),RC=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:orange'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R6C28:R8C28,R11C28:R12C28,R14C28,R17C28:R19C28,R28C28,R31C28:R38C28,R64C28:R67C28,R69C28,R71C28:R78C28</Range>
+   <Range>R6C27:R8C27,R11C27:R12C27,R14C27,R17C27:R19C27,R28C27,R31C27:R38C27,R64C27:R67C27,R69C27,R71C27:R78C27</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(R[1]C1,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(R[1]C1,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R31C10:R36C31,R57C14:R58C31,R73C5:R78C31,R2C9:R11C31,R12C10:R13C31,R59C9:R72C31,R57C9:R58C12,R14C9:R14C31,R16C9:R23C31,R15C10:R15C31,R24C1:R24C31,R32C8:R72C8,R37C9:R56C31,R2C1:R23C8,R26C8:R30C31,R26C5:R72C7,R26C4:R106C4,R26C1:R78C3</Range>
+   <Range>R31C9:R36C30,R57C13:R58C30,R2C8:R11C30,R12C9:R13C30,R59C8:R72C30,R57C8:R58C11,R14C8:R14C30,R16C8:R23C30,R15C9:R15C30,R37C8:R56C30,R2C1:R23C7,R26C5:R72C7,R26C4:R106C4,R26C1:R78C3,R73C5:R78C30,R26C8:R30C30,R24C1:R25C30</Range>
    <Condition>
     <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
@@ -4872,7 +4721,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C28,R13C28,R20C28,R26C28:R27C28,R68C28,R70C28,R39C28:R63C28</Range>
+   <Range>R2C27,R13C27,R20C27,R26C27:R27C27,R68C27,R70C27,R39C27:R63C27</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(#REF!,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(#REF!,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
@@ -4886,28 +4735,28 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R5C28,R9C28:R10C28,R15C28:R16C28,R21C28</Range>
+   <Range>R5C27,R9C27:R10C27,R15C27:R16C27,R21C27</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(R[2]C1,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(R[2]C1,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R3C28:R4C28,R29C28:R30C28,R23C28:R24C28</Range>
+   <Range>R3C27:R4C27,R29C27:R30C27,R23C27:R25C27</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(R[3]C1,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(R[3]C1,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R11C1,R17C1,R51C1,R23C1:R24C1</Range>
+   <Range>R11C1,R17C1,R51C1,R23C1:R25C1</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,R[-2]C=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R14C1,R27C1:R28C1,R21C1:R22C1,R31C1,R64C1,R69C1,R71C1,R55C1</Range>
+   <Range>R14C1,R27C1:R28C1,R21C1:R22C1,R31C1,R64C1,R69C1,R71C1,R55C1,R34C1</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,#REF!=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
@@ -4921,7 +4770,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R32C9:R36C9</Range>
+   <Range>R32C8:R36C8</Range>
    <Condition>
     <Value1>R[-1]C3=&quot;0..0&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
@@ -4932,7 +4781,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R32C9:R36C9</Range>
+   <Range>R32C8:R36C8</Range>
    <Condition>
     <Value1>LEFT(R[-1]C1,1)=&quot;!&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
@@ -4967,97 +4816,9 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R34C1</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,#REF!=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R22C28</Range>
+   <Range>R22C27</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(R[4]C1,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(R[4]C1,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R25C19</Range>
-   <Condition>
-    <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:yellow'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R25C1:R25C31</Range>
-   <Condition>
-    <Value1>RC3=&quot;0..0&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
-   </Condition>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,RC1=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R25C20,R25C3</Range>
-   <Condition>
-    <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R25C18,R25C10:R25C15</Range>
-   <Condition>
-    <Value1>AND(SEARCH(&quot;|&quot;,RC5)&lt;&gt;0,RC&lt;&gt;&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R25C16,R25C18</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,NOT(EXACT(LEFT(RC5,1),LOWER(LEFT(RC5,1)))))</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R25C16:R25C17</Range>
-   <Condition>
-    <Value1>AND(RC16&lt;&gt;&quot;&quot;,RC17&lt;&gt;&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R25C19:R25C20</Range>
-   <Condition>
-    <Value1>AND(RC19&lt;&gt;&quot;&quot;,RC19=RC20)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R25C25:R25C26</Range>
-   <Condition>
-    <Value1>AND(RC1&lt;&gt;&quot;&quot;,ISERR(SEARCH(&quot;N/A&quot;,R2C)),RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:orange'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R25C1:R25C31</Range>
-   <Condition>
-    <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R25C28</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(R[3]C1,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(R[3]C1,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R25C1</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,R[-2]C=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
