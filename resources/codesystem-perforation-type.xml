@@ -10,7 +10,7 @@
   <date value="2015-06-11T09:01:03+03:00"/>
   <description value="Indicates the options for indicating the type(s) of perforation."/>
   <caseSensitive value="true"/>
-  <valueSet value="http://hl7.org/fhir/ValueSet/nehta-perforation-type"/>
+  <valueSet value="http://fhir.hl7.org.au/rcpa/ValueSet/perforation-type"/>
   <content value="complete"/>
   <concept>
     <code value="through_tumour_prior_to_surgery"/>

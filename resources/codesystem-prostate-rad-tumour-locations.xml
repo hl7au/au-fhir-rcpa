@@ -11,7 +11,7 @@
   <description value="These are the options for the radical prostatectomy locations."/>
   <copyright value="This value set includes content from SNOMED CT, which is copyright Â© 2002+ International       Health Terminology Standards Development Organisation (IHTSDO), and distributed by    agreement    between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this    agreement"/>
   <caseSensitive value="true"/>
-  <valueSet value="http://hl7.org/fhir/ValueSet/nehta-prostate-tumour-locations"/>
+  <valueSet value="http://fhir.hl7.org.au/rcpa/ValueSet/prostate-rad-tumour-locations"/>
   <content value="complete"/>
   <concept>
     <code value="other"/>

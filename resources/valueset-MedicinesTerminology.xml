@@ -9,7 +9,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/valueset-oid">
     <valueUri value="1.2.36.1.2001.1001.101.104.16115"/>
   </extension>
-  <url value="http://electronichealth.net.au/ci/dc/valueset/MedicinesTerminology"/>
+  <url value="http://fhir.hl7.org.au/rcpa/ValueSet/nehta-MedicinesTerminology"/>
   <version value="1"/>
   <name value="MedicinesTerminology"/>
   <status value="active"/>
