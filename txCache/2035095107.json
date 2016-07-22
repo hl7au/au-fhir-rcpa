@@ -1,0 +1,1 @@
+{"resourceType":"ValueSet","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"408659008","display":"Intactness of mesorectal specimen incomplete"},{"code":"408658000","display":"Mesorectal specimen nearly completely intact "},{"code":"408657005","display":"Mesorectal specimen completely intact"}]}]}}
