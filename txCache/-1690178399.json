@@ -1,1 +1,1 @@
-{"resourceType":"OperationOutcome","issue":[{"details":{"text":"Error expanding ValueSet \"null: Error sending HTTP Post/Put Payload"}}]}
+{"resourceType":"ValueSet","compose":{"include":[{"system":"http://loinc.org","concept":[{"code":"LA4629-7","display":"m0"},{"code":"LA4628-9","display":"m1"},{"code":"LA4627-1","display":"m1a"},{"code":"LA4626-3","display":"m1b"}]}]}}

@@ -1,1 +1,1 @@
-{"resourceType":"OperationOutcome","issue":[{"details":{"text":"Error expanding ValueSet \"null: Error sending HTTP Post/Put Payload"}}]}
+{"resourceType":"ValueSet","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"369733002","display":"Venous (large vessel) intramural invasion by tumour present"},{"code":"395718006","display":"Lymphatic (small vessel) intramural invasion by tumour present"}]}]}}
