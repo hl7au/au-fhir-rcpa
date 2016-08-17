@@ -18,7 +18,7 @@
     <url value="http://fhir.hl7.org.au/rcpa/ValueSet/histological-grade"/>
     <version value="20150623"/>
     <name value="HistologicalGrade"/>
-    <publisher value="NEHTA"/>
+    <publisher value="Australian Digital Health Agency"/>
     <contact>
         <telecom>
             <system value="other"/>

@@ -1,10 +1,20 @@
 ---
 # jekyll header
 ---
-{% include header.html %}
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <!-- instance template format -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="rcpa, RCPA, Structured Cancer Reporting" />
+    <title>RCPA\rcpa - FHIR v1.6.0</title>
 
+{% include header.html %}
+</head>
+    <body>
 <h2>{{[title]}}</h2>
 
 {% include {{[type]}}-{{[name]}}.xhtml %}
 
 {% include footer.html %}
+    </body>
+</html>

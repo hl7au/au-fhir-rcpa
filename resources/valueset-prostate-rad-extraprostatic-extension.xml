@@ -19,7 +19,7 @@
   <url value="http://fhir.hl7.org.au/rcpa/ValueSet/prostate-rad-extraprostatic-extension"/>  
   <version value="20150618"/>
   <name value="ExtraprostaticExtension"/>
-  <publisher value="NEHTA"/>
+  <publisher value="Australian Digital Health Agency"/>
   <contact>
     <telecom>
       <system value="other"/>
