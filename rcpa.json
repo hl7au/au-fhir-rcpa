@@ -17,6 +17,8 @@
   },
 	"canonicalBase": "http://fhir.hl7.org.au/rcpa",
 	"source": "rcpa.xml",
+  "gen-examples" : "true",
+  "do-transforms" : "true",
 	"spreadsheets": [
 	  "colorectal-spreadsheet.xml",
     "prostate-radical-spreadsheet.xml"
