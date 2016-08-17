@@ -1,1 +1,0 @@
-{"resourceType":"ValueSet","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"369770006","display":"Gleason Pattern 1"},{"code":"369771005","display":"Gleason Pattern 2"},{"code":"369772003","display":"Gleason Pattern 3"},{"code":"369773008","display":"Gleason Pattern 4"},{"code":"369774002","display":"Gleason Pattern 5"}]}]}}

@@ -13,12 +13,15 @@
     "Any" : {
 	  	"template-format" : "instance-template-format.html",
       "template-base" : "instance-template-base.html"
+    },
+    "ValueSet" : {
+      "template-base" : "instance-template-vs.html"
     }
   },
 	"canonicalBase": "http://fhir.hl7.org.au/rcpa",
 	"source": "rcpa.xml",
   "gen-examples" : "true",
-  "do-transforms" : "true",
+  "do-transforms" : "-true",
 	"spreadsheets": [
 	  "colorectal-spreadsheet.xml",
     "prostate-radical-spreadsheet.xml"

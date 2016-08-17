@@ -1,1 +1,0 @@
-{"resourceType":"ValueSet","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"369734008","display":"Venous (large vessel) extramural invasion by tumour present"},{"code":"395719003","display":"Lymphatic (small vessel) extramural invasion by tumour present"}]}]}}

@@ -1,1 +1,0 @@
-{"resourceType":"ValueSet","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"314966008","display":"Local recurrence of malignant tumour of rectum"},{"code":"314965007","display":"Local recurrence of malignant tumour of colon"},{"code":"25173007","display":"Recurrent tumour"},{"code":"399409002","display":"Distant metastasis present"}]}]}}
