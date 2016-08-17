@@ -7,7 +7,7 @@
     "output" : "output",
     "qa" : "qa",
     "txCache" : "txCache",
-    "specification" : "c:\\work\\org.hl7.fhir\\build\\publish"
+    "specification" : "http://hl7-fhir.github.io/"
   },
   "defaults" : {
     "Any" : {
