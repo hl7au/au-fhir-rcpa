@@ -24,7 +24,7 @@
   </concept>
   <concept>
     <code value="loss_of_staining"/>
-    <display value="Not tested"/>
-    <definition value="The gene mutation was not tested"/>
+    <display value="Loss of staining"/>
+    <definition value="Loss of staining"/>
   </concept>
 </CodeSystem>
