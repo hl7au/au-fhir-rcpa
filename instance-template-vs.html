@@ -11,6 +11,28 @@
 {% include header.html %}
     </head>
     <body>
+    
+    
+{% include navbar.html %}
+
+ <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+  <div class="container">  <!-- container -->
+   <ul class="breadcrumb">
+          <!-- daf\daf / page / daf -->
+        <li title="Colorectal Implementation Guide"><b>Home</b></li>
+
+   </ul>
+  </div>  <!-- /container -->
+ </div>  <!-- /segment-breadcrumb -->
+
+ <div id="segment-content" class="segment">  <!-- segment-content -->
+ <div class="container">  <!-- container -->
+            <div class="row">
+             <div class="inner-wrapper">
+  <!-- CONTENT CONTENT -->
+
+<div class="col-9">
+
 <h2>{{[title]}}</h2>
 
 <p>
@@ -25,6 +47,15 @@ Formats: <a href="{{[type]}}-{{[id]}}.xml.html">XML</a>, <a href="{{[type]}}-{{[
 
 {% include {{[type]}}-{{[id]}}-expansion.xhtml %}
 
+</div>
+
+    </div>  <!-- /inner-wrapper -->
+            </div>  <!-- /row -->
+        </div>  <!-- /container -->
+
+    </div>  <!-- /segment-content -->
+
 {% include footer.html %}
+
     </body>
 </html>
