@@ -11,6 +11,7 @@
     <name value="base"/>
     
     <!-- Code System -->
+    <resource><example value="false"/><sourceReference><reference value="CodeSystem/cap-codes"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/cancer-primary-or-recurrence"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/crc-operation-type"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/crc-peritoneum-invasion"/></sourceReference></resource>

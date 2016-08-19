@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cap-codes"/>
+  <url value="http://cap.org/protocols"/>
+  <name value="CAP Cancer Protocol Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2015-06-11T09:01:03+03:00"/>
+  <description value="code defined by CAP as part of the cancer protocols"/>
+  <caseSensitive value="true"/>
+  <content value="fragment"/>
+  <concept>
+    <code value=""/>
+    <display value=""/>
+  </concept>
+  <concept>
+    <code value="28282.1000043"/>
+    <display value="Colorectal"/>
+  </concept>
+  <concept>
+    <code value="28592.1000043"/>
+    <display value="Colorectal.preAnalytic"/>
+  </concept>
+  <concept>
+    <code value="28593.1000043"/>
+    <display value="Colorectal.preAnalytic.clinicalInformation"/>
+  </concept>
+  <concept>
+    <code value="28289.1000043"/>
+    <display value="Colorectal.preAnalytic.perforation"/>
+  </concept>
+  <concept>
+    <code value="28296.1000043"/>
+    <display value="Colorectal.preAnalytic.natureOfPerforation"/>
+  </concept>
+  <concept>
+    <code value="28292.1000043"/>
+    <display value="Colorectal.preAnalytic.clinicalObstruction"/>
+  </concept>
+  <concept>
+    <code value="28307.1000043"/>
+    <display value="Colorectal.preAnalytic.tumourLocation"/>
+  </concept>
+  <concept>
+    <code value="28346.1000043"/>
+    <display value="Colorectal.preAnalytic.synchronousTumours"/>
+  </concept>
+  <concept>
+    <code value="28335.1000043"/>
+    <display value="Colorectal.preAnalytic.distanceAnalVerge"/>
+  </concept>
+  <concept>
+    <code value="27919.1000043"/>
+    <display value="Colorectal.preAnalytic.typeOfOperation"/>
+  </concept>
+  <concept>
+    <code value="27919.1000043"/>
+    <display value="Colorectal.preAnalytic.typeOfOperation.code"/>
+  </concept>
+  <concept>
+    <code value="27928.1000043"/>
+    <display value="Colorectal.preAnalytic.typeOfOperation.other"/>
+  </concept>
+  <concept>
+    <code value="28278.1000043"/>
+    <display value="Colorectal.preAnalytic.anteriorResectionType"/>
+  </concept>
+  <concept>
+    <code value="28283.1000043"/>
+    <display value="Colorectal.preAnalytic.preoperativeRadiotherapy"/>
+  </concept>
+  <concept>
+    <code value="28286.1000043"/>
+    <display value="Colorectal.preAnalytic.typeOfCourse"/>
+  </concept>
+  <concept>
+    <code value="28295.1000043"/>
+    <display value="Colorectal.preAnalytic.surgeonsOpinion"/>
+  </concept>
+  <concept>
+    <code value="28336.1000043"/>
+    <display value="Colorectal.preAnalytic.adjacentOrgans"/>
+  </concept>
+  <concept>
+    <code value="28337.1000043"/>
+    <display value="Colorectal.preAnalytic.newPrimaryOrRecurrence"/>
+  </concept>
+  <concept>
+    <code value="28300.1000043"/>
+    <display value="Colorectal.preAnalytic.pathologyAccessionNumber"/>
+  </concept>
+  <concept>
+    <code value="28301.1000043"/>
+    <display value="Colorectal.preAnalytic.otherRelevantDetails"/>
+  </concept>
+  <concept>
+    <code value="27906.1000043"/>
+    <display value="Colorectal.macro"/>
+  </concept>
+  <concept>
+    <code value="28342.1000043"/>
+    <display value="Colorectal.macro.specimenLength"/>
+  </concept>
+  <concept>
+    <code value="27931.1000043"/>
+    <display value="Colorectal.macro.tumourSite"/>
+  </concept>
+  <concept>
+    <code value="28360.1000043"/>
+    <display value="Colorectal.macro.maxTumourDiameter"/>
+  </concept>
+  <concept>
+    <code value="28359.1000043"/>
+    <display value="Colorectal.macro.distanceNearerProxOrDistal"/>
+  </concept>
+  <concept>
+    <code value="28358.1000043"/>
+    <display value="Colorectal.macro.distNonperitonCircumMargin"/>
+  </concept>
+  <concept>
+    <code value="27963.1000043"/>
+    <display value="Colorectal.macro.tumourPerforation"/>
+  </concept>
+  <concept>
+    <code value="28362.1000043"/>
+    <display value="Colorectal.macro.relToAntPeritonealReflection"/>
+  </concept>
+  <concept>
+    <code value="27967.1000043"/>
+    <display value="Colorectal.macro.intactnessOfMesorectum"/>
+  </concept>
+  <concept>
+    <code value="28369.1000043"/>
+    <display value="Colorectal.macro.peritoneum"/>
+  </concept>
+  <concept>
+    <code value="28372.1000043"/>
+    <display value="Colorectal.macro.lymphNodes"/>
+  </concept>
+  <concept>
+    <code value="28387.1000043"/>
+    <display value="Colorectal.macro.noLymphNodesPerCassette"/>
+  </concept>
+  <concept>
+    <code value="28376.1000043"/>
+    <display value="Colorectal.macro.polyps"/>
+  </concept>
+  <concept>
+    <code value="28379.1000043"/>
+    <display value="Colorectal.macro.polypSummary"/>
+  </concept>
+  <concept>
+    <code value="28380.1000043"/>
+    <display value="Colorectal.macro.otherMacroComments"/>
+  </concept>
+  <concept>
+    <code value="28381.1000043"/>
+    <display value="Colorectal.macro.natureAndSiteOfBlocks"/>
+  </concept>
+  <concept>
+    <code value="27973.1000043"/>
+    <display value="Colorectal.micro"/>
+  </concept>
+  <concept>
+    <code value="27974.1000043"/>
+    <display value="Colorectal.micro.tumourType"/>
+  </concept>
+  <concept>
+    <code value="27988.1000043"/>
+    <display value="Colorectal.micro.histologicalGrade"/>
+  </concept>
+  <concept>
+    <code value="28534.1000043"/>
+    <display value="Colorectal.micro.maxDegreeLocalInvasion"/>
+  </concept>
+  <concept>
+    <code value="28348.1000043"/>
+    <display value="Colorectal.micro.proximalOrDistalResectionMargins"/>
+  </concept>
+  <concept>
+    <code value="28351.1000043"/>
+    <display value="Colorectal.micro.involvedMargins"/>
+  </concept>
+  <concept>
+    <code value="28396.1000043"/>
+    <display value="Colorectal.micro.marginsMicroClearance"/>
+  </concept>
+  <concept>
+    <code value="28354.1000043"/>
+    <display value="Colorectal.micro.nonperitonealisedCircumMargin"/>
+  </concept>
+  <concept>
+    <code value="28400.1000043"/>
+    <display value="Colorectal.micro.microClearanceRectum"/>
+  </concept>
+  <concept>
+    <code value="28338.1000043"/>
+    <display value="Colorectal.micro.lymphNodeInvolvement"/>
+  </concept>
+  <concept>
+    <code value="28404.1000043"/>
+    <display value="Colorectal.micro.lymphNodesDetails"/>
+  </concept>
+  <concept>
+    <code value="28403.1000043"/>
+    <display value="Colorectal.micro.lymphNodesDetails.site"/>
+  </concept>
+  <concept>
+    <code value="28406.1000043"/>
+    <display value="Colorectal.micro.lymphNodesDetails.numPos"/>
+  </concept>
+  <concept>
+    <code value="28437.1000043"/>
+    <display value="Colorectal.micro.lymphNodesDetails.numExamined"/>
+  </concept>
+  <concept>
+    <code value="28392.1000043"/>
+    <display value="Colorectal.micro.extramuralTumourDeposits"/>
+  </concept>
+  <concept>
+    <code value="28407.1000043"/>
+    <display value="Colorectal.micro.apicalNodeInvolvement"/>
+  </concept>
+  <concept>
+    <code value="28411.1000043"/>
+    <display value="Colorectal.micro.venousSmallVesselInvasion"/>
+  </concept>
+  <concept>
+    <code value="28412.1000043"/>
+    <display value="Colorectal.micro.intramuralVeinInvasion"/>
+  </concept>
+  <concept>
+    <code value="28415.1000043"/>
+    <display value="Colorectal.micro.extramuralVeinInvasion"/>
+  </concept>
+  <concept>
+    <code value="28418.1000043"/>
+    <display value="Colorectal.micro.smallVesselInvasion"/>
+  </concept>
+  <concept>
+    <code value="28136.1000043"/>
+    <display value="Colorectal.micro.perineuralInvasion"/>
+  </concept>
+  <concept>
+    <code value="28236.1000043"/>
+    <display value="Colorectal.micro.histoConfDistMetastases"/>
+  </concept>
+  <concept>
+    <code value="28242.1000043"/>
+    <display value="Colorectal.micro.histoConfDistMetastasesSite"/>
+  </concept>
+  <concept>
+    <code value="28244.1000043"/>
+    <display value="Colorectal.micro.relCoexistPathabnorm"/>
+  </concept>
+  <concept>
+    <code value="28244.1000043"/>
+    <display value="Colorectal.micro.relCoexistPathabnorm.code"/>
+  </concept>
+  <concept>
+    <code value="28426.1000043"/>
+    <display value="Colorectal.micro.dysplasia"/>
+  </concept>
+  <concept>
+    <code value="28425.1000043"/>
+    <display value="Colorectal.micro.microResidualTumourStatus"/>
+  </concept>
+  <concept>
+    <code value="28123.1000043"/>
+    <display value="Colorectal.micro.neoadjuvantTherapy"/>
+  </concept>
+  <concept>
+    <code value="28431.1000043"/>
+    <display value="Colorectal.micro.microComments"/>
+  </concept>
+  <concept>
+    <code value="28156.1000043"/>
+    <display value="Colorectal.ancillaryTests"/>
+  </concept>
+  <concept>
+    <code value="28433.1000043"/>
+    <display value="!Colorectal.ancillaryTests.mismatchRepairEnz"/>
+  </concept>
+  <concept>
+    <code value="28434.1000043"/>
+    <display value="Colorectal.ancillaryTests.mlh1"/>
+  </concept>
+  <concept>
+    <code value="28442.1000043"/>
+    <display value="Colorectal.ancillaryTests.pms2"/>
+  </concept>
+  <concept>
+    <code value="28493.1000043"/>
+    <display value="Colorectal.ancillaryTests.msh2"/>
+  </concept>
+  <concept>
+    <code value="28544.1000043"/>
+    <display value="Colorectal.ancillaryTests.msh6"/>
+  </concept>
+  <concept>
+    <code value="28436.1000043"/>
+    <display value="Colorectal.ancillaryTests.comments"/>
+  </concept>
+  <concept>
+    <code value="28399.1000043"/>
+    <display value="Colorectal.ancillaryTests.msi"/>
+  </concept>
+  <concept>
+    <code value="28453.1000043"/>
+    <display value="Colorectal.ancillaryTests.msi.comments"/>
+  </concept>
+  <concept>
+    <code value="28447.1000043"/>
+    <display value="Colorectal.ancillaryTests.msi.labDetails"/>
+  </concept>
+  <concept>
+    <code value="28454.1000043"/>
+    <display value="Colorectal.ancillaryTests.braf"/>
+  </concept>
+  <concept>
+    <code value="28460.1000043"/>
+    <display value="Colorectal.ancillaryTests.braf.comments"/>
+  </concept>
+  <concept>
+    <code value="28459.1000043"/>
+    <display value="Colorectal.ancillaryTests.braf.labDetails"/>
+  </concept>
+  <concept>
+    <code value="28461.1000043"/>
+    <display value="Colorectal.ancillaryTests.kras"/>
+  </concept>
+  <concept>
+    <code value="28465.1000043"/>
+    <display value="Colorectal.ancillaryTests.kras.comments"/>
+  </concept>
+  <concept>
+    <code value="28466.1000043"/>
+    <display value="Colorectal.ancillaryTests.kras.labDetails"/>
+  </concept>
+  <concept>
+    <code value="28253.1000043"/>
+    <display value="Colorectal.synthesisOverview"/>
+  </concept>
+  <concept>
+    <code value="28204.1000043"/>
+    <display value="!Colorectal.synthesisOverview.tumourStage"/>
+  </concept>
+  <concept>
+    <code value="28210.1000043"/>
+    <display value="Colorectal.synthesisOverview.tumourStageT"/>
+  </concept>
+  <concept>
+    <code value="28220.1000043"/>
+    <display value="Colorectal.synthesisOverview.tumourStageN"/>
+  </concept>
+  <concept>
+    <code value="28552.1000043"/>
+    <display value="Colorectal.synthesisOverview.tumourStageM"/>
+  </concept>
+  <concept>
+    <code value="28243.1000043"/>
+    <display value="Colorectal.synthesisOverview.tumourStageGrouping"/>
+  </concept>
+  <concept>
+    <code value="28317.1000043"/>
+    <display value="Colorectal.synthesisOverview.residualTumourStatus"/>
+  </concept>
+  <concept>
+    <code value="28842.1000043"/>
+    <display value="Colorectal.synthesisOverview.diagnosticSummary"/>
+  </concept>
+  <concept>
+    <code value="28472.1000043"/>
+    <display value="Colorectal.synthesisOverview.newPrimaryOrRecurrence"/>
+  </concept>
+  <concept>
+    <code value="28473.1000043"/>
+    <display value="Colorectal.synthesisOverview.newDescription"/>
+  </concept>
+  <concept>
+    <code value="28252.1000043"/>
+    <display value="Colorectal.synthesisOverview.overarchingComment"/>
+  </concept>
+</CodeSystem>
