@@ -46,8 +46,8 @@
         <display value="Apex of prostate"/>
       </concept>
       <concept>
-        <code value="255562008"/>
-        <display value="Mid"/>
+        <code value="279704000"/>
+        <display value="Median sulcus of prostate"/>
       </concept>
       <!--<concept>
         <code value="xxxxxxxxx"/>

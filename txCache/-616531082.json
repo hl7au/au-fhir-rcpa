@@ -1,0 +1,1 @@
+{"resourceType":"ValueSet","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"68756004","display":"Apex of prostate"},{"code":"279704000","display":"Median sulcus of prostate"},{"code":"36082003","display":"Base of prostate"}]}]}}

@@ -36,12 +36,16 @@
     <include>
       <system value="http://snomed.info/sct"/>
       <concept>
-        <code value="87017008"/>
-        <display value="Focal"/>
+        <code value="420387003"/>
+        <display value="Extraprostatic extension of tumor present, non-focal "/>
+      </concept>
+      <concept>
+        <code value="420366008"/>
+        <display value="Extraprostatic extension of tumor present, focal "/>
       </concept>
     </include>
-    <include>
+    <!--<include>
       <system value="http://fhir.hl7.org.au/rcpa/CodeSystem/focal-non-focal"/>
-    </include>
+    </include>-->
   </compose>
 </ValueSet>
