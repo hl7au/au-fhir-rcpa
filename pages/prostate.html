@@ -17,7 +17,7 @@ category: home
   <div class="container">  <!-- container -->
    <ul class="breadcrumb">
           <!-- daf\daf / page / daf -->
-        <li title="Colorectal Implementation Guide"><b>Home</b></li>
+       <li title="Prostate (radical prostatectomy) Implementation Guide"><b>Home</b></li>
 
    </ul>
   </div>  <!-- /container -->
@@ -36,37 +36,50 @@ category: home
 <h1>Table of Contents</h1>
 
 <p>
-Parts of this spec:
+On this page:
 </p>
 <ul>
  <li><a href="#intro">Introduction</a></li>
-    <li><a href="#logical">Prostate (radical prostatectomy) Report</a></li>
- <li>Resource Mapping Table </li>
- <li><a href="#definitions">Data Element Definitions</a></li>
  <li><a href="#examples">Examples</a></li>
+ <li><a href="#logical">Prostate (radical prostatectomy) Report</a></li>
+ <!--<li>Resource Mapping Table </li>-->
+ <li><a href="#definitions">Formal Definitions</a></li>
+ <!--<li><a href="#examples">Examples</a></li>
  <li><a href="terminology.html">Code Systems &amp; ValueSets</a></li>
  <li>FHIR Profiles &amp; ValueSets</li>
- <li>How to wrap FHIR resources in V2 messages</li>
+ <li>How to wrap FHIR resources in V2 messages</li>-->
 </ul> 
 
 <a name="intro"> </a>
 <h1>Introduction</h1>
 
 <p>
-    The Royal College of Pathologists of Australasia (RCPA) has a number of projects running as part of the Pathology Information, Terminology and Units Standardisation (PITUS-15-16) Project.
-    One of these projects (working group 5) is concerned with report modelling and in particular the development of structured cancer protocols.
-    Two structured cancer protocols (https://www.rcpa.edu.au/Library/Practising-Pathology/Structured-Pathology-Reporting-of-Cancer/Cancer-Protocols) 
-    ie colorectal cancer and prostate cancer (radical prostatectomy), were chosen to pilot the development of FHIR artefacts. 
-    It is envisaged these FHIR artefacts will be used in some example colorectal and prostate cancer (radical prostatectomy) pathology reports from public and private pathology providers. 
-    These trial reports will be sent to and consumed by selected cancer registries. 
-    It is envisaged this pilot project will determine a way forward for greater adoption of the use of structured cancer reporting and in particular the use of FHIR to facilitate this change.
-    These preliminary cancer protocols (colorectal and prostate-radical prostatectomy) require further development of the terminology valuesets ie the next release (Sep 2016) of 
-    SNOMED CT-AU is expected to have more of the required result values.
+    <!-- Description of prostate (radical) report ripped from RCPA document. -->
+    This implementation guide is developed from the Royal College of Pathologists of Australasia's (RCPA) "Prostate Cancer (Radical Prostatectomy) - Structured Reporting Protocol" (2nd edition 2014). 
+    There are separate protocols for core (needle) biopsies and transurethral resection (TUR) specimens. 
+    </p>
     <p>
-    These protocols (colorectal cancer and prostate-radical prostatectomy) are likely to be change to suit implementation when that occurs in H2 2016.  
-    These protocols are being developed for trial implementation at selected sites are are not yet suitable for wider consumption.
+        Structured reporting aims to improve the completeness and usability of pathology reports for clinicians, and improve decision support for cancer treatment. The protocol provides the framework for the reporting of any prostate (radical prostectomy) cancer, whether as a minimum data set or fully comprehensive report.
+        The prostate (radical prostectomy) cancer protocol is based on information contained within multiple international publications and datasets and has been developed in consultation with local practising pathologists, oncologists, surgeons, radiologists and interested national bodies.
+    </p>
+    <p>
+        This implementation guide is developed as part of RCPA's PITUS 15-16 working group 5 project - Report Modelling.
     </p>
 </p>
+
+    <a name="examples"> </a>
+    <h2>Examples</h2>
+    
+    
+    <!--<table class="grid">
+        <tr><td><b>1</b></td><td><a href="Bundle-Prostate-genexample-1.html">Wire Format</a></td><td><a href="Prostate-Prostate-genexample-1-map.html">Logical Model</a></td></tr>
+        <tr><td><b>2</b></td><td><a href="Bundle-Prostate-genexample-2.html">Wire Format</a></td><td><a href="Prostate-Prostate-genexample-2-map.html">Logical Model</a></td></tr>
+        <tr><td><b>3</b></td><td><a href="Bundle-Prostate-genexample-3.html">Wire Format</a></td><td><a href="Prostate-Prostate-genexample-3-map.html">Logical Model</a></td></tr>
+        <tr><td><b>4</b></td><td><a href="Bundle-Prostate-genexample-4.html">Wire Format</a></td><td><a href="Prostate-Prostate-genexample-4-map.html">Logical Model</a></td></tr>
+        <tr><td><b>5</b></td><td><a href="Bundle-Prostate-genexample-5.html">Wire Format</a></td><td><a href="Prostate-Prostate-genexample-5-map.html">Logical Model</a></td></tr>
+        <tr><td><b>6</b></td><td><a href="Bundle-Prostate-genexample-6.html">Wire Format</a></td><td><a href="Prostate-Prostate-genexample-6-map.html">Logical Model</a></td></tr>
+    </table>-->
+
 
 <a name="logical"> </a>
     <h1>Prostate (radical prostatectomy) Report</h1>
@@ -78,12 +91,12 @@ Parts of this spec:
 
 {% include  StructureDefinition-Prostate-dict.xhtml %}
 
-<a name="examples"> </a>
+<!--<a name="examples"> </a>
 <h1>Examples</h1>
 
 <ul>
  <li><a href="example1.html">Example 1</a></li>
-</ul>
+</ul>-->
 
 </div>
 
