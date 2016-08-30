@@ -15,7 +15,7 @@
     </extension> -->
   <url value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-rel-anterior-peritoneal-reflection"/>
   <version value="20150619"/>
-  <name value="NehtaRelAnteriorPeritonealReflection"/>
+  <name value="CrcRelAnteriorPeritonealReflection"/>
   <status value="draft"/>
   <experimental value="false"/>
   <publisher value="HL7 (FHIR Project)"/>

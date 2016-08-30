@@ -15,7 +15,7 @@
     </extension> -->
   <url value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-peritoneum-invasion"/>
   <version value="20150619"/>
-  <name value="NehtaPeritoneumInvasion"/>
+  <name value="CrcPeritoneumInvasion"/>
   <status value="draft"/>
   <experimental value="false"/>
   <publisher value="HL7 (FHIR Project)"/>

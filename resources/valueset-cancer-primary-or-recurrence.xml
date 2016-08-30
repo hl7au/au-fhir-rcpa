@@ -15,7 +15,7 @@
   </extension> -->
   <url value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/cancer-primary-or-recurrence"/>
   <version value="20160614"/>
-  <name value="NehtaCancerPrimaryOrRecurrence"/>
+  <name value="CancerPrimaryOrRecurrence"/>
   <status value="active"/>
   <experimental value="true"/>
   <publisher value="Australian Digital Health Agency"/>
