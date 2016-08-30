@@ -2,7 +2,7 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="crc-operation-type"/>
-  <url value="http://fhir.hl7.org.au/rcpa/CodeSystem/crc-operation-type"/>
+  <url value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/crc-operation-type"/>
   <version value="20150618"/>
   <name value="ColorectalCancerOperationType"/>
   <status value="active"/>
@@ -11,7 +11,7 @@
   <description value="This is the code indicates the type of operation for the colorectal cancer."/>
   <copyright value="This value set includes content from SNOMED CT, which is copyright Â© 2002+ International       Health Terminology Standards Development Organisation (IHTSDO), and distributed by    agreement    between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this    agreement"/>
   <caseSensitive value="true"/>
-  <valueSet value="http://fhir.hl7.org.au/rcpa/ValueSet/crc-operation-type"/>
+  <valueSet value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-operation-type"/>
   <content value="complete"/>
   <concept>
     <code value="other_procedures"/>

@@ -2,7 +2,7 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="involved-notinvolved"/>
-  <url value="http://fhir.hl7.org.au/rcpa/CodeSystem/involved-notinvolved"/>
+  <url value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/involved-notinvolved"/>
   <version value="20150618"/>
   <name value="InvolvedNotinvolved"/>
   <status value="active"/>
@@ -11,7 +11,7 @@
   <description value="Indicates whether a specimen was involved or not involved."/>
   <copyright value="This value set includes content from SNOMED CT, which is copyright Â© 2002+ International       Health Terminology Standards Development Organisation (IHTSDO), and distributed by    agreement    between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this    agreement"/>
   <caseSensitive value="true"/>
-  <valueSet value="http://fhir.hl7.org.au/rcpa/ValueSet/involved-notinvolved"/>
+  <valueSet value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/involved-notinvolved"/>
   <content value="complete"/>
   <concept>
     <code value="not_involved"/>

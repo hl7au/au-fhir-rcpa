@@ -13,7 +13,7 @@
 <!-- <extension url="http://hl7.org/fhir/StructureDefinition/valueset-oid">
     <valueUri value="urn:oid:2.16.840.1.113883.3.88.12.80.67"/>   
     </extension> -->
-  <url value="http://fhir.hl7.org.au/rcpa/ValueSet/new-cancer-or-recurrence"/>
+  <url value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/new-cancer-or-recurrence"/>
   <version value="20150625"/>
   <name value="NewCancerOrRecurrence"/>
   <status value="draft"/>
@@ -46,7 +46,7 @@
       </concept>
     </include>
     <include>
-      <system value="http://fhir.hl7.org.au/rcpa/CodeSystem/new-cancer-or-recurrence"/>
+      <system value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/new-cancer-or-recurrence"/>
     </include>
   </compose>
 </ValueSet>

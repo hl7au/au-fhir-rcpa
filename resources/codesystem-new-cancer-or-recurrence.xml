@@ -2,7 +2,7 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="new-cancer-or-recurrence"/>
-  <url value="http://fhir.hl7.org.au/rcpa/CodeSystem/new-cancer-or-recurrence"/>
+  <url value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/new-cancer-or-recurrence"/>
   <version value="20150626"/>
   <name value="NewCancerOrRecurrence"/>
   <status value="draft"/>
@@ -10,7 +10,7 @@
   <date value="2015-06-11T09:01:03+03:00"/>
   <description value="Lists the options for recording the a new primary cancer or a residual cancer, if known."/>
   <caseSensitive value="true"/>
-  <valueSet value="http://fhir.hl7.org.au/rcpa/ValueSet/new-cancer-or-recurrence"/>
+  <valueSet value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/new-cancer-or-recurrence"/>
   <content value="complete"/>
   <concept>
     <code value="new-primary"/>

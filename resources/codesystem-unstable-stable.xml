@@ -2,7 +2,7 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="unstable-stable"/>
-  <url value="http://fhir.hl7.org.au/rcpa/CodeSystem/unstable-stable"/>
+  <url value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/unstable-stable"/>
   <version value="20150625"/>
   <name value="UnstableStable"/>
   <status value="draft"/>
@@ -10,7 +10,7 @@
   <date value="2015-06-11T09:01:03+03:00"/>
   <description value="Provides the results options of stable, unstable or not tested."/>
   <caseSensitive value="true"/>
-  <valueSet value="http://fhir.hl7.org.au/rcpa/ValueSet/unstable-stable"/>
+  <valueSet value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/unstable-stable"/>
   <content value="complete"/>
   <concept>
     <code value="unstable"/>

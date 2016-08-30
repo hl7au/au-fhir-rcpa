@@ -2,7 +2,7 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="cancer-primary-or-recurrence"/>
-  <url value="http://fhir.hl7.org.au/rcpa/CodeSystem/cancer-primary-or-recurrence"/>
+  <url value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/cancer-primary-or-recurrence"/>
   <version value="20150619"/>
   <name value="NehtaCancerPrimaryOrRecurrence"/>
   <status value="draft"/>
@@ -10,7 +10,7 @@
   <date value="2015-06-11T09:01:03+03:00"/>
   <description value="Indicates whether a new primary cancer or a regional recurrence or distant metastases."/>
   <caseSensitive value="true"/>
-  <valueSet value="http://fhir.hl7.org.au/rcpa/ValueSet/cancer-primary-or-recurrence"/>
+  <valueSet value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/cancer-primary-or-recurrence"/>
   <content value="complete"/>
   <concept>
     <code value="new_primary"/>

@@ -2,7 +2,7 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="involved-notinvolved-na"/>
-  <url value="http://fhir.hl7.org.au/rcpa/CodeSystem/involved-notinvolved-na"/>
+  <url value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/involved-notinvolved-na"/>
   <version value="20150618"/>
   <name value="InvolvedNotinvolvedNA"/>
   <status value="active"/>
@@ -11,7 +11,7 @@
   <description value="Indicates whether a specimen was involved, not involved or not applicable."/>
   <copyright value="This value set includes content from SNOMED CT, which is copyright Â© 2002+ International       Health Terminology Standards Development Organisation (IHTSDO), and distributed by    agreement    between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this    agreement"/>
   <caseSensitive value="true"/>
-  <valueSet value="http://fhir.hl7.org.au/rcpa/ValueSet/involved-notinvolved-na"/>
+  <valueSet value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/involved-notinvolved-na"/>
   <content value="complete"/>
   <concept>
     <code value="not_involved"/>

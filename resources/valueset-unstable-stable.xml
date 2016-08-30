@@ -13,7 +13,7 @@
 <!-- <extension url="http://hl7.org/fhir/StructureDefinition/valueset-oid">
     <valueUri value="urn:oid:2.16.840.1.113883.3.88.12.80.67"/>   
     </extension> -->
-  <url value="http://fhir.hl7.org.au/rcpa/ValueSet/unstable-stable"/>
+  <url value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/unstable-stable"/>
   <version value="20150625"/>
   <name value="UnstableStable"/>
   <status value="draft"/>
@@ -33,7 +33,7 @@
   <description value="Provides the results options of stable, unstable or not tested."/>
   <compose>
     <include>
-      <system value="http://fhir.hl7.org.au/rcpa/CodeSystem/unstable-stable"/>
+      <system value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/unstable-stable"/>
     </include>
   </compose>
 </ValueSet>

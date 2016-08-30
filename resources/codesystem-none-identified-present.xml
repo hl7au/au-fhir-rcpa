@@ -2,7 +2,7 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="none-identified-present"/>
-  <url value="http://fhir.hl7.org.au/rcpa/CodeSystem/none-identified-present"/>
+  <url value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/none-identified-present"/>
   <version value="20151104"/>
   <name value="NoneIdentifiedPresent"/>
   <status value="active"/>
@@ -11,7 +11,7 @@
   <description value="Indicates if there are any other nodules present."/>
   <copyright value="This value set includes content from SNOMED CT, which is copyright Â© 2002+ International       Health Terminology Standards Development Organisation (IHTSDO), and distributed by    agreement    between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this    agreement"/>
   <caseSensitive value="true"/>
-  <valueSet value="http://fhir.hl7.org.au/rcpa/ValueSet/none-identified-present"/>
+  <valueSet value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/none-identified-present"/>
   <content value="complete"/>
   <concept>
     <code value="none_identified"/>
