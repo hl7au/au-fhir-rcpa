@@ -1,1 +1,1 @@
-{"resourceType":"ValueSet","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"373121007","display":"Test not done"}]}]}}
+{"resourceType":"ValueSet","expansion":{"identifier":"urn:uuid:77704eab-d139-448f-b7db-c71a872bbf8a","timestamp":"2016-08-31T06:17:00Z","parameter":[{"name":"version","valueUri":"http://snomed.info/sct?version=http://snomed.info/sct/731000124108/version/20150901"}],"contains":[{"system":"http://snomed.info/sct","code":"373121007","display":"Test not done"}]}}

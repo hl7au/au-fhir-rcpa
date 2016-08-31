@@ -1,1 +1,1 @@
-{"resourceType":"ValueSet","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"248448006","display":"Involved"}]}]}}
+{"resourceType":"ValueSet","expansion":{"identifier":"urn:uuid:31e16cbc-2ef1-45b3-b4ef-d37d3ad33f40","timestamp":"2016-08-31T06:16:58Z","parameter":[{"name":"version","valueUri":"http://snomed.info/sct?version=http://snomed.info/sct/731000124108/version/20150901"}],"contains":[{"system":"http://snomed.info/sct","code":"248448006","display":"Involved"}]}}

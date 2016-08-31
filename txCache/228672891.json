@@ -1,1 +1,1 @@
-{"resourceType":"ValueSet","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"372306004","display":"Extraprostatic extension of tumor present"}]}]}}
+{"resourceType":"ValueSet","expansion":{"identifier":"urn:uuid:f1dee904-f8b7-4223-829a-8c76980a48a5","timestamp":"2016-08-31T06:17:08Z","parameter":[{"name":"version","valueUri":"http://snomed.info/sct?version=http://snomed.info/sct/731000124108/version/20150901"}],"contains":[{"system":"http://snomed.info/sct","code":"372306004","display":"Extraprostatic extension of tumor present"}]}}
