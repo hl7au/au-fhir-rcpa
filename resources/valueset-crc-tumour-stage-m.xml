@@ -44,7 +44,7 @@
     <status value="active"/>
     <experimental value="true"/>
     <date value="2015-06-11T16:01:03+10:00"/>
-    <compose>
+    <!--<compose>
         <include>
             <system value="http://loinc.org"/>
             <concept>
@@ -64,7 +64,7 @@
                 <display value="m1b"/>
             </concept>
         </include>
-    </compose>
+    </compose>-->
     
     <!--<codeSystem>   Commented out 3rd Dec 2015 and added LOINC answer codes  from 21907-1 (above)
         

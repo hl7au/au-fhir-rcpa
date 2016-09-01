@@ -18,4 +18,9 @@
     <display value="Not identified"/>
     <definition value="Indicates whether the value was not identified"/>
   </concept>
+  <concept>
+    <code value="present"/>
+    <display value="Present"/>
+    <definition value="Present"/>
+  </concept>
 </CodeSystem>

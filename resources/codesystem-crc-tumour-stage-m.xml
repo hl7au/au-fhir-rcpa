@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="crc-tumour-stage-m"/>
+  <url value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/crc-tumour-stage-m"/>
+  <version value="20150619"/>
+  <name value="CrcTumourStageM"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2015-06-11T09:01:03+03:00"/>
+  <description value="Lists the options for Colorectal cancer tumour stage M"/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-tumour-stage-M"/>
+  <content value="complete"/>
+  <concept>
+    <code value="mx"/>
+    <display value="MX"/>
+    <definition value="MX"/>
+  </concept>
+  <concept>
+    <code value="m0"/>
+    <display value="M0"/>
+    <definition value="M0"/>
+  </concept>
+  <concept>
+    <code value="m1"/>
+    <display value="M1"/>
+    <definition value="M1"/>
+  </concept>
+  <concept>
+    <code value="m1a"/>
+    <display value="M1a"/>
+    <definition value="M1a"/>
+  </concept>
+  <concept>
+    <code value="m1b"/>
+    <display value="M1b"/>
+    <definition value="M1b"/>
+  </concept>
+  
+  
+</CodeSystem>
