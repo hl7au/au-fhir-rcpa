@@ -11,7 +11,7 @@
   <LastPrinted>2016-09-01T01:29:45Z</LastPrinted>
   <Created>2012-03-19T11:12:07Z</Created>
   <LastSaved>2016-09-01T03:09:22Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
@@ -21,8 +21,8 @@
    <Path>\work\subversion\fhir\build\source\colorectal\Archive\Invariants</Path>
    <SheetName>Invariants</SheetName>
   </SupBook>
-  <WindowHeight>12816</WindowHeight>
-  <WindowWidth>28800</WindowWidth>
+  <WindowHeight>17170</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <TabRatio>735</TabRatio>
@@ -1238,7 +1238,7 @@
   <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="4" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s70" ss:DefaultRowHeight="15">
    <Column ss:StyleID="s70" ss:AutoFitWidth="0" ss:Width="162"/>
-   <Column ss:StyleID="s70" ss:AutoFitWidth="0" ss:Width="486.6"/>
+   <Column ss:StyleID="s70" ss:AutoFitWidth="0" ss:Width="486.5"/>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Name</Data></Cell>
     <Cell><Data ss:Type="String">Value</Data></Cell>
@@ -1288,51 +1288,48 @@
   </Names>
   <Table ss:ExpandedColumnCount="48" ss:ExpandedRowCount="112" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s73" ss:DefaultRowHeight="15">
-   <Column ss:StyleID="s74" ss:AutoFitWidth="0" ss:Width="246.6"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="77.399999999999991"/>
-   <Column ss:StyleID="s73" ss:Width="29.4"/>
-   <Column ss:StyleID="s75" ss:AutoFitWidth="0" ss:Width="42.6"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="91.8"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="28.8"/>
+   <Column ss:StyleID="s74" ss:AutoFitWidth="0" ss:Width="246.5"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="77.5"/>
+   <Column ss:StyleID="s73" ss:Width="29.5"/>
+   <Column ss:StyleID="s75" ss:AutoFitWidth="0" ss:Width="42.5"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="92"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="29"/>
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="27"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="106.80000000000001"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="138.6"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="145.79999999999998"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="187.8"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="218.39999999999998"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="235.79999999999998"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="166.8"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="107"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="138.5"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="146"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="188"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="218.5"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="236"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="167"/>
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="318"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="266.40000000000003"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="232.8" ss:Span="1"/>
-   <Column ss:Index="19" ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="242.4"/>
-   <Column ss:StyleID="s73" ss:Width="51.6" ss:Span="1"/>
-   <Column ss:Index="22" ss:StyleID="s73" ss:AutoFitWidth="0"
-    ss:Width="80.400000000000006"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="120.60000000000001"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="161.4"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="187.8"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="266.5"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="233" ss:Span="1"/>
+   <Column ss:Index="19" ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="242.5"/>
+   <Column ss:StyleID="s73" ss:Width="51.5" ss:Span="1"/>
+   <Column ss:Index="22" ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="80.5"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="120.5"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="161.5"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="188"/>
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="135"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="50.4"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="50.5"/>
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="120"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="458.4"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="458.5"/>
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="120" ss:Span="2"/>
    <Column ss:Index="33" ss:StyleID="s75" ss:AutoFitWidth="0" ss:Width="120"/>
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="120" ss:Span="1"/>
    <Column ss:Index="36" ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="135"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="61.8"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="103.8"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="50.4"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="62"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="104"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="50.5"/>
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="66"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="119.4"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="119.5"/>
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="78"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="80.400000000000006"
-    ss:Span="1"/>
-   <Column ss:Index="45" ss:StyleID="s73" ss:AutoFitWidth="0"
-    ss:Width="71.400000000000006"/>
-   <Column ss:StyleID="s76" ss:AutoFitWidth="0" ss:Width="140.4"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="80.5" ss:Span="1"/>
+   <Column ss:Index="45" ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="71.5"/>
+   <Column ss:StyleID="s76" ss:AutoFitWidth="0" ss:Width="140.5"/>
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="84" ss:Span="1"/>
-   <Row ss:AutoFitHeight="0" ss:Height="79.2" ss:StyleID="s77">
+   <Row ss:AutoFitHeight="0" ss:Height="79.25" ss:StyleID="s77">
     <Cell ss:StyleID="s79"><Data ss:Type="String">Element</Data><Comment
       ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><Font
         html:Face="Tahoma" x:Family="Swiss" html:Size="8" html:Color="#000000">Format is ResourceName.componentName.componentName</Font></ss:Data></Comment><NamedCell
@@ -1666,7 +1663,7 @@
     <Cell><Data ss:Type="String">Surgeon primary</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="104.55000000000001">
+   <Row ss:AutoFitHeight="0" ss:Height="104.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.performer</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Laboratory, Service, Practitioner, Department, Company</Data><NamedCell
@@ -1744,7 +1741,7 @@
     <Cell ss:Index="48"><Data ss:Type="String">23.02.30001</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="46.2">
+   <Row ss:AutoFitHeight="0" ss:Height="46.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1802,7 +1799,7 @@
     <Cell ss:StyleID="s99"><Data ss:Type="String" x:Ticked="1">28592.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="76.8">
+   <Row ss:AutoFitHeight="0" ss:Height="76.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.clinicalInformation</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1930,7 +1927,7 @@
     <Cell ss:StyleID="s73"><Data ss:Type="String">Surgeon primary</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="62.550000000000004">
+   <Row ss:AutoFitHeight="0" ss:Height="62.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.perforation</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2009,7 +2006,7 @@
     <Cell><Data ss:Type="String">17.02.28289</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="80.55">
+   <Row ss:AutoFitHeight="0" ss:Height="80.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.natureOfPerforation</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2078,7 +2075,7 @@
     <Cell><Data ss:Type="String">17.02.28296</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="49.8">
+   <Row ss:AutoFitHeight="0" ss:Height="49.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.clinicalObstruction</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2155,7 +2152,7 @@
     <Cell ss:StyleID="s99"><Data ss:Type="String" x:Ticked="1">28292.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="136.19999999999999">
+   <Row ss:AutoFitHeight="0" ss:Height="136.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.tumourLocation</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2239,7 +2236,7 @@
     <Cell><Data ss:Type="String">17.02.28347</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="119.55">
+   <Row ss:AutoFitHeight="0" ss:Height="119.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.synchronousTumours</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2379,7 +2376,7 @@
     <Cell><Data ss:Type="String">17.02.28335</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="179.54999999999998">
+   <Row ss:AutoFitHeight="0" ss:Height="179.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.typeOfOperation</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2443,7 +2440,7 @@
     <Cell><Data ss:Type="String">17.02.27919</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="179.54999999999998">
+   <Row ss:AutoFitHeight="0" ss:Height="179.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.typeOfOperation.code</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2521,7 +2518,7 @@
     <Cell ss:StyleID="s99"><Data ss:Type="String" x:Ticked="1">27919.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.typeOfOperation.other</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2575,7 +2572,7 @@
     <Cell ss:Index="47" ss:StyleID="s99"><Data ss:Type="Number">27928.100004299999</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="44.550000000000004">
+   <Row ss:AutoFitHeight="0" ss:Height="44.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.anteriorResectionType</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2640,7 +2637,7 @@
     <Cell ss:Index="47" ss:StyleID="s99"><Data ss:Type="String" x:Ticked="1">28278.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="61.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="61.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.preoperativeRadiotherapy</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2785,7 +2782,7 @@
     <Cell ss:Index="47" ss:StyleID="s99"><Data ss:Type="Number">28286.100004299999</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="49.8">
+   <Row ss:AutoFitHeight="0" ss:Height="49.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.surgeonsOpinion</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2857,7 +2854,7 @@
     <Cell ss:StyleID="s99"><Data ss:Type="String" x:Ticked="1">28295.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="48.45">
+   <Row ss:AutoFitHeight="0" ss:Height="48.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.adjacentOrgans</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2927,7 +2924,7 @@
     <Cell ss:StyleID="s99"><Data ss:Type="String" x:Ticked="1">28336.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="77.550000000000011">
+   <Row ss:AutoFitHeight="0" ss:Height="77.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.newPrimaryOrRecurrence</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3058,7 +3055,7 @@
     <Cell><Data ss:Type="String">23.02.30002</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="58.8">
+   <Row ss:AutoFitHeight="0" ss:Height="58.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.pathologyAccessionNumber</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3120,7 +3117,7 @@
     <Cell><Data ss:Type="String">17.02.28300</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="31.799999999999997">
+   <Row ss:AutoFitHeight="0" ss:Height="31.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.preAnalytic.otherRelevantDetails</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3183,7 +3180,7 @@
     <Cell><Data ss:Type="String">17.02.28301</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="60.45">
+   <Row ss:AutoFitHeight="0" ss:Height="60.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3244,7 +3241,7 @@
     <Cell><Data ss:Type="String">17.02.27906</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="89.55">
+   <Row ss:AutoFitHeight="0" ss:Height="89.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro.specimenLength</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3485,7 +3482,7 @@
     <Cell><Data ss:Type="String">17.02.28360</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45.449999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="45.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro.distanceNearerProxOrDistal</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3566,7 +3563,7 @@
     <Cell><Data ss:Type="String">17.02.28359</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="58.8">
+   <Row ss:AutoFitHeight="0" ss:Height="58.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro.distNonperitonCircumMargin</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3640,7 +3637,7 @@
     <Cell><Data ss:Type="String">17.02.28358</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="31.200000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="31.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro.tumourPerforation</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3722,7 +3719,7 @@
     <Cell><Data ss:Type="String">17.02.27963</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="75.449999999999989">
+   <Row ss:AutoFitHeight="0" ss:Height="75.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro.relToAntPeritonealReflection</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3800,7 +3797,7 @@
     <Cell><Data ss:Type="String">17.02.28362</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="95.550000000000011">
+   <Row ss:AutoFitHeight="0" ss:Height="95.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro.intactnessOfMesorectum</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3881,7 +3878,7 @@
     <Cell><Data ss:Type="String">17.02.27967</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="108.45">
+   <Row ss:AutoFitHeight="0" ss:Height="108.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro.peritoneum</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3951,7 +3948,7 @@
     <Cell><Data ss:Type="String">17.02.28369</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="59.55">
+   <Row ss:AutoFitHeight="0" ss:Height="59.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro.lymphNodes</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4025,7 +4022,7 @@
     <Cell><Data ss:Type="String">17.02.28372</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="195.45">
+   <Row ss:AutoFitHeight="0" ss:Height="195.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro.noLymphNodesPerCassette</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4093,7 +4090,7 @@
     <Cell><Data ss:Type="String">17.02.28375</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="46.800000000000004">
+   <Row ss:AutoFitHeight="0" ss:Height="46.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro.polyps</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4229,7 +4226,7 @@
     <Cell><Data ss:Type="String">17.02.28379</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="267.45">
+   <Row ss:AutoFitHeight="0" ss:Height="267.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro.otherMacroComments</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4306,7 +4303,7 @@
     <Cell><Data ss:Type="String">17.02.28380</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="278.55">
+   <Row ss:AutoFitHeight="0" ss:Height="278.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.macro.natureAndSiteOfBlocks</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4385,7 +4382,7 @@
     <Cell><Data ss:Type="String">17.02.28381</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45.449999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="45.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4534,7 +4531,7 @@
     <Cell><Data ss:Type="String">17.02.27974</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="60.45">
+   <Row ss:AutoFitHeight="0" ss:Height="60.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.histologicalGrade</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4619,7 +4616,7 @@
     <Cell><Data ss:Type="String">17.02.27988</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="179.54999999999998">
+   <Row ss:AutoFitHeight="0" ss:Height="179.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.maxDegreeLocalInvasion</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4794,7 +4791,7 @@
     <Cell><Data ss:Type="String">17.02.28348</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="90.45">
+   <Row ss:AutoFitHeight="0" ss:Height="90.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.involvedMargins</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4936,7 +4933,7 @@
     <Cell><Data ss:Type="String">17.02.28396</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="106.2">
+   <Row ss:AutoFitHeight="0" ss:Height="106.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.nonperitonealisedCircumMargin</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5013,7 +5010,7 @@
     <Cell><Data ss:Type="String">17.02.28354</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="90.45">
+   <Row ss:AutoFitHeight="0" ss:Height="90.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.microClearanceRectum</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5168,7 +5165,7 @@
     <Cell><Data ss:Type="String">17.02.28338</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="115.80000000000001">
+   <Row ss:AutoFitHeight="0" ss:Height="115.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.lymphNodesDetails</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5222,7 +5219,7 @@
     <Cell ss:StyleID="s99"><Data ss:Type="Number">28404.100004299999</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="130.19999999999999">
+   <Row ss:AutoFitHeight="0" ss:Height="130.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.lymphNodesDetails.site</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5291,7 +5288,7 @@
     <Cell><Data ss:Type="String">17.02.28403&#10;&#10;</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="130.19999999999999">
+   <Row ss:AutoFitHeight="0" ss:Height="130.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.lymphNodesDetails.numPos</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5364,7 +5361,7 @@
     <Cell><Data ss:Type="String">17.02.28406</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="130.19999999999999">
+   <Row ss:AutoFitHeight="0" ss:Height="130.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.lymphNodesDetails.numExamined</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5435,7 +5432,7 @@
     <Cell><Data ss:Type="String">17.02.28437</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="49.2">
+   <Row ss:AutoFitHeight="0" ss:Height="49.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.extramuralTumourDeposits</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5594,7 +5591,7 @@
     <Cell><Data ss:Type="String">17.02.28407</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="61.8">
+   <Row ss:AutoFitHeight="0" ss:Height="61.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.venousSmallVesselInvasion</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5659,7 +5656,7 @@
     <Cell><Data ss:Type="String">17.02.28411</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="69.45">
+   <Row ss:AutoFitHeight="0" ss:Height="69.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.intramuralVeinInvasion</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5823,7 +5820,7 @@
     <Cell><Data ss:Type="String">17.02.28415</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="64.95">
+   <Row ss:AutoFitHeight="0" ss:Height="65">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.smallVesselInvasion</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5908,7 +5905,7 @@
     <Cell><Data ss:Type="String">17.02.28418</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45.449999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="45.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.perineuralInvasion</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6149,7 +6146,7 @@
     <Cell><Data ss:Type="String">17.02.28242</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="160.80000000000001">
+   <Row ss:AutoFitHeight="0" ss:Height="160.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.relCoexistPathabnorm</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6215,7 +6212,7 @@
     <Cell ss:StyleID="s118"><Data ss:Type="String">17.02.28244</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="160.80000000000001">
+   <Row ss:AutoFitHeight="0" ss:Height="160.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.relCoexistPathabnorm.code</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6299,7 +6296,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="160.80000000000001">
+   <Row ss:AutoFitHeight="0" ss:Height="160.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.relCoexistPathabnorm.other</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6359,7 +6356,7 @@
     <Cell><Data ss:Type="String">23.02.30003</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45.449999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="45.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.polypDetails</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6420,7 +6417,7 @@
     <Cell ss:Index="48"><Data ss:Type="String">17.02.28486</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="58.8">
+   <Row ss:AutoFitHeight="0" ss:Height="58.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.dysplasia</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6537,7 +6534,7 @@
     <Cell ss:StyleID="s73"><Data ss:Type="String">Additional pathological findings</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="61.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="61.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.microResidualTumourStatus</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6613,7 +6610,7 @@
     <Cell><Data ss:Type="String">17.02.28425</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="134.54999999999998">
+   <Row ss:AutoFitHeight="0" ss:Height="134.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.neoadjuvantTherapy</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6691,7 +6688,7 @@
     <Cell><Data ss:Type="String">17.02.28123</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="132.44999999999999">
+   <Row ss:AutoFitHeight="0" ss:Height="132.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.micro.microComments</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6757,7 +6754,7 @@
     <Cell><Data ss:Type="String">17.02.28431</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="82.199999999999989">
+   <Row ss:AutoFitHeight="0" ss:Height="82.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6818,7 +6815,7 @@
     <Cell><Data ss:Type="String">17.02.28156</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="94.8">
+   <Row ss:AutoFitHeight="0" ss:Height="94.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">!Colorectal.ancillaryTests.mismatchRepairEnz</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6873,7 +6870,7 @@
     <Cell><Data ss:Type="String">17.02.28433</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45.449999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="45.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.mlh1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7029,7 +7026,7 @@
     <Cell><Data ss:Type="String">17.02.28442</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="43.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="43.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.msh2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7106,7 +7103,7 @@
     <Cell><Data ss:Type="String">17.02.28493</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="43.8">
+   <Row ss:AutoFitHeight="0" ss:Height="43.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.msh6</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7185,7 +7182,7 @@
     <Cell><Data ss:Type="String">17.02.28544</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="154.19999999999999">
+   <Row ss:AutoFitHeight="0" ss:Height="154.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.comments</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7260,7 +7257,7 @@
     <Cell><Data ss:Type="String">17.02.28436</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="46.2">
+   <Row ss:AutoFitHeight="0" ss:Height="46.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.msi</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7312,7 +7309,7 @@
     <Cell ss:Index="47" ss:StyleID="s99"><Data ss:Type="String" x:Ticked="1">28399.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="46.2">
+   <Row ss:AutoFitHeight="0" ss:Height="46.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.msi.code</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7447,7 +7444,7 @@
     <Cell><Data ss:Type="String">17.02.28453</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45.449999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="45.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.msi.labDetails</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7508,7 +7505,7 @@
     <Cell><Data ss:Type="String">17.02.28447</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="44.550000000000004">
+   <Row ss:AutoFitHeight="0" ss:Height="44.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.braf</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7561,7 +7558,7 @@
     <Cell ss:StyleID="s99"><Data ss:Type="String" x:Ticked="1">28454.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="44.550000000000004">
+   <Row ss:AutoFitHeight="0" ss:Height="44.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.braf.code</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7635,7 +7632,7 @@
     <Cell ss:Index="48"><Data ss:Type="String">17.02.28454</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.braf.comments</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7755,7 +7752,7 @@
     <Cell><Data ss:Type="String">17.02.28459</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45.449999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="45.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.kras</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7809,7 +7806,7 @@
     <Cell ss:Index="47" ss:StyleID="s99"><Data ss:Type="String" x:Ticked="1">28461.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45.449999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="45.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.kras.code</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7884,7 +7881,7 @@
     <Cell ss:Index="48"><Data ss:Type="String">17.02.28461</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="52.8">
+   <Row ss:AutoFitHeight="0" ss:Height="52.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.kras.comments</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7944,7 +7941,7 @@
     <Cell><Data ss:Type="String">17.02.28465</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="60.45">
+   <Row ss:AutoFitHeight="0" ss:Height="60.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.ancillaryTests.kras.labDetails</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8064,7 +8061,7 @@
     <Cell><Data ss:Type="String">17.02.28253</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="46.800000000000004">
+   <Row ss:AutoFitHeight="0" ss:Height="46.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">!Colorectal.synthesisOverview.tumourStage</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8142,7 +8139,7 @@
     <Cell><Data ss:Type="String">17.02.28204</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="176.55">
+   <Row ss:AutoFitHeight="0" ss:Height="176.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.synthesisOverview.tumourStageT</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8274,8 +8271,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sso.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;),  obs.value = translate(v, &quot;&quot;&quot;&amp;RC[5]&amp;&quot;&quot;&quot;)&quot;"><Data
-      ss:Type="String">for sso.tumourStageN : code 0..1 as v make create(&quot;Observation&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://snomed.info/sct&quot;, &quot;277206009&quot;),  obs.value = translate(v, &quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-tumour-stage-n&quot;)</Data><NamedCell
+     ss:Formula="=&quot;for sso.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[5]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for sso.tumourStageN : code 0..1 as v make create(&quot;Observation&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://snomed.info/sct&quot;, &quot;277206009&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-tumour-stage-n&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -8311,7 +8308,7 @@
     <Cell><Data ss:Type="String">17.02.28220</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="134.54999999999998">
+   <Row ss:AutoFitHeight="0" ss:Height="134.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.synthesisOverview.tumourStageM</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8388,7 +8385,7 @@
     <Cell><Data ss:Type="String">17.02.28552</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="235.79999999999998">
+   <Row ss:AutoFitHeight="0" ss:Height="235.75">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.synthesisOverview.tumourStageGrouping</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8475,7 +8472,7 @@
     <Cell><Data ss:Type="String">17.02.28204</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="46.2">
+   <Row ss:AutoFitHeight="0" ss:Height="46.25">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.synthesisOverview.tumourStagingSystem</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8783,7 +8780,7 @@
     <Cell><Data ss:Type="String">17.02.28472</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="47.55">
+   <Row ss:AutoFitHeight="0" ss:Height="47.5">
     <Cell ss:StyleID="s101"><Data ss:Type="String">Colorectal.synthesisOverview.newDescription</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -9194,9 +9191,9 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>93</TopRowBottomPane>
+   <TopRowBottomPane>89</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>26</LeftColumnRightPane>
+   <LeftColumnRightPane>17</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -9213,7 +9210,7 @@
     <Pane>
      <Number>0</Number>
      <ActiveRow>96</ActiveRow>
-     <ActiveCol>27</ActiveCol>
+     <ActiveCol>26</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -9514,12 +9511,12 @@
   <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="28" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s159" ss:DefaultRowHeight="15">
    <Column ss:StyleID="s160" ss:AutoFitWidth="0"/>
-   <Column ss:StyleID="s159" ss:AutoFitWidth="0" ss:Width="115.80000000000001"/>
-   <Column ss:StyleID="s159" ss:Width="55.800000000000004"/>
+   <Column ss:StyleID="s159" ss:AutoFitWidth="0" ss:Width="116"/>
+   <Column ss:StyleID="s159" ss:Width="56"/>
    <Column ss:StyleID="s159" ss:Width="165"/>
-   <Column ss:StyleID="s159" ss:AutoFitWidth="0" ss:Width="204.60000000000002"/>
-   <Column ss:StyleID="s159" ss:AutoFitWidth="0" ss:Width="267.60000000000002"/>
-   <Column ss:StyleID="s159" ss:AutoFitWidth="0" ss:Width="458.4"/>
+   <Column ss:StyleID="s159" ss:AutoFitWidth="0" ss:Width="204.5"/>
+   <Column ss:StyleID="s159" ss:AutoFitWidth="0" ss:Width="267.5"/>
+   <Column ss:StyleID="s159" ss:AutoFitWidth="0" ss:Width="458.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s77">
     <Cell ss:StyleID="s161"><Data ss:Type="String">Id</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -9560,7 +9557,7 @@
     <Cell ss:StyleID="s95"><Data ss:Type="String">perforation = 'present' implies natureOfPerforation.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(f:perforation/@value = 'present') or exists(f:natureOfPerforation)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="44.550000000000004">
+   <Row ss:AutoFitHeight="0" ss:Height="44.5">
     <Cell ss:StyleID="s167"><Data ss:Type="String">02</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Distance from anal verge</Data></Cell>
@@ -9570,7 +9567,7 @@
     <Cell ss:StyleID="s95"><Data ss:Type="String">$this = 'Rectum' implies distanceAnalVergen.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Rectum') or exists(f:distanceAnalVerge)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="61.8">
+   <Row ss:AutoFitHeight="0" ss:Height="61.75">
     <Cell ss:StyleID="s167"><Data ss:Type="String">03</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Other procedure</Data></Cell>
@@ -9580,7 +9577,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this ='Other procedure(s.exists()' implies typeOfProcedure.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Other procedure(s)') or exists(f:typeOfProcedure)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="61.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="61.25">
     <Cell ss:StyleID="s167"><Data ss:Type="String">04</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Anterior resection type</Data></Cell>
@@ -9590,7 +9587,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this = 'Anterior resection' implies anteriorResectionType.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Anterior resection') or exists(f:anteriorResectionType)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="62.550000000000004">
+   <Row ss:AutoFitHeight="0" ss:Height="62.5">
     <Cell ss:StyleID="s167"><Data ss:Type="String">05</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Pre-operative Radiotherapy</Data></Cell>
@@ -9600,7 +9597,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this = 'Yes' implies typeOfCourse.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Yes') or exists(f:typeOfCourse)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="92.55">
+   <Row ss:AutoFitHeight="0" ss:Height="92.5">
     <Cell ss:StyleID="s167"><Data ss:Type="String">06</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">New primary cancer of recurrence</Data></Cell>
@@ -9610,7 +9607,7 @@
     <Cell ss:StyleID="s109"><Data ss:Type="String">($this = 'Regional (local) recurrence' or $this = 'Distant metastases') implies describe.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not((@value = 'Regional (local) recurrence') or (@value = 'Distant metastases')) or exists(f:describe)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="36.449999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="36.5">
     <Cell ss:StyleID="s167"><Data ss:Type="String">07</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Relationship to anterior peritoneal reflection</Data></Cell>
@@ -9620,7 +9617,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this = 'Rectum' implies relToAntPeritonealReflection.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Rectum') or exists(f:relToAntPeritonealReflection)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="31.200000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="31.25">
     <Cell ss:StyleID="s167"><Data ss:Type="String">08</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Intactness of mesorectum</Data></Cell>
@@ -9630,7 +9627,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this = 'Rectum' implies intactnessOfMesorectum.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Rectum') or exists(f:intactnessOfMesorectum)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="61.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="61.25">
     <Cell ss:StyleID="s167"><Data ss:Type="String">09</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Number of lymph nodes per cassette</Data></Cell>
@@ -9640,7 +9637,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">lymphNodes = 'Received'implies noLymphNodesPerCassette.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(f:lymphNodes/@value = 'Received') or exists(f:noLymphNodesPerCassette)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45.449999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="45.5">
     <Cell ss:StyleID="s167"><Data ss:Type="String">10</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Polyps summary</Data></Cell>
@@ -9650,7 +9647,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this = 'Present' implies polypSummary.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(f@value = 'Present') or exists(f:polypSummary)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="59.55">
+   <Row ss:AutoFitHeight="0" ss:Height="59.5">
     <Cell ss:StyleID="s167"><Data ss:Type="String">11</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tumour involved in proximal or distal resection (cut-end) margins</Data></Cell>
@@ -9660,7 +9657,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this = 'Involved' implies involvedMargins.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(f@value = 'Involved') or exists(f:involvedMargins)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="59.55">
+   <Row ss:AutoFitHeight="0" ss:Height="59.5">
     <Cell ss:StyleID="s167"><Data ss:Type="String">12</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tumour not involved in proximal or distal resection (cut-end) margins</Data></Cell>
@@ -9670,7 +9667,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this = 'Not involved' implies microClearance.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Not involved') or exists(f:microClearance)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="61.8">
+   <Row ss:AutoFitHeight="0" ss:Height="61.75">
     <Cell ss:StyleID="s167"><Data ss:Type="String">13</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Status of the nonperitonealised circumferential margin (rectal tumours)</Data></Cell>
@@ -9680,7 +9677,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">Colorectal.preAnalytic.tumourLocation != 'Rectum' implies Colorectal.micro.nonperitonealisedCircumMargin.exists()</Data></Cell>
     <Cell ss:StyleID="s168"><Data ss:Type="String">not(f:Colorectal.preAnalytic.tumourLocation/@value = 'Rectum') or exists(f:Colorectal.micro.nonperitonealisedCircumMargin)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="61.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="61.25">
     <Cell ss:StyleID="s167"><Data ss:Type="String">14</Data><NamedCell
       ss:Name="Invariantids"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Microscopic clearance of nonperitonealised circumferential margin (rectal tumours)</Data></Cell>
@@ -9690,7 +9687,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this ='Not involved' implies microClearanceRectum.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Not involved') or exists(f:microClearanceRectum)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="59.55">
+   <Row ss:AutoFitHeight="0" ss:Height="59.5">
     <Cell ss:StyleID="s167"><Data ss:Type="String">15</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Lymph node involvement</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">error</Data></Cell>
@@ -9699,7 +9696,7 @@
     <Cell ss:StyleID="s168"><Data ss:Type="String">lymphNodes = 'Received' implies lymphNodeInvolvement.exists()</Data></Cell>
     <Cell ss:StyleID="s168"><Data ss:Type="String">not(lymphNodes/@value = 'Received') or exists(f:.lymphNodeInvolvement)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="60.45">
+   <Row ss:AutoFitHeight="0" ss:Height="60.5">
     <Cell ss:StyleID="s167"><Data ss:Type="String">16</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Site(s) and numbers of lymph nodes</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">error</Data></Cell>
@@ -9717,7 +9714,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this ='Present' implies site.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Present') or exists(f:site)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="58.8">
+   <Row ss:AutoFitHeight="0" ss:Height="58.75">
     <Cell ss:StyleID="s167"><Data ss:Type="String">18</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Polyp details (type, number, polyposis syndrome criteria met etc)</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">error</Data></Cell>
@@ -9726,7 +9723,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this ='Polyps' implies polypDetails.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Polyps') or exists(f:polypDetails)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="60.45">
+   <Row ss:AutoFitHeight="0" ss:Height="60.5">
     <Cell ss:StyleID="s167"><Data ss:Type="String">19</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Ulcerative colitis diesease dysplasia</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">error</Data></Cell>
@@ -9735,7 +9732,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this ='Ulcerative colitis' implies dysplasia.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Ulcerative colitis') or exists(f:dysplasia)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="46.800000000000004">
+   <Row ss:AutoFitHeight="0" ss:Height="46.75">
     <Cell ss:StyleID="s167"><Data ss:Type="String">20</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Crohns disease dysplasia</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">error</Data></Cell>
@@ -9744,7 +9741,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this ='Crohns disease' implies dysplasia.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Crohns disease') or exists(f:dysplasia)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="58.2">
+   <Row ss:AutoFitHeight="0" ss:Height="58.25">
     <Cell ss:StyleID="s167"><Data ss:Type="String">21</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Other abnormality details</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">error</Data></Cell>
@@ -9753,7 +9750,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this ='Other' implies otherAbnormality.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Other') or exists(f:otherAbnormality)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="59.55">
+   <Row ss:AutoFitHeight="0" ss:Height="59.5">
     <Cell ss:StyleID="s167"><Data ss:Type="String">22</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">MSI unstable - lab performing test</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">error</Data></Cell>
@@ -9762,7 +9759,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this ='Unstable' implies LabDetails.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Unstable') or exists(f:LabDetails)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="58.8">
+   <Row ss:AutoFitHeight="0" ss:Height="58.75">
     <Cell ss:StyleID="s167"><Data ss:Type="String">23</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">MSI stable - lab performing test</Data></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">error</Data></Cell>
@@ -9771,7 +9768,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this ='Stable' implies LabDetails.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Stable') or exists(f:LabDetails)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="31.799999999999997">
+   <Row ss:AutoFitHeight="0" ss:Height="31.75">
     <Cell><Data ss:Type="String">24</Data></Cell>
     <Cell><Data ss:Type="String">BRAF mutated - lab performing test</Data></Cell>
     <Cell><Data ss:Type="String">error</Data></Cell>
@@ -9780,7 +9777,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this ='Mutated' implies LabDetails.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Mutated') or exists(f:LabDetails)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="31.799999999999997">
+   <Row ss:AutoFitHeight="0" ss:Height="31.75">
     <Cell><Data ss:Type="String">25</Data></Cell>
     <Cell><Data ss:Type="String">BRAF wild type - lab performing test</Data></Cell>
     <Cell><Data ss:Type="String">error</Data></Cell>
@@ -9789,7 +9786,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this ='Wild type' implies LabDetails.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Wild type') or exists(f:LabDetails)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="31.799999999999997">
+   <Row ss:AutoFitHeight="0" ss:Height="31.75">
     <Cell><Data ss:Type="String">26</Data></Cell>
     <Cell><Data ss:Type="String">KRAS mutated - lab performing test</Data></Cell>
     <Cell><Data ss:Type="String">error</Data></Cell>
@@ -9798,7 +9795,7 @@
     <Cell ss:StyleID="s166"><Data ss:Type="String">$this ='Mutated' implies LabDetails.exists()</Data></Cell>
     <Cell ss:StyleID="s166"><Data ss:Type="String">not(@value = 'Mutated') or exists(f:LabDetails)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="31.799999999999997">
+   <Row ss:AutoFitHeight="0" ss:Height="31.75">
     <Cell><Data ss:Type="String">27</Data></Cell>
     <Cell><Data ss:Type="String">KRAS wild type - lab performing test</Data></Cell>
     <Cell><Data ss:Type="String">error</Data></Cell>
@@ -9929,11 +9926,11 @@
   </Names>
   <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="29" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s169" ss:DefaultRowHeight="15">
-   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="70.8"/>
+   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="71"/>
    <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="57"/>
-   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="109.8"/>
+   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="110"/>
    <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="210"/>
-   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="382.79999999999995"/>
+   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="383"/>
    <Row ss:AutoFitHeight="0" ss:Height="31.5" ss:StyleID="s170">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Name</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40">Unique name for search parameter - required, lower-case, dash-delimited string    </ss:Data></Comment><NamedCell
@@ -10257,16 +10254,13 @@
   </Names>
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="51" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s169" ss:DefaultRowHeight="15">
-   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="130.80000000000001"/>
-   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="124.80000000000001"/>
+   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="131"/>
+   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="125"/>
    <Column ss:StyleID="s169" ss:Width="24"/>
-   <Column ss:StyleID="s169" ss:Width="25.8"/>
-   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="106.80000000000001"
-    ss:Span="1"/>
-   <Column ss:Index="7" ss:StyleID="s169" ss:AutoFitWidth="0"
-    ss:Width="222.60000000000002"/>
-   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="253.79999999999998"
-    ss:Span="1"/>
+   <Column ss:StyleID="s169" ss:Width="26"/>
+   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="107" ss:Span="1"/>
+   <Column ss:Index="7" ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="222.5"/>
+   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="254" ss:Span="1"/>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s179"><Data ss:Type="String">Name</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -10995,14 +10989,14 @@
   </Names>
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="21" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s169" ss:DefaultRowHeight="15">
-   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="82.8" ss:Span="1"/>
-   <Column ss:Index="3" ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="198.6"/>
-   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="157.80000000000001"/>
-   <Column ss:StyleID="s169" ss:Width="106.80000000000001"/>
-   <Column ss:StyleID="s169" ss:Width="113.39999999999999"/>
+   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="83" ss:Span="1"/>
+   <Column ss:Index="3" ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="198.5"/>
+   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="158"/>
+   <Column ss:StyleID="s169" ss:Width="107"/>
+   <Column ss:StyleID="s169" ss:Width="113.5"/>
    <Column ss:StyleID="s169" ss:Width="120"/>
-   <Column ss:StyleID="s169" ss:Width="127.8"/>
-   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="74.400000000000006"/>
+   <Column ss:StyleID="s169" ss:Width="128"/>
+   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="74.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30.75">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Event Code</Data><Comment
       ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><Font
@@ -11328,7 +11322,7 @@
   <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="41" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s169" ss:DefaultRowHeight="15">
    <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="114"/>
-   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="281.39999999999998"/>
+   <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="281.5"/>
    <Column ss:StyleID="s169" ss:AutoFitWidth="0" ss:Width="252"/>
    <Column ss:StyleID="s169" ss:Width="63"/>
    <Row ss:AutoFitHeight="0" ss:Height="30.75">
@@ -11660,14 +11654,14 @@
     ss:Hidden="1"/>
   </Names>
   <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="41" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s71" ss:DefaultColumnWidth="260.39999999999998"
+   x:FullRows="1" ss:StyleID="s71" ss:DefaultColumnWidth="260.5"
    ss:DefaultRowHeight="15">
-   <Column ss:StyleID="s71" ss:Width="88.800000000000011"/>
-   <Column ss:StyleID="s71" ss:Width="27.6"/>
-   <Column ss:StyleID="s71" ss:Width="327.59999999999997"/>
+   <Column ss:StyleID="s71" ss:Width="89"/>
+   <Column ss:StyleID="s71" ss:Width="27.5"/>
+   <Column ss:StyleID="s71" ss:Width="327.5"/>
    <Column ss:StyleID="s71" ss:Width="57"/>
-   <Column ss:StyleID="s71" ss:Width="205.8" ss:Span="1"/>
-   <Column ss:Index="7" ss:StyleID="s71" ss:Width="39.6"/>
+   <Column ss:StyleID="s71" ss:Width="206" ss:Span="1"/>
+   <Column ss:Index="7" ss:StyleID="s71" ss:Width="39.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Name</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -12150,20 +12144,20 @@
     ss:Hidden="1"/>
   </Names>
   <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="48" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s169" ss:DefaultColumnWidth="588.6"
-   ss:DefaultRowHeight="14.55">
-   <Column ss:StyleID="s169" ss:Width="289.2"/>
-   <Column ss:StyleID="s169" ss:Width="541.20000000000005"/>
+   x:FullRows="1" ss:StyleID="s169" ss:DefaultColumnWidth="588.5"
+   ss:DefaultRowHeight="14.5">
+   <Column ss:StyleID="s169" ss:Width="289"/>
+   <Column ss:StyleID="s169" ss:Width="541"/>
    <Column ss:StyleID="s169" ss:Width="51"/>
-   <Column ss:StyleID="s169" ss:Width="55.800000000000004"/>
-   <Column ss:StyleID="s169" ss:Width="367.8"/>
-   <Column ss:StyleID="s169" ss:Width="69.599999999999994"/>
-   <Column ss:StyleID="s169" ss:Width="34.799999999999997"/>
+   <Column ss:StyleID="s169" ss:Width="56"/>
+   <Column ss:StyleID="s169" ss:Width="368"/>
+   <Column ss:StyleID="s169" ss:Width="69.5"/>
+   <Column ss:StyleID="s169" ss:Width="35"/>
    <Column ss:StyleID="s169" ss:Width="33"/>
-   <Column ss:StyleID="s169" ss:Width="85.2"/>
-   <Column ss:StyleID="s169" ss:Width="61.8"/>
-   <Column ss:StyleID="s169" ss:Width="27.6" ss:Span="1"/>
-   <Column ss:Index="13" ss:StyleID="s169" ss:Width="386.4"/>
+   <Column ss:StyleID="s169" ss:Width="85"/>
+   <Column ss:StyleID="s169" ss:Width="62"/>
+   <Column ss:StyleID="s169" ss:Width="27.5" ss:Span="1"/>
+   <Column ss:Index="13" ss:StyleID="s169" ss:Width="386.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Binding Name</Data><Comment
       ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><Font
@@ -12255,7 +12249,7 @@
     <Cell ss:Index="5" ss:StyleID="s208"><Data ss:Type="String">http://fhir.hl7.org.au/fhir/rcpa/ValueSet/mutated-wildtype</Data></Cell>
     <Cell ss:Index="13" ss:StyleID="s209"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s206"><Data ss:Type="String">ClinicalObstructionStatus</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">A code that indicates whether a clinical obstruction is present</Data></Cell>
     <Cell ss:StyleID="s173"><Data ss:Type="String">value set</Data></Cell>
@@ -12270,7 +12264,7 @@
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s174"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s207"><Data ss:Type="String">Dysplasia</Data></Cell>
     <Cell><Data ss:Type="String">A code that indicates dysplasia if Ulcerative colitis or Crohn's disease is selected for relevant coexistent pathological abnormalities</Data></Cell>
     <Cell><Data ss:Type="String">value set</Data></Cell>
@@ -12315,7 +12309,7 @@
       ss:Type="String">http://fhir.hl7.org.au/fhir/rcpa/ValueSet/present-absent-ns</Data></Cell>
     <Cell ss:Index="13" ss:StyleID="s209"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s206"><Data ss:Type="String">IntactnessOfMesorectum</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">A code that indicates the intactness of the mesorectum</Data></Cell>
     <Cell ss:StyleID="s173"><Data ss:Type="String">value set</Data></Cell>
@@ -12330,7 +12324,7 @@
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s174"><Data ss:Type="String">Reference may be too long ie there was a limit on the length of the code list name.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s206"><Data ss:Type="String">IntramuralVeinInvasion</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">A code that indicates intramural vein invasion</Data></Cell>
     <Cell ss:StyleID="s173"><Data ss:Type="String">value set</Data></Cell>
@@ -12346,7 +12340,7 @@
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s174"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s206"><Data ss:Type="String">InvolvedMargin-s</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">A code that indicates the involvement at the margins</Data></Cell>
     <Cell ss:StyleID="s173"><Data ss:Type="String">value set</Data></Cell>
@@ -12361,7 +12355,7 @@
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s174"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s206"><Data ss:Type="String">InvolvementOfTheProximalOrDistalResectionCut-endMargins</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">A code that indicates involvement of the proximal or distal resection (cut-end) margins</Data></Cell>
     <Cell ss:StyleID="s173"><Data ss:Type="String">value set</Data></Cell>
@@ -12377,7 +12371,7 @@
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s174"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s206"><Data ss:Type="String">IsolatedExtramuralTumourDeposits</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">A code that indicates the presence or absence of isolated extra-mural tumour deposits.</Data></Cell>
     <Cell ss:StyleID="s173"><Data ss:Type="String">value set</Data></Cell>
@@ -12392,14 +12386,14 @@
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s174"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s207"><Data ss:Type="String">Kras</Data></Cell>
     <Cell><Data ss:Type="String">A code that indicates the KRAS gene mutation (codons 12 and 13)</Data></Cell>
     <Cell><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">http://fhir.hl7.org.au/fhir/rcpa/ValueSet/mutated-wildtype</Data></Cell>
     <Cell ss:Index="13" ss:StyleID="s209"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s206"><Data ss:Type="String">LymphNodeInvolvement</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">A code that indicates lymph node involvement</Data></Cell>
     <Cell ss:StyleID="s173"><Data ss:Type="String">value set</Data></Cell>
@@ -12414,7 +12408,7 @@
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s174"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s206"><Data ss:Type="String">LymphNodes</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">A code that indicates if lymph nodes were received</Data></Cell>
     <Cell ss:StyleID="s173"><Data ss:Type="String">value set</Data></Cell>
@@ -12444,21 +12438,21 @@
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s174"><Data ss:Type="String">Reference may be too long ie there was a limit on the length of the code list name.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s207"><Data ss:Type="String">Mlh1</Data></Cell>
     <Cell><Data ss:Type="String">A code that indicates MLH-1 testing</Data></Cell>
     <Cell><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">http://fhir.hl7.org.au/fhir/rcpa/ValueSet/stain-type</Data></Cell>
     <Cell ss:Index="13" ss:StyleID="s209"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s207"><Data ss:Type="String">Msh2</Data></Cell>
     <Cell><Data ss:Type="String">A code that indicates MSH-2 testing</Data></Cell>
     <Cell><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">http://fhir.hl7.org.au/fhir/rcpa/ValueSet/stain-type</Data></Cell>
     <Cell ss:Index="13" ss:StyleID="s209"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s207"><Data ss:Type="String">Msh6</Data></Cell>
     <Cell><Data ss:Type="String">A code that indicates MSH-6 testing</Data></Cell>
     <Cell><Data ss:Type="String">value set</Data></Cell>
@@ -12472,7 +12466,7 @@
     <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">http://fhir.hl7.org.au/fhir/rcpa/ValueSet/msi-options</Data></Cell>
     <Cell ss:Index="13" ss:StyleID="s209"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s206"><Data ss:Type="String">NatureOfPerforation</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">A code that indicates the type of perforation</Data></Cell>
     <Cell ss:StyleID="s173"><Data ss:Type="String">value set</Data></Cell>
@@ -12502,7 +12496,7 @@
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s174"><Data ss:Type="String">Reference may be too long ie there was a limit on the length of the code list name.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s207"><Data ss:Type="String">NewPrimaryOrRecurrence</Data></Cell>
     <Cell><Data ss:Type="String">A code that records whether a new primary cancer or a recurrence</Data></Cell>
     <Cell><Data ss:Type="String">value set</Data></Cell>
@@ -12584,7 +12578,7 @@
     <Cell ss:StyleID="s214"/>
     <Cell ss:StyleID="s216"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="29.549999999999997">
+   <Row ss:AutoFitHeight="0" ss:Height="29.5">
     <Cell ss:StyleID="s91"><Data ss:Type="String">Polyps</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">A code that indicates the presence or absence of polyp(s)</Data></Cell>
     <Cell ss:StyleID="s173"><Data ss:Type="String">value set</Data></Cell>
@@ -12614,7 +12608,7 @@
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s173"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell ss:StyleID="s91"><Data ss:Type="String">RelationshipToAnteriorPeritonealReflection</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">A code that indicates the site of tumour in relation to the anterior level of the peritoneal reflection</Data></Cell>
     <Cell ss:StyleID="s173"><Data ss:Type="String">value set</Data></Cell>
@@ -12629,7 +12623,7 @@
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s173"><Data ss:Type="String">Reference may be too long ie there was a limit on the length of the code list name.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.950000000000003">
+   <Row ss:AutoFitHeight="0" ss:Height="29">
     <Cell><Data ss:Type="String">RelevantCoexistentPathologicalAbnormalities</Data></Cell>
     <Cell><Data ss:Type="String">A code that indicates the relevant coexistent pathological abnormalities</Data></Cell>
     <Cell><Data ss:Type="String">value set</Data></Cell>
@@ -12815,9 +12809,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>27</ActiveRow>
-     <ActiveCol>0</ActiveCol>
-     <RangeSelection>R28</RangeSelection>
+     <ActiveRow>42</ActiveRow>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -12904,16 +12897,16 @@
  </Worksheet>
  <Worksheet ss:Name="perforation-status">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="5" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="79.800000000000011"/>
-   <Column ss:StyleID="s217" ss:AutoFitWidth="0" ss:Width="33.6"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="80"/>
+   <Column ss:StyleID="s217" ss:AutoFitWidth="0" ss:Width="33.5"/>
    <Column ss:AutoFitWidth="0" ss:Width="93"/>
-   <Column ss:AutoFitWidth="0" ss:Width="61.8"/>
-   <Column ss:AutoFitWidth="0" ss:Width="100.8"/>
-   <Column ss:AutoFitWidth="0" ss:Width="74.400000000000006"/>
-   <Column ss:AutoFitWidth="0" ss:Width="75.600000000000009"/>
-   <Column ss:AutoFitWidth="0" ss:Width="84.600000000000009"/>
-   <Column ss:AutoFitWidth="0" ss:Width="112.8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="62"/>
+   <Column ss:AutoFitWidth="0" ss:Width="101"/>
+   <Column ss:AutoFitWidth="0" ss:Width="74.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="75.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="113"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -12986,11 +12979,11 @@
  </Worksheet>
  <Worksheet ss:Name="nature-of-perforation">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="95.399999999999991"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="95.5"/>
    <Column ss:StyleID="s217" ss:AutoFitWidth="0"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="201.6"/>
-   <Column ss:AutoFitWidth="0" ss:Width="154.79999999999998"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="201.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="155"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -13020,12 +13013,12 @@
       ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><Font
         html:Face="Tahoma" x:Family="Swiss" html:Size="8" html:Color="#000000">Additional notes about the code.  Not published</Font></ss:Data></Comment></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">through_tumour_prior_to_surgery</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Through tumour prior to surgery</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="43.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="43.25">
     <Cell><Data ss:Type="String">through_tumour_during_surgery_mobilisation</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Through tumour during surgery mobilisation</Data></Cell>
@@ -13056,10 +13049,10 @@
  </Worksheet>
  <Worksheet ss:Name="clinical-obstruction">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="5" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="82.8"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="145.79999999999998"/>
-   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="97.800000000000011"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="83"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="146"/>
+   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="98"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -13133,9 +13126,9 @@
  </Worksheet>
  <Worksheet ss:Name="tumour-location">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="10" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="109.8"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="136.79999999999998"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="110"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="137"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -13232,9 +13225,9 @@
  </Worksheet>
  <Worksheet ss:Name="type-of-operation">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="11" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="147.6"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="146.39999999999998"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="147.5"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="146.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -13299,7 +13292,7 @@
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Proctocolectomy</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">total_colectomy_with_ileorectal_anastomosis</Data></Cell>
     <Cell><Data ss:Type="Number">8</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Total colectomy with ileorectal anastomosis</Data></Cell>
@@ -13334,8 +13327,8 @@
  </Worksheet>
  <Worksheet ss:Name="anterior-resection-type">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="101.4"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="101.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -13401,9 +13394,9 @@
  </Worksheet>
  <Worksheet ss:Name="preoperative-radiotherapy">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="5" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
    <Column ss:AutoFitWidth="0" ss:Width="78"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="98.4"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="98.5"/>
    <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="84"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
@@ -13477,10 +13470,10 @@
  </Worksheet>
  <Worksheet ss:Name="type-of-course">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="5" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="77.399999999999991"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="83.4"/>
-   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="90.6"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="77.5"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="83.5"/>
+   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="90.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -13553,9 +13546,9 @@
  </Worksheet>
  <Worksheet ss:Name="new-primary-or-recurrence">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
    <Column ss:AutoFitWidth="0" ss:Width="126"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="140.4"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="140.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -13621,7 +13614,7 @@
  </Worksheet>
  <Worksheet ss:Name="tumour-site">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="10" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
    <Column ss:AutoFitWidth="0" ss:Width="111"/>
    <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="132"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
@@ -13719,9 +13712,9 @@
  </Worksheet>
  <Worksheet ss:Name="tumour-perforation">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="5" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
    <Column ss:AutoFitWidth="0" ss:Width="75"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="107.4"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="107.5"/>
    <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="87"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
@@ -13795,10 +13788,10 @@
  </Worksheet>
  <Worksheet ss:Name="rel-to-ant-peritoneal-reflectn">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="86.399999999999991"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="84.600000000000009"/>
-   <Column ss:AutoFitWidth="0" ss:Width="53.400000000000006"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="86.5"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="84.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="53.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -13864,9 +13857,9 @@
  </Worksheet>
  <Worksheet ss:Name="intactness-of-mesorectum">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
    <Column ss:AutoFitWidth="0" ss:Width="114"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="132.6"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="132.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -13931,9 +13924,9 @@
  </Worksheet>
  <Worksheet ss:Name="peritoneum">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="181.79999999999998"/>
-   <Column ss:Index="5" ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="188.4"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="182"/>
+   <Column ss:Index="5" ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="188.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -13963,12 +13956,12 @@
       ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><Font
         html:Face="Tahoma" x:Family="Swiss" html:Size="8" html:Color="#000000">Additional notes about the code.  Not published</Font></ss:Data></Comment></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">tumour_invades_peritoneal_surface</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Tumour invades to the peritoneal surface</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="43.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="43.25">
     <Cell><Data ss:Type="String">tumour_formed_nodule</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Tumour has formed nodule(s) discrete from the tumour mass along the serosal surface</Data></Cell>
@@ -13993,9 +13986,9 @@
  </Worksheet>
  <Worksheet ss:Name="lymph-nodes">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="73.8"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="125.4"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="74"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="125.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14056,9 +14049,9 @@
  </Worksheet>
  <Worksheet ss:Name="polyps">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="67.8"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="122.39999999999999"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="68"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="122.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14119,11 +14112,11 @@
  </Worksheet>
  <Worksheet ss:Name="tumour-type">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="115.80000000000001"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="116"/>
    <Column ss:AutoFitWidth="0" ss:Width="66"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="178.8"/>
-   <Column ss:AutoFitWidth="0" ss:Width="56.4"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="179"/>
+   <Column ss:AutoFitWidth="0" ss:Width="56.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14184,9 +14177,9 @@
  </Worksheet>
  <Worksheet ss:Name="histological-grade">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="157.80000000000001"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="223.8"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="158"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="224"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14247,9 +14240,9 @@
  </Worksheet>
  <Worksheet ss:Name="max-deg-invasion-bowel">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="6" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="124.80000000000001"/>
-   <Column ss:Index="5" ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="156.6"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="125"/>
+   <Column ss:Index="5" ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="156.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14284,22 +14277,22 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">pT1 Tumour invades submucosa</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">pT2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">pT2 Tumour invades muscularis propria</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="43.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="43.25">
     <Cell><Data ss:Type="String">pT3</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">pT3 Tumour invades through muscularis propria into pericolorectal tissues</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="29.549999999999997">
+   <Row ss:AutoFitHeight="0" ss:Height="29.5">
     <Cell><Data ss:Type="String">pT4a</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">pT4a Tumour penetrates to the surface of the visceral peritoneum</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="43.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="43.25">
     <Cell><Data ss:Type="String">pT4b</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">pT4b Tumour directly invades or is adherent to other organs or structures</Data></Cell>
@@ -14325,9 +14318,9 @@
  </Worksheet>
  <Worksheet ss:Name="proximal-or-distal-resection">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="87.6"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="137.4"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="87.5"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="137.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14388,7 +14381,7 @@
  </Worksheet>
  <Worksheet ss:Name="involved-margin-s">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
    <Column ss:AutoFitWidth="0" ss:Width="78"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
@@ -14450,9 +14443,9 @@
  </Worksheet>
  <Worksheet ss:Name="nonperitonealised-circ-margin">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="78.599999999999994"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="106.80000000000001"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="78.5"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="107"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14513,9 +14506,9 @@
  </Worksheet>
  <Worksheet ss:Name="lymph-node-involvement">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="79.800000000000011"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="101.4"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="80"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="101.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14576,8 +14569,8 @@
  </Worksheet>
  <Worksheet ss:Name="extramural-tumour-deposits">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="68.399999999999991"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="68.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14638,9 +14631,9 @@
  </Worksheet>
  <Worksheet ss:Name="apical-node-involvement">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="69.599999999999994"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="100.8"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="69.5"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="101"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14706,9 +14699,9 @@
  </Worksheet>
  <Worksheet ss:Name="intramural-vein-invasion">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="81.599999999999994"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="92.4"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="81.5"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="92.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14769,9 +14762,9 @@
  </Worksheet>
  <Worksheet ss:Name="extramural-vein-invasion">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="68.399999999999991"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="88.800000000000011"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="68.5"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="89"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14832,9 +14825,9 @@
  </Worksheet>
  <Worksheet ss:Name="small-vessel-invasion">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="121.8"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="129.6"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="122"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="129.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -14901,8 +14894,8 @@
  </Worksheet>
  <Worksheet ss:Name="perineural-invasion">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="127.8"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="128"/>
    <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="111"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
@@ -14970,8 +14963,8 @@
  </Worksheet>
  <Worksheet ss:Name="conf-dist-metastases">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="80.400000000000006"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="80.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -15032,9 +15025,9 @@
  </Worksheet>
  <Worksheet ss:Name="rel-coexist-path-abnormalities">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="6" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="94.8"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="133.80000000000001"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="95"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="134"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -15110,9 +15103,9 @@
  </Worksheet>
  <Worksheet ss:Name="dysplasia">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="86.399999999999991"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="118.8"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="86.5"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="119"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -15173,10 +15166,9 @@
  </Worksheet>
  <Worksheet ss:Name="neoadjuvant-therapy">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="6" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="112.8"/>
-   <Column ss:Index="5" ss:StyleID="s67" ss:AutoFitWidth="0"
-    ss:Width="124.80000000000001"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="113"/>
+   <Column ss:Index="5" ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="125"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -15211,22 +15203,22 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">No prior treatment</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="43.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="43.25">
     <Cell><Data ss:Type="String">grade_0</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Grade 0 (complete response) No viable cancer cells</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="57.45">
+   <Row ss:AutoFitHeight="0" ss:Height="57.5">
     <Cell><Data ss:Type="String">grade_1</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Grade 1 (moderate response) Single cells or small groups of cancer cells</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="43.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="43.25">
     <Cell><Data ss:Type="String">grade_2</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Grade 2 (minimal response) Residual cancer outgrown by fibrosis</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="43.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="43.25">
     <Cell><Data ss:Type="String">grade_3</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Grade 3 (poor response) Minimal or no tumour kill; extensive residual cancer.</Data></Cell>
@@ -15251,9 +15243,9 @@
  </Worksheet>
  <Worksheet ss:Name="mlh1">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
    <Column ss:AutoFitWidth="0" ss:Width="108"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="121.8"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="122"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -15320,9 +15312,9 @@
  </Worksheet>
  <Worksheet ss:Name="pms2">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="88.800000000000011"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="93.600000000000009"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="89"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="93.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -15388,7 +15380,7 @@
  </Worksheet>
  <Worksheet ss:Name="msh2">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
    <Column ss:AutoFitWidth="0" ss:Width="84"/>
    <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="78"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
@@ -15456,9 +15448,9 @@
  </Worksheet>
  <Worksheet ss:Name="msh6">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="80.400000000000006"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="86.399999999999991"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="80.5"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="86.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -15524,9 +15516,9 @@
  </Worksheet>
  <Worksheet ss:Name="msi">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:Width="53.400000000000006"/>
-   <Column ss:Index="5" ss:Width="52.8"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:Width="53.5"/>
+   <Column ss:Index="5" ss:Width="53"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -15592,8 +15584,8 @@
  </Worksheet>
  <Worksheet ss:Name="braf">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="73.8"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="74"/>
    <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="87"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
@@ -15661,9 +15653,9 @@
  </Worksheet>
  <Worksheet ss:Name="kras">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="4" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:Width="53.400000000000006"/>
-   <Column ss:Index="5" ss:Width="52.8"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:Width="53.5"/>
+   <Column ss:Index="5" ss:Width="53"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -15729,8 +15721,8 @@
  </Worksheet>
  <Worksheet ss:Name="tumour-stage-t">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="9" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:Index="5" ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="224.4"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:Index="5" ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="224.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -15770,7 +15762,7 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">T0 No evidence of primary tumour</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">tis</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Tis Carcinoma in situ: intraepithelial or invasion of lamina propria</Data></Cell>
@@ -15785,17 +15777,17 @@
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">T2 Tumour invades muscularis propria</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">t3</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">T3 Tumour invades through the muscularis propria into pericolorectal tissues</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">t4a</Data></Cell>
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">T4a Tumour penetrates to the surface of the visceral peritoneum</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">t4b</Data></Cell>
     <Cell><Data ss:Type="Number">8</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">T4b Tumour directly invades or is adherent to&#10;other organs or structures</Data></Cell>
@@ -15821,8 +15813,8 @@
  </Worksheet>
  <Worksheet ss:Name="tumour-stage-n">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="10" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:Index="5" ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="216.6"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:Index="5" ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="216.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -15877,12 +15869,12 @@
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">N1b Metastasis in 2-3 regional lymph nodes</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="57.45">
+   <Row ss:AutoFitHeight="0" ss:Height="57.5">
     <Cell><Data ss:Type="String">n1c</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">N1c Tumour deposit(s) in the subserosa, mesentery, or nonperitonealised pericolic or perirectal tissues without regional nodal metastasis</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">n2</Data></Cell>
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">N2 Metastasis in 4 or more regional lymph nodes</Data></Cell>
@@ -15892,7 +15884,7 @@
     <Cell><Data ss:Type="Number">8</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">N2a Metastasis in 4-6 regional lymph nodes</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">n2b</Data></Cell>
     <Cell><Data ss:Type="Number">9</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">N2b Metastasis in 7 or more regional lymph nodes</Data></Cell>
@@ -15918,8 +15910,8 @@
  </Worksheet>
  <Worksheet ss:Name="tumour-stage-m">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="5" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:Index="5" ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="205.8"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:Index="5" ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="206"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -15959,12 +15951,12 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">M1 Distant metastasis</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">m1a</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">M1a Metastasis confined to one organ or site (e.g. liver, lung, ovary, nonregional node)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">m1b</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">M1b Metastases in more than one organ/site or the peritoneum</Data></Cell>
@@ -15991,8 +15983,8 @@
  </Worksheet>
  <Worksheet ss:Name="tumour-stage-grouping">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="11" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="158.4"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="158.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -16027,7 +16019,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">0 Tis N0 M0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">i</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">I T1 N0 M0&#10;  T2 N0 M0</Data></Cell>
@@ -16047,17 +16039,17 @@
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">IIC T4b N0 M0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="28.8">
+   <Row ss:AutoFitHeight="0" ss:Height="28.75">
     <Cell><Data ss:Type="String">iiia</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">IIIA T1-T2 N1/N1c M0&#10;       T1       N2a        M0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="43.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="43.25">
     <Cell><Data ss:Type="String">iiib</Data></Cell>
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">IIIB T3-T4a N1/N1c M0&#10;       T2-T3   N2a        M0&#10;       T1-T2   N2b        M0</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="43.199999999999996">
+   <Row ss:AutoFitHeight="0" ss:Height="43.25">
     <Cell><Data ss:Type="String">iiic</Data></Cell>
     <Cell><Data ss:Type="Number">8</Data></Cell>
     <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">IIIC T4a       N2a      M0&#10;       T3-T4a N2b      M0&#10;       T4b       N1-N2 M0</Data></Cell>
@@ -16093,9 +16085,9 @@
  </Worksheet>
  <Worksheet ss:Name="summary-new-primary-or">
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="5" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="14.55">
-   <Column ss:AutoFitWidth="0" ss:Width="99.6"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="151.80000000000001"/>
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="99.5"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="152"/>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s71">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
@@ -16171,15 +16163,13 @@
   </Names>
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="51" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s71" ss:DefaultRowHeight="15">
-   <Column ss:StyleID="s71" ss:Width="80.400000000000006"/>
-   <Column ss:StyleID="s71" ss:AutoFitWidth="0" ss:Width="34.799999999999997"/>
-   <Column ss:StyleID="s71" ss:AutoFitWidth="0" ss:Width="155.39999999999998"/>
-   <Column ss:StyleID="s71" ss:AutoFitWidth="0" ss:Width="80.400000000000006"
-    ss:Span="1"/>
-   <Column ss:Index="6" ss:StyleID="s71" ss:AutoFitWidth="0"
-    ss:Width="244.79999999999998"/>
+   <Column ss:StyleID="s71" ss:Width="80.5"/>
+   <Column ss:StyleID="s71" ss:AutoFitWidth="0" ss:Width="35"/>
+   <Column ss:StyleID="s71" ss:AutoFitWidth="0" ss:Width="155.5"/>
+   <Column ss:StyleID="s71" ss:AutoFitWidth="0" ss:Width="80.5" ss:Span="1"/>
+   <Column ss:Index="6" ss:StyleID="s71" ss:AutoFitWidth="0" ss:Width="245"/>
    <Column ss:StyleID="s71" ss:AutoFitWidth="0" ss:Width="84" ss:Span="1"/>
-   <Column ss:Index="9" ss:StyleID="s71" ss:AutoFitWidth="0" ss:Width="242.4"/>
+   <Column ss:Index="9" ss:StyleID="s71" ss:AutoFitWidth="0" ss:Width="242.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s171"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data
        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"

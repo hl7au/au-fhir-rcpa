@@ -17,6 +17,7 @@
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/crc-peritoneum-invasion"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/crc-rel-anterior-peritoneal-reflection"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/crc-tumour-stage-grouping"/></sourceReference></resource>
+    <resource><example value="false"/><sourceReference><reference value="CodeSystem/crc-tumour-stage-m"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/crc-tumour-stage-n"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/crc-tumour-stage-t"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/dysplasia"/></sourceReference></resource>
