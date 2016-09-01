@@ -35,7 +35,7 @@
   <compose>
     <include>
       <system value="http://snomed.info/sct"/>
-      <concept>
+      <!--<concept>
         <code value="444431007"/>
         <display value="Grade 0 on a scale of 0 to 3 (qualifier value)"/>
       </concept>
@@ -50,7 +50,7 @@
       <concept>
         <code value="444447009"/>
         <display value="Grade 3 on a scale of 0 to 3 (qualifier value)"/>
-      </concept>
+      </concept>-->
     </include>
     <include>
       <system value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/response-to-neoadjuvant-therapy"/>

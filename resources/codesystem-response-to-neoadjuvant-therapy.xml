@@ -14,8 +14,38 @@
   <valueSet value="http://fhir.hl7.org.au/fhir/rcpa/ValueSet/response-to-neoadjuvant-therapy"/>
   <content value="complete"/>
   <concept>
+    <code value="not_applicable"/>
+    <display value="Not applicable"/>
+    <definition value="Not applicable"/>
+  </concept>
+  <concept>
+    <code value="uncertain"/>
+    <display value="Uncertain if this is applicable"/>
+    <definition value="Uncertain if this is applicable"/>
+  </concept>
+  <concept>
     <code value="no_prior_treatment"/>
     <display value="No prior treatment"/>
     <definition value="No prior treatment"/>
+  </concept>
+  <concept>
+    <code value="grade_0"/>
+    <display value="Grade 0 (complete response) No viable cancer cells"/>
+    <definition value="Grade 0 (complete response) No viable cancer cells"/>
+  </concept>
+  <concept>
+    <code value="grade_1"/>
+    <display value="Grade 1 (moderate response) Single cells or small groups of cancer cells"/>
+    <definition value="Grade 1 (moderate response) Single cells or small groups of cancer cells"/>
+  </concept>
+  <concept>
+    <code value="grade_2"/>
+    <display value="Grade 2 (minimal response) Residual cancer outgrown by fibrosis"/>
+    <definition value="Grade 2 (minimal response) Residual cancer outgrown by fibrosis"/>
+  </concept>
+  <concept>
+    <code value="grade_3"/>
+    <display value="Grade 3 (poor response) Minimal or no tumour kill; extensive residual cancer"/>
+    <definition value="Grade 3 (poor response) Minimal or no tumour kill; extensive residual cancer"/>
   </concept>
 </CodeSystem>
