@@ -31,18 +31,23 @@ category: home
 
 <div class="col-9">
 
+{% include colorectal-xref.html %}
+
+
 <h1>Colorectal Map</h1>
 
-<br/>    
+<p>
+Thise is the mapping between FHIR resources and the <a href="colorectal.html">Colorectal Logical Model</a>. For context, see the <a href="explanation.html">explanation of how this guide works</a>.
+</p>
+
 <h2>Summary</h2>
 {% include StructureMap-colorectalmap-summary.xhtml %}     
 <br/>    
 <h2>Content</h2>
 {% include StructureMap-colorectalmap-content.xhtml %}     
 <br/>    
-<h2>Profiles</h2>
-{% include StructureMap-colorectalmap-profiles.xhtml %}     
-<br/>    
+ 
+<a name="script"> </a>
 <h2>Script</h2>
 <pre>
 {% include StructureMap-colorectalmap-script.xhtml %}     

@@ -5,7 +5,7 @@ category: home
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Colorectal Map</title>
+  <title>Colorectal Report Profiles</title>
 
   {% include header.html %}
 
@@ -31,9 +31,19 @@ category: home
 
 <div class="col-9">
 
-<h1>Colorectal Map</h1>
+{% include colorectal-xref.html %}
 
-<h2>Profiles</h2>
+
+<h1>Colorectal Report Profiles</h1>
+
+<p>
+These are the profiles that define how a <a href="colorectal.html">Colorectal Logical Model</a> is represented in resources. For context, see the <a href="explanation.html">explanation of how this guide works</a>.
+</p>
+
+{% include StructureDefinition-ColorectalMap-DiagnosticReport-span.xhtml %}     
+
+<br/>   
+
 {% include StructureMap-colorectalmap-profiles.xhtml %}     
 
 

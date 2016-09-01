@@ -1,0 +1,213 @@
+---
+category: home
+---
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Structured Cancer Reporting Implementation Guide (Australian Digital Health Agency)</title>
+
+  {% include header.html %}
+
+</head>
+<body>
+{% include navbar.html %}
+
+ <div id="segment-content" class="segment">  <!-- segment-content -->
+ <div class="container">  <!-- container -->
+            <div class="row">
+             <div class="inner-wrapper">
+  <!-- CONTENT CONTENT -->
+
+<div class="col-9">
+
+<h1>Understanding this Guide</h1>
+
+<p>
+This guide explains how to represent a diagnostic report that provides a consistent representation of a histological analysis of a Colorectal resection, using 
+a FHIR based representation, wrapped in HL7 v2. This page describes how this is specified.
+</p>
+
+<h2>Diagnostic Reports in FHIR</h2>
+
+<p>
+For reporting of Diagnostic Reports, FHIR provides 2 resources:
+</p>
+<ul>
+ <li><a href="{{ site.data.fhir.path }}/diagnosticreport.html">DiagnosticReport</a></li>
+ <li><a href="{{ site.data.fhir.path }}/observation.html">Observation</a></li>
+</ul>
+<p>
+The DiagnosticReport represents the fundemental unit of work of a pathology service, 'the report'. It 
+identifies the patient, the lab, the doctor who originally requested the work, the type of report, the date 
+it was issued, and the report itself (say, as a PDF document). In addition, the report has a set of links
+to Observation resources, which carry atomic data associated with the report.
+</p>
+<p>
+Observations have a code/value pair. The code identifies the what the atomic data item is. Values 
+are typically a string, a code, or a quantity. Observations also carry a set of related data,
+such as interpretation flags. Because atomic data can be grouped into 'panels', an observation
+may have a set of related observations instead of a value; in this case, the code indicates the 
+type (meaning) of the panel.
+</p>
+<p>
+This is a very flexible structure; it can be used in an infinite number of different ways to 
+represent the same content. This guide defines the right way to represent a Colorectal report - that
+is, what atomic observations to include, what codes they should have, and what their values can be.
+</p>
+
+<h2>RCPA/CAP Colorectal Structured Report</h2>
+<p>
+The process starts with the Colorectal Structured report developed jointly by
+the RCPA and CAP, and published <a href="https://www.rcpa.edu.au/getattachment/3942f934-6d8c-4a84-a43c-476d0e8c3d0e/Protocol-colorectal-cancer.aspx">by the RCPA</a>.
+</p>
+<p>
+This document is written by pathologists, for pathologists; it specifies what to report, 
+how to report it consistently, and provides 'terms' (text representation of codes) 
+that the pathologists should use for the individual items. It provides the clinical
+knowledge and agreements on which this implementation guide builds.
+</p>
+
+<h2>Colorectal Logical Model</h2>
+<p>
+The first thing to do is simply to convert the published document to a formal 
+information model. What this does is:
+</p>
+<ul>
+ <li>Defines elements for each of the atomic concepts described in the document</li>
+ <li>Gives the elements a unique name that identifies the element consistently</li>
+ <li>Assigns a value domain to the element that defines what values it can have</li>
+ <li>Provides a 'Value Set' that specifies what codes can be the valid values for the element (if the elemnt has a code type)</li>
+ <li>Formalises the rules about the rules about relationships betwen the elements (e.g. if you have an X, then you need to say Y about it)</li>
+</ul>
+<p>
+In this implementation guide, that's called the 'Colorectal Logical Model'. This is 
+a FHIR content model that simply captures all the knowledge list above. It's not 
+what is actually exchanged - that will come later (below).
+</p>
+<p>
+See the <a href="colorectal.html#table">FHIR Logical model for the Colorectal report</a>.
+</p>
+
+<h2>Examples</h2>
+<p>
+A 'model' is all well and good, but what really makes it real and useful 
+is to provide some examples. That both helps test out the the logical model
+and the clinical content it is based on is correct, and it helps concrete
+thinkers understand the abstract model. 
+</p>
+<p>
+Since the the logical model is defined, and it implies a format, we'll just go
+right ahead and use it to provide some examples. 11 of them, in this case,
+taken from real pathology reports, and de-identified.
+</p>
+<p>
+See <a href="colorectal.html#examples">the 11 examples</a> in XML or JSON (pick your flavor of preference).
+</p>
+
+<h2>Mapping</h2>
+
+<p>
+That's all well and good, but these still aren't "FHIR Resources" - you can't
+upload them to a FHIR server, and leverage al lthe good stuff that FHIR 
+represents (software, services, validation tools, community). What we have to 
+do know is convert all this stuff to FHIR resources. 
+</p>
+<p>
+We do that by defining a formal mapping in a computable mapping language 
+that defines how the a set of data in the shape of the Colorectal Logical Model 
+is transformed to a set of FHIR resources. Because we have a computable transform
+for this, we can do the following:
+</p>
+<ul>
+ <li>Build summary mapping tables</li>
+ <li>Automatically create FHIR profiles</li>
+ <li>Convert the examples to a set of FHIR examples</li>
+</ul>
+<p>
+Note that implementers don't need to pay any attention to the details of the
+mapping language. Of course, if you had content available in the colorectal
+logical format, <i>and</i> you had software that could execute the mapping language,
+you might be interested then - but both are unlikely (though the FHIR project 
+does provide such software in several languages).
+</p>
+<p>
+But if you're interested in the formal mapping anyway, <a href="cmap.html#script">it's provided
+here</a>. If you look at it, you'll see that it's highly detail orientated.
+</p>
+
+<h2>Observation Profiles</h2>
+<p>
+Given that in FHIR, atomic data items are represented as Observation resources, and
+the colorectal report describes a set of data items to report, it follows that the 
+'describing how a Colorectal report looks in FHIR' is 'a set of rules for Observation resources'.
+In FHIR, a set of rules for a resource is called 'a profile'.
+</p>
+<p>
+It follows, then, that the outcome of the Colorectal Logical Model to FHIR is a set of 
+profiles on the Observation resource. Since there's around 100 elements, there's 
+around 100 profiles. These two summary tables help users navigate the list of profiles:
+</p>
+<ul>
+ <li><a href="cmap.html#summary">Mapping Summary Table</a></li>
+ <li><a href="cmap.html#profiles">Profile Structure Summary</a></li>
+</ul>
+<p>
+Each profile is represented using 2 different tables:
+</p>
+<ul>
+ <li>Differential: The rules that the profile applies to the Base resource</li>
+ <li>Snapshot: The structure of the Base resource once the rules are applied</li>
+</ul>
+
+<p>
+Building a FHIR Colorectal report means building a list of observations
+that conform to the rules described in these profiles.
+</p>
+
+<h2>Examples</h2>
+<p>
+Given that we have a mapping, we can transform the Colorectal examples we started
+with to a set of FHIR resource based examples. <p>
+See <a href="cmap.html#examples">the 11 examples</a> in XML or JSON (pick your flavor of preference).
+</p>
+<p>
+As a matter of publishing convenience, the examples show the DiagnosticReport
+and related resources (mostly Observations) packaged in a Bundle (the standard
+FHIR mechanism for putting a group of individual resources in a single file
+without losing their identity).
+</p>
+<p>
+Note that the resource based examples are more verbose than the Colorectal logical
+model examples. That's inevitable because the FHIR examples are based on generic
+content models that (a) can be read by any FHIR system and (b) can be processed 
+independently without loss of context (e.g. that's why "source" is repeated on all
+the observations independently).
+</p>
+
+<h2>Wrapping FHIR resources in v2 messages</h2>
+
+<p>
+Because existing distribution arrangemnts are based on v2 messaging, 
+it is agreed that the reports will be distributed in a V2 message.
+To do this, take a FHIR bundle containing the Colorectal report (as 
+shown in the examples, in XML format (review), and embed 
+it in a v2 message, as shown [here] (where?)
+</p>
+
+
+
+
+
+
+</div>
+
+    </div>  <!-- /inner-wrapper -->
+            </div>  <!-- /row -->
+        </div>  <!-- /container -->
+
+    </div>  <!-- /segment-content -->
+
+{% include footer.html %}
+</body>
+</html>

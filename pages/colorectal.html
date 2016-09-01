@@ -31,65 +31,28 @@ category: home
 
 <div class="col-9">
 
+{% include colorectal-xref.html %}
+
 <h1>Colorectal Report</h1>
 
-<h1>Table of Contents</h1>
-
 <p>
-On this page:
-</p>
-<ul>
- <li><a href="#intro">Introduction</a></li>
- <li><a href="#examples">Examples</a></li>
- <li><a href="#logical">Logical Colorectal Report</a></li>
- <li><a href="#definitions">Formal Definitions</a></li>
-</ul> 
-
-<a name="intro"> </a>
-<h2>Introduction</h2>
-
-<p>
-    <!-- Description of colorectal report ripped from RCPA document. -->
 This implementation guide is developed from the Royal College of Pathologists of Australasia's (RCPA) "Colorectal Cancer - Structured Reporting Protocol" (2nd edition 2012). 
 The colorectal cancer protocol is not intended to apply to tumours of the appendix, small bowel and anus. Local excisions of colorectal carcinomas will be dealt with in a subsequent protocol.
 Synchronous primary tumours should have separate protocols recorded for each tumour.
 </p>
 <p>
-Structured reporting aims to improve the completeness and usability of pathology reports for clinicians, and improve decision support for cancer treatment. The protocol provides the framework for the reporting of any colorectal cancer, whether as a minimum data set or fully comprehensive report.
-The colorectal cancer protocol is based on information contained within multiple international publications and datasets and has been developed in consultation with local practising pathologists, oncologists, surgeons, radiologists and interested national bodies.
-</p>
-<p>
-This implementation guide is developed as part of RCPA's PITUS 15-16 working group 5 project - Report Modelling.
+These are is the <code>Colorectal Logical Model</code>. For context, see the <a href="explanation.html">explanation of how this guide works</a>.
 </p>
 
-
-
-</p>
-
-<a name="examples"> </a>
-<h2>Examples</h2>
-
-<table class="grid">
- <tr><td><b>1</b></td><td><a href="Bundle-Colorectal-genexample-1-map.html">Wire Format</a></td><td><a href="Colorectal-Colorectal-genexample-1.html">Logical Model</a></td></tr>
- <tr><td><b>2</b></td><td><a href="Bundle-Colorectal-genexample-2-map.html">Wire Format</a></td><td><a href="Colorectal-Colorectal-genexample-2.html">Logical Model</a></td></tr>
- <tr><td><b>3</b></td><td><a href="Bundle-Colorectal-genexample-3-map.html">Wire Format</a></td><td><a href="Colorectal-Colorectal-genexample-3.html">Logical Model</a></td></tr>
- <tr><td><b>4</b></td><td><a href="Bundle-Colorectal-genexample-4-map.html">Wire Format</a></td><td><a href="Colorectal-Colorectal-genexample-4.html">Logical Model</a></td></tr>
- <tr><td><b>5</b></td><td><a href="Bundle-Colorectal-genexample-5-map.html">Wire Format</a></td><td><a href="Colorectal-Colorectal-genexample-5.html">Logical Model</a></td></tr>
- <tr><td><b>6</b></td><td><a href="Bundle-Colorectal-genexample-6-map.html">Wire Format</a></td><td><a href="Colorectal-Colorectal-genexample-6.html">Logical Model</a></td></tr>
- <tr><td><b>7</b></td><td><a href="Bundle-Colorectal-genexample-7-map.html">Wire Format</a></td><td><a href="Colorectal-Colorectal-genexample-7.html">Logical Model</a></td></tr>
- <tr><td><b>8</b></td><td><a href="Bundle-Colorectal-genexample-8-map.html">Wire Format</a></td><td><a href="Colorectal-Colorectal-genexample-8.html">Logical Model</a></td></tr>
- <tr><td><b>9</b></td><td><a href="Bundle-Colorectal-genexample-9-map.html">Wire Format</a></td><td><a href="Colorectal-Colorectal-genexample-9.html">Logical Model</a></td></tr>
- <tr><td><b>10</b></td><td><a href="Bundle-Colorectal-genexample-10-map.html">Wire Format</a></td><td><a href="Colorectal-Colorectal-genexample-10.html">Logical Model</a></td></tr>
- <tr><td><b>11</b></td><td><a href="Bundle-Colorectal-genexample-11-map.html">Wire Format</a></td><td><a href="Colorectal-Colorectal-genexample-11.html">Logical Model</a></td></tr>
-</table>
-
-<a name="logical"> </a>   <!-- 21/7/2016 DMc changed "table" to "logical" to get the link to work -->
+<a name="logical"> </a> 
 <h2>Colorectal Report</h2>
 
-<a name="table> </a>
+<a name="table"> </a>
+
 {% include StructureDefinition-Colorectal-diff.xhtml %}
 
 <a name="definitions"> </a>
+
 <h2>Data Element Definitions</h2>
 
 {% include  StructureDefinition-Colorectal-dict.xhtml %}
