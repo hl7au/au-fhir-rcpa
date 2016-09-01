@@ -33,69 +33,39 @@
     <status value="draft"/>
     <experimental value="false"/>
     <date value="2015-06-11T16:01:03+10:00"/>
-    
-    
-    <!-- The following block is for LOINC Code valueset -->
-    <copyright value="The LOINC® codes, LOINC® table (regardless of format), LOINC® Release Notes, LOINC® Changes File, and LOINC® Users' 
-        Guide are copyright © 1995-2015, Regenstrief Institute, Inc. and the 
-        Logical Observation Identifiers Names and Codes (LOINC) Committee. All rights reserved.
-        Refer to http://loinc.org/terms-of-use"/>
-    <!-- LOINC answer codes taken from LOINC code 21907-1 -->   
-    <status value="active"/>
-    <experimental value="true"/>
-    <date value="2015-06-11T16:01:03+10:00"/>
-    <!--<compose>
+    <copyright
+        value="This value set includes content from SNOMED CT, which is copyright Â© 2002+ International         Health Terminology Standards Development Organisation (IHTSDO), and distributed by         agreement    between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this         agreement"/>
+    <compose>
         <include>
-            <system value="http://loinc.org"/>
-            <concept>
-                <code value="LA4629-7"/>
-                <display value="m0"/>
-            </concept>
-            <concept>
-                <code value="LA4628-9"/>
-                <display value="m1"/>
-            </concept>
-            <concept>
-                <code value="LA4627-1"/>
-                <display value="m1a"/>
-            </concept>
-            <concept>
-                <code value="LA4626-3"/>
-                <display value="m1b"/>
-            </concept>
-        </include>
-    </compose>-->
-    
-    <!--<codeSystem>   Commented out 3rd Dec 2015 and added LOINC answer codes  from 21907-1 (above)
-        
-        <!-\- DMc ?? SR says to make into a NEHTA oid -\->
-        <!-\-<extension url="http://hl7.org/fhir/StructureDefinition/valueset-oid">
-            <valueUri value="urn:oid:2.16.840.1.113883.3.88.12.80.67"/>   
-        </extension>-\->
+            <system value="http://snomed.info/sct"/>
 
-        <system value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/crc-tumour-stage-m"/>
-        <version value="20150626"/>
-        <caseSensitive value="true"/>
-        <concept>
-            <code value="m0"/>
-            <display value="M0 No distant metastasis"/>
-            <definition value="M0 No distant metastasis"/>
-        </concept>
-        <concept>
-            <code value="m1"/>
-            <display value="M1 Distant metastasis"/>
-            <definition value="M1 Distant metastasis"/>
-        </concept>
-        <concept>
-            <code value="m1a"/>
-            <display value="M1a Metastasis confined to one organ or site (e.g. liver, lung, ovary, nonregional node)"/>
-            <definition value="M1a Metastasis confined to one organ or site (e.g. liver, lung, ovary, nonregional node)"/>
-        </concept>
-        <concept>
-            <code value="m1b"/>
-            <display value="M1b Metastases in more than one organ/site or the peritoneum"/>
-            <definition value="M1b Metastases in more than one organ/site or the peritoneum"/>
-        </concept>
-                
-    </codeSystem>-->
+            <!--<concept>
+                <code value="373200003"/>
+                <display value="pT1: Tumour invades submucosa (colon/rectum)"/>
+            </concept>
+            <concept>
+                <code value="395706002"/>
+                <display value="pT2: Tumour invades muscularis propria (colon/rectum)"/>
+            </concept>
+            <concept>
+                <code value="395707006"/>
+                <display
+                    value="pT3: Tumour invades through the muscularis propria into the subserosa or into non-peritonealized pericolic or perirectal tissues (colon/rectum)"
+                />
+            </concept>
+            <concept>
+                <code value="384612007"/>
+                <display
+                    value="pT4a: Tumour directly invades other organs or structures (colon/rectum)"
+                />
+            </concept>
+            <concept>
+                <code value="384613002"/>
+                <display value="pT4b: Tumour penetrates visceral peritoneum (colon/rectum)"/>
+            </concept>-->
+        </include>
+        <include>
+            <system value="http://fhir.hl7.org.au/fhir/rcpa/CodeSystem/crc-tumour-stage-m"/>
+        </include>
+    </compose>
 </ValueSet>
