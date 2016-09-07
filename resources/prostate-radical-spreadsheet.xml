@@ -55,6 +55,14 @@
    <NumberFormat/>
    <Protection/>
   </Style>
+  <Style ss:ID="s225" ss:Name="Normal 4">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
   <Style ss:ID="s64">
    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
@@ -977,6 +985,11 @@
    <NumberFormat/>
    <Protection/>
   </Style>
+  <Style ss:ID="s184" ss:Parent="s225">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
  </Styles>
  <Names>
   <NamedRange ss:Name="Invariantids" ss:RefersTo="=Invariants!R2C1:R49C1"/>
@@ -1221,12 +1234,18 @@
     <Cell ss:StyleID="s85"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Patient/8003608166687160//LANGLEY, Silas</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Patient/8003608333354363//BYRD, Shayne</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Patient/8003608333353852//KING, Ormond</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Patient/8003608166687558//HARRINGTON, Klaus</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Patient/8003608666698535//EASON, Jim</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s184"><Data ss:Type="String">Patient/8003608166698043//CAREY, Bernard</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1265,12 +1284,18 @@
     <Cell ss:StyleID="s85"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Practitioner/8003616566682137</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Practitioner/8003616566682137</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Practitioner/8003616566682137</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Practitioner/8003616566682137</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Practitioner/8003616566682137</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Practitioner/8003616566682137</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1310,12 +1335,18 @@
     <Cell ss:StyleID="s85"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Organization/8003623233350148</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Organization/8003623233350148</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Organization/8003623233350148</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Organization/8003623233350148</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Organization/8003623233350148</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Organization/8003623233350148</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4612,9 +4643,9 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>60</TopRowBottomPane>
+   <TopRowBottomPane>1</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <LeftColumnRightPane>11</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -4622,15 +4653,15 @@
     </Pane>
     <Pane>
      <Number>1</Number>
+     <ActiveCol>1</ActiveCol>
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>1</ActiveRow>
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>63</ActiveRow>
-     <ActiveCol>9</ActiveCol>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>13</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -4694,7 +4725,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R31C9:R36C30,R57C13:R58C30,R2C8:R11C30,R12C9:R13C30,R59C8:R72C30,R57C8:R58C11,R14C8:R14C30,R16C8:R23C30,R15C9:R15C30,R37C8:R56C30,R2C1:R23C7,R26C5:R72C7,R26C4:R106C4,R26C1:R78C3,R73C5:R78C30,R26C8:R30C30,R24C1:R25C30</Range>
+   <Range>R31C9:R36C30,R57C13:R58C30,R12C9:R13C30,R59C8:R72C30,R57C8:R58C11,R14C8:R14C30,R16C8:R23C30,R15C9:R15C30,R37C8:R56C30,R2C1:R23C7,R26C5:R72C7,R26C4:R106C4,R26C1:R78C3,R73C5:R78C30,R26C8:R30C30,R24C1:R25C30,R2C8:R11C30</Range>
    <Condition>
     <Value1>RC3=&quot;0..0&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
@@ -4775,7 +4806,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R31C9:R36C30,R57C13:R58C30,R2C8:R11C30,R12C9:R13C30,R59C8:R72C30,R57C8:R58C11,R14C8:R14C30,R16C8:R23C30,R15C9:R15C30,R37C8:R56C30,R2C1:R23C7,R26C5:R72C7,R26C4:R106C4,R26C1:R78C3,R73C5:R78C30,R26C8:R30C30,R24C1:R25C30</Range>
+   <Range>R31C9:R36C30,R57C13:R58C30,R12C9:R13C30,R59C8:R72C30,R57C8:R58C11,R14C8:R14C30,R16C8:R23C30,R15C9:R15C30,R37C8:R56C30,R2C1:R23C7,R26C5:R72C7,R26C4:R106C4,R26C1:R78C3,R73C5:R78C30,R26C8:R30C30,R24C1:R25C30,R2C8:R11C30</Range>
    <Condition>
     <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
