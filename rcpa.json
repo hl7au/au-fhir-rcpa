@@ -47,6 +47,9 @@
 		"StructureMap/Colorectal-map": {
 			"base": "cmap.html"
 		},
+		"StructureMap/Prostate-map": {
+			"base": "pmap.html"
+		},
 		"CodeSystem/extramural-vein-invasion": {
 			"base": "CodeSystem-extramural-vein-invasion.html"
 		},
@@ -103,6 +106,9 @@
 		},
 		"CodeSystem/prostate-rad-tumour-type": {
 			"base": "CodeSystem-prostate-rad-tumour-type.html"
+		},
+		"CodeSystem/prostate-rad-extraprostatic-extension": {
+			"base": "CodeSystem-prostate-rad-extraprostatic-extension.html"
 		},
 		"CodeSystem/received-notreceived": {
 			"base": "CodeSystem-received-notreceived.html"

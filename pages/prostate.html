@@ -5,7 +5,7 @@ category: home
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Prostate (Radical Prostatectomy) Implementation Guide (NEHTA)</title>
+  <title>Prostate Implementation Guide (NEHTA)</title>
 
   {% include header.html %}
 
@@ -17,7 +17,7 @@ category: home
   <div class="container">  <!-- container -->
    <ul class="breadcrumb">
           <!-- daf\daf / page / daf -->
-       <li title="Prostate (radical prostatectomy) Implementation Guide"><b>Home</b></li>
+        <li title="Prostate Implementation Guide"><b>Home</b></li>
 
    </ul>
   </div>  <!-- /container -->
@@ -31,74 +31,40 @@ category: home
 
 <div class="col-9">
 
-<h1>Prostate (radical prostatectomy) Report</h1>
+{% include prostate-xref.html %}
 
-<h1>Table of Contents</h1>
-
-<p>
-On this page:
-</p>
-<ul>
- <li><a href="#intro">Introduction</a></li>
- <li><a href="#examples">Examples</a></li>
- <li><a href="#logical">Prostate (radical prostatectomy) Report</a></li>
- <!--<li>Resource Mapping Table </li>-->
- <li><a href="#definitions">Formal Definitions</a></li>
- <!--<li><a href="#examples">Examples</a></li>
- <li><a href="terminology.html">Code Systems &amp; ValueSets</a></li>
- <li>FHIR Profiles &amp; ValueSets</li>
- <li>How to wrap FHIR resources in V2 messages</li>-->
-</ul> 
-
-<a name="intro"> </a>
-<h1>Introduction</h1>
+<h1>Prostate Report</h1>
 
 <p>
-    <!-- Description of prostate (radical) report ripped from RCPA document. -->
-    This implementation guide is developed from the Royal College of Pathologists of Australasia's (RCPA) "Prostate Cancer (Radical Prostatectomy) - Structured Reporting Protocol" (2nd edition 2014). 
-    There are separate protocols for core (needle) biopsies and transurethral resection (TUR) specimens. 
-    </p>
-    <p>
-        Structured reporting aims to improve the completeness and usability of pathology reports for clinicians, and improve decision support for cancer treatment. The protocol provides the framework for the reporting of any prostate (radical prostectomy) cancer, whether as a minimum data set or fully comprehensive report.
-        The prostate (radical prostectomy) cancer protocol is based on information contained within multiple international publications and datasets and has been developed in consultation with local practising pathologists, oncologists, surgeons, radiologists and interested national bodies.
-    </p>
-    <p>
-        This implementation guide is developed as part of RCPA's PITUS 15-16 working group 5 project - Report Modelling.
-    </p>
+This implementation guide is developed from the Royal College of Pathologists of Australasia's (RCPA) "Prostate Cancer (Radical Prostatectomy) - 
+Structured Reporting Protocol" (2nd edition 2014). There are separate protocols for core (needle) biopsies and transurethral resection (TUR) specimens.
 </p>
-
-    <a name="examples"> </a>
-    <h2>Examples</h2>
-    
-    
-    <!--<table class="grid">
-        <tr><td><b>1</b></td><td><a href="Bundle-Prostate-genexample-1.html">Wire Format</a></td><td><a href="Prostate-Prostate-genexample-1-map.html">Logical Model</a></td></tr>
-        <tr><td><b>2</b></td><td><a href="Bundle-Prostate-genexample-2.html">Wire Format</a></td><td><a href="Prostate-Prostate-genexample-2-map.html">Logical Model</a></td></tr>
-        <tr><td><b>3</b></td><td><a href="Bundle-Prostate-genexample-3.html">Wire Format</a></td><td><a href="Prostate-Prostate-genexample-3-map.html">Logical Model</a></td></tr>
-        <tr><td><b>4</b></td><td><a href="Bundle-Prostate-genexample-4.html">Wire Format</a></td><td><a href="Prostate-Prostate-genexample-4-map.html">Logical Model</a></td></tr>
-        <tr><td><b>5</b></td><td><a href="Bundle-Prostate-genexample-5.html">Wire Format</a></td><td><a href="Prostate-Prostate-genexample-5-map.html">Logical Model</a></td></tr>
-        <tr><td><b>6</b></td><td><a href="Bundle-Prostate-genexample-6.html">Wire Format</a></td><td><a href="Prostate-Prostate-genexample-6-map.html">Logical Model</a></td></tr>
-    </table>-->
-
+<p>
+Structured reporting aims to improve the completeness and usability of pathology reports for clinicians, and improve decision support for cancer treatment. 
+The protocol provides the framework for the reporting of any prostate (radical prostectomy) cancer, whether as a minimum data set or fully comprehensive 
+report. The prostate (radical prostectomy) cancer protocol is based on information contained within multiple international publications and datasets 
+and has been developed in consultation with local practising pathologists, oncologists, surgeons, radiologists and interested national bodies.
+</p>
+<p>
+This implementation guide is developed as part of RCPA's PITUS 15-16 working group 5 project - Report Modelling.
+    </p>
+    <p>
+This is the <code>Prostate Logical Model</code>. For context, see the <a href="explanation.html">explanation of how this guide works</a>.
+</p>
 
 <a name="logical"> </a>
-    <h1>Prostate (radical prostatectomy) Report</h1>
+<h2>Prostate Report</h2>
 
-    <a name="table> </a>
+<a name="table"> </a>
     
-{% include  StructureDefinition-Prostate-diff.xhtml %}
+{% include StructureDefinition-Prostate-diff.xhtml %}
 
 <a name="definitions"> </a>
-<h1>Data Element Definitions</h1>
+
+<h2>Data Element Definitions</h2>
 
 {% include  StructureDefinition-Prostate-dict.xhtml %}
 
-<!--<a name="examples"> </a>
-<h1>Examples</h1>
-
-<ul>
- <li><a href="example1.html">Example 1</a></li>
-</ul>-->
 
 </div>
 

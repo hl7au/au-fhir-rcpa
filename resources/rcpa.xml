@@ -40,6 +40,7 @@
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/prostate-rad-seminal-vesicles-micro"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/prostate-rad-tumour-locations"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/prostate-rad-tumour-type"/></sourceReference></resource>
+    <resource><example value="false"/><sourceReference><reference value="CodeSystem/prostate-rad-extraprostatic-extension"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/received-notreceived"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/residual-tumour-status"/></sourceReference></resource>
     <resource><example value="false"/><sourceReference><reference value="CodeSystem/response-to-neoadjuvant-therapy"/></sourceReference></resource>
