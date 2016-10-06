@@ -9,7 +9,7 @@
   <Author>Grahame</Author>
   <LastAuthor>David McKillop</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
-  <LastSaved>2016-10-05T05:49:25Z</LastSaved>
+  <LastSaved>2016-10-06T01:27:45Z</LastSaved>
   <Version>15.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -17,11 +17,15 @@
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
   <SupBook>
+   <Path> </Path>
+   <SheetName> </SheetName>
+  </SupBook>
+  <SupBook>
    <Path>\work\subversion\fhir\build\source\colorectal\Archive\Invariants</Path>
    <SheetName>Invariants</SheetName>
   </SupBook>
   <WindowHeight>10095</WindowHeight>
-  <WindowWidth>22440</WindowWidth>
+  <WindowWidth>24405</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <TabRatio>735</TabRatio>
@@ -1596,7 +1600,7 @@
     <Cell ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">Prostate</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s92"><Data ss:Type="String">Prostate cancer</Data><NamedCell
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Prostate cancer&#10;This protocol contains standards and guidelines for the structured reporting of radical prostatectomy specimens for prostate carcinoma. There are separate protocols for core (needle) biopsies and transurethral resection (TUR) specimens.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s92"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1941,7 +1945,8 @@
     <Cell ss:StyleID="s102"><Data ss:Type="String">Surgical Procedure </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">*** surgicalProcedure has been commented out following a discussion with Meagan Judge where it was deemed that &quot;surgicalProcedure&quot; and &quot;natureOfSpecimen&quot; were referring to the same thing ie dupluicate.&#10;Query delete it.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"
@@ -2173,7 +2178,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Pre-biopsy serum PSA</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Pre-biopsy serum Prostate Specific Antigen (PSA):&#10;Pre-biopsy serum PSA is essential for stage grouping in the 7th Edition of the AJCC/UICC TNM staging system.15 In addition, pre-biopsy serum PSA is a key parameter in&#10;some nomograms widely used to estimate the risk of recurrence post-operatively and guide clinical decision making on adjuvant therapy.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Pre-biopsy serum PSA is essential for stage grouping in the 7th Edition of the AJCC/UICC TNM staging system.15 In addition, pre-biopsy serum PSA is a key parameter in&#10;some nomograms widely used to estimate the risk of recurrence post-operatively and guide clinical decision making on adjuvant therapy.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Units in ng/|mL</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2285,7 +2290,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Pathology number</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Pathology accession number:&#10;The pathology accession number of the specimen must be recorded.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">The pathology accession number of the specimen must be recorded.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2342,7 +2347,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Principal clinician</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Principal clinician:&#10;The principle clinician can provide key information regarding the clinical presentation of the patient. Follow up may be required with the principle clinician for a number of reasons:&#10;- The clinical assessment and staging may be incomplete at the time of biopsy.&#10;Prostate cancer structured reporting protocol 2nd edition&#10;-  The pathology request is often authored by the clinician performing the biopsy rather than the clinician who is investigating and managing the patient. &#10;- The identity of this clinician is often not indicated on the pathology request form&#10;In practice therefore, it is important in such cases that the reporting pathologist should be able to communicate with the managing clinician for clarification.</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">The principle clinician can provide key information regarding the clinical presentation of the patient. Follow up may be required with the principle clinician for a number of reasons:&#10;- The clinical assessment and staging may be incomplete at the time of biopsy.&#10;Prostate cancer structured reporting protocol 2nd edition&#10;-  The pathology request is often authored by the clinician performing the biopsy rather than the clinician who is investigating and managing the patient. &#10;- The identity of this clinician is often not indicated on the pathology request form&#10;In practice therefore, it is important in such cases that the reporting pathologist should be able to communicate with the managing clinician for clarification.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2580,7 +2585,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Specimen dimension 1 (mm) </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Specimen dimension 1 (prostate) &#10;Specimen dimensions of the prostate gland should be recorded in three dimensions (in millimetres).&#10;Measurements for apex to base, right to left and anterior to posterior enable comparison with clinical and imaging estimates of volume.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Specimen dimensions of the prostate gland should be recorded in three dimensions (in millimetres).&#10;Measurements for apex to base, right to left and anterior to posterior enable comparison with clinical and imaging estimates of volume.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">measured in mm</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2645,7 +2650,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Specimen dimension 2  (mm)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Specimen dimension 2 (prostate) </Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Specimen dimension 2 (mm) </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">measured in mm</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2711,7 +2716,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Specimen dimension 3  (mm)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Specimen dimension 3 (prostate) </Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Specimen dimension 3 (mm) </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">measured in mm</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2751,7 +2756,7 @@
     <Cell ss:StyleID="s98"><Data ss:Type="String">Prostate.macro.seminalVesicles</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">1..1</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">code</Data><NamedCell
@@ -2771,7 +2776,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Seminal vesicles</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Seminal Vesicles:&#10;The presence or absence of seminal vesicles must be recorded.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">The presence or absence of seminal vesicles must be recorded.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><Data ss:Type="String"> </Data><NamedCell
@@ -2860,7 +2865,7 @@
     <Cell ss:StyleID="s98"><Data ss:Type="String">Prostate.macro.lymphNodes.code</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">1..1</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s140"><Data ss:Type="String">code</Data><NamedCell
@@ -3170,7 +3175,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Block identification key</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Block identification key :&#10;A block identification key listing the nature and origin of all tissue blocks should be recorded.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">A block identification key listing the nature and origin of all tissue blocks should be recorded.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3684,7 +3689,7 @@
     <Cell ss:StyleID="s98"><Data ss:Type="String">Prostate.micro.tumourLocation.otherNodule.code</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">1..1</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">code</Data><NamedCell
@@ -3881,7 +3886,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Intraglandular extent</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Intraglandular extent:&#10;The intraglandular extent should be recorded as a percentage.&#10;Some measurement of the size or extent of the tumour is typically given in histopathology reports for most sites and this parameter forms part of the generic ICCR dataset for all tumour types. However in prostate, while cancer volume is a prognostic factor on univariate analysis, it is significantly correlated with other clinicopathological features, including Gleason score, EPE, surgical margin status and pathological TNM stage, and the majority of studies have not demonstrated independent prognostic significance on multivariate analysis.30-35 Hence, the ICCR expert panel regarded this factor as a recommended (non-core) rather than required item.&#10;The irregular distribution and often multifocal nature of prostate cancer makes accurate calculation of tumour volume challenging for the pathologist in routine diagnostic practice; a situation where precise methods, such as computerised planimetry or image analysis, are too time and labour intensive to be practical. However, there was consensus at the 2009 ISUP Conference that some quantitative measure of the extent of the tumour in a prostatectomy specimen should be recorded. This can be done either as a visual estimate of intraglandular percentage of cancer or by measuring the maximum size of dominant tumour&#10;nodule. The latter has been shown to correlate with tumour volume and has also been recommended as a readily assessed surrogate for tumour volume in some&#10;studies and protocols.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">The intraglandular extent should be recorded as a percentage.&#10;Some measurement of the size or extent of the tumour is typically given in histopathology reports for most sites and this parameter forms part of the generic ICCR dataset for all tumour types. However in prostate, while cancer volume is a prognostic factor on univariate analysis, it is significantly correlated with other clinicopathological features, including Gleason score, EPE, surgical margin status and pathological TNM stage, and the majority of studies have not demonstrated independent prognostic significance on multivariate analysis.30-35 Hence, the ICCR expert panel regarded this factor as a recommended (non-core) rather than required item.&#10;The irregular distribution and often multifocal nature of prostate cancer makes accurate calculation of tumour volume challenging for the pathologist in routine diagnostic practice; a situation where precise methods, such as computerised planimetry or image analysis, are too time and labour intensive to be practical. However, there was consensus at the 2009 ISUP Conference that some quantitative measure of the extent of the tumour in a prostatectomy specimen should be recorded. This can be done either as a visual estimate of intraglandular percentage of cancer or by measuring the maximum size of dominant tumour&#10;nodule. The latter has been shown to correlate with tumour volume and has also been recommended as a readily assessed surrogate for tumour volume in some&#10;studies and protocols.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Numeric:  __%</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3941,7 +3946,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Maximum size of dominant nodule</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Maximum size of dominant&#10;nodule:&#10;The maximum size of the dominant nodule should be recorded in millimetres.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">The maximum size of the dominant nodule should be recorded in millimetres.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Numeric:  __mm</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3999,7 +4004,7 @@
     <Cell ss:StyleID="s114"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s114"><Data ss:Type="String">Histological grade</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s116"><Data ss:Type="String">Histological grade:&#10;The Histological grade using the Gleason grading system (ISUP 2005) must be recorded.&#10;The 2005 ISUP modified Gleason score is a required (core) element for all radical prostatectomy specimens containing adenocarcinoma, except for those showing&#10;morphological changes consistent with androgen withdrawal or significant radiation therapy changes. The Gleason grading system has been in use for over 40&#10;years and is the current, internationally accepted grading system for prostate cancer. It has undergone several significant modifications over time, with an updated version developed at the 2005 ISUP Consensus Conference on Gleason Grading of Prostatic Carcinoma. The Gleason score is an important, independent predictor of tumour behaviour and is a key parameter in the tables and nomograms commonly used to guide decisions on clinical treatment.</Data><NamedCell
+    <Cell ss:StyleID="s116"><Data ss:Type="String">The Histological grade using the Gleason grading system (ISUP 2005) must be recorded.&#10;The 2005 ISUP modified Gleason score is a required (core) element for all radical prostatectomy specimens containing adenocarcinoma, except for those showing&#10;morphological changes consistent with androgen withdrawal or significant radiation therapy changes. The Gleason grading system has been in use for over 40&#10;years and is the current, internationally accepted grading system for prostate cancer. It has undergone several significant modifications over time, with an updated version developed at the 2005 ISUP Consensus Conference on Gleason Grading of Prostatic Carcinoma. The Gleason score is an important, independent predictor of tumour behaviour and is a key parameter in the tables and nomograms commonly used to guide decisions on clinical treatment.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s116"><Data ss:Type="String">This is just a group/section header and is not a result field</Data><NamedCell
@@ -4376,7 +4381,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Extraprostatic extension</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Extraprostatic extension:&#10;Extraprostatic extension (EPE) must be recorded.&#10;Extraprostatic extension (EPE), defined as the extension of tumour beyond the confines of the gland into the periprostatic soft tissue, is a required (core) element of the ICCR dataset as it is a significant predictor of recurrence in node negative patients.30,53 EPE replaced earlier, less clearly defined terms, such capsular penetration, perforation or invasion, following a 1996 Consensus Conference.54 The assessment of EPE can be difficult, as the prostate is not surrounded by a discrete, well defined fibrous capsule,55 but rather of a band of concentrically placed fibromuscular tissue that is an inseparable component of the prostatic stroma.56 EPE can be recognised in several different settings: (1) the presence of neoplastic glands abutting on or within periprostatic fat or beyond the adjacent fat plane in situations where no fat is present in the immediate area of interest (most useful at the lateral, posterolateral and posterior aspects of the prostate) (See Fig. S3.03 (i) A below); (2) neoplastic glands surrounding nerves in the neurovascular bundle (posterolaterally); (3) the presence of a nodular extension of tumour bulging beyond the periphery of the prostate or beyond the compressed fibromuscular prostatic stroma at the outer edge of the gland—as there is often a desmoplastic reaction in the vicinity of EPE and the neoplastic extraprostatic glands&#10;may then be seen in fibrous tissue, rather than in fat.56-57 Extraprostatic tumour in fibrous tissue is best identified initially at low power magnification, but should be then&#10;confirmed by high power magnification examination verifying that the neoplastic glands are in stroma that is fibrous and beyond the condensed smooth muscle of the prostate (See Fig. S3.03 (i)B below).30,57 The presence of cancer within fibrous stroma that is in the same tissue plane as adipose tissue on either side is a helpful indictor of EPE.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Extraprostatic extension (EPE) must be recorded.&#10;Extraprostatic extension (EPE), defined as the extension of tumour beyond the confines of the gland into the periprostatic soft tissue, is a required (core) element of the ICCR dataset as it is a significant predictor of recurrence in node negative patients.30,53 EPE replaced earlier, less clearly defined terms, such capsular penetration, perforation or invasion, following a 1996 Consensus Conference. The assessment of EPE can be difficult, as the prostate is not surrounded by a discrete, well defined fibrous capsule,55 but rather of a band of concentrically placed fibromuscular tissue that is an inseparable component of the prostatic stroma.  EPE can be recognised in several different settings: (1) the presence of neoplastic glands abutting on or within periprostatic fat or beyond the adjacent fat plane in situations where no fat is present in the immediate area of interest (most useful at the lateral, posterolateral and posterior aspects of the prostate) (See Fig. S3.03 (i) A below); (2) neoplastic glands surrounding nerves in the neurovascular bundle (posterolaterally); (3) the presence of a nodular extension of tumour bulging beyond the periphery of the prostate or beyond the compressed fibromuscular prostatic stroma at the outer edge of the gland—as there is often a desmoplastic reaction in the vicinity of EPE and the neoplastic extraprostatic glands&#10;may then be seen in fibrous tissue, rather than in fat. Extraprostatic tumour in fibrous tissue is best identified initially at low power magnification, but should be then&#10;confirmed by high power magnification examination verifying that the neoplastic glands are in stroma that is fibrous and beyond the condensed smooth muscle of the prostate (See Fig. S3.03 (i)B below). The presence of cancer within fibrous stroma that is in the same tissue plane as adipose tissue on either side is a helpful indictor of EPE.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Single selection value list</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4437,7 +4442,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Extraprostatic extension - extent</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Extraprostatic extension - extent &#10;The EPE extent must be reported as focal or non-focal.&#10;Categorisation of the extent of EPE as focal or nonfocal (also referred to as ‘established’ or ‘extensive’) is a required (core) item in the ICCR dataset. Focal EPE was originally defined no more than “a few “ neoplastic glands just outside the prostate, then&#10;subsequently, in a more semi-quantified manner, as extraprostatic glands which occupy no more than one high power field in no more than two sections, with extensive EPE representing anything more than this.30&#10;More rigorous quantification of the extent of EPE by measuring the maximum distance that the tumour bulges beyond the outer edge of the fibromuscular prostatic stroma radially has been proposed by some investigators.59 However, the practical value of such parameters is limited by the difficulty in precisely defining the outer limit of the prostate gland, especially when the tumour is associated with a desmoplastic reaction. The identification of any EPE is important, as both focal and extensive EPE are associated with a significantly higher risk of recurrence at both 5 and 10 years.30,53 Following radical prostatectomy, the progression-free  probability for node negative patients with uninvolved seminal vesicles at 10 years for organ confined disease is 85– 89%, falling to 67–69% for focal EPE and to 36–58%&#10;for extensive EPE.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">The EPE extent must be reported as focal or non-focal.&#10;Categorisation of the extent of EPE as focal or nonfocal (also referred to as ‘established’ or ‘extensive’) is a required (core) item in the ICCR dataset. Focal EPE was originally defined no more than “a few “ neoplastic glands just outside the prostate, then&#10;subsequently, in a more semi-quantified manner, as extraprostatic glands which occupy no more than one high power field in no more than two sections, with extensive EPE representing anything more than this.30&#10;More rigorous quantification of the extent of EPE by measuring the maximum distance that the tumour bulges beyond the outer edge of the fibromuscular prostatic stroma radially has been proposed by some investigators. However, the practical value of such parameters is limited by the difficulty in precisely defining the outer limit of the prostate gland, especially when the tumour is associated with a desmoplastic reaction. The identification of any EPE is important, as both focal and extensive EPE are associated with a significantly higher risk of recurrence at both 5 and 10 years.30,53 Following radical prostatectomy, the progression-free  probability for node negative patients with uninvolved seminal vesicles at 10 years for organ confined disease is 85– 89%, falling to 67–69% for focal EPE and to 36–58%&#10;for extensive EPE.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Single selection value list</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4501,7 +4506,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Extraprostatic extension - location(s)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Extraprostatic extension - locations of EPE&#10;The location of extraprostatic extension (EPE) may be recorded.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">The location of extraprostatic extension (EPE) may be recorded.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Single selection value list</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4562,7 +4567,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Extraprostatic extension - other location</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Extraprostatic extension - other location &#10;Since it was considered a generic element forming part of a comprehensive pathology report, the location of any extraprostatic extension present has been included in the recommended (non-core) dataset, despite the lack of published evidence for its influence on staging, prognosis or treatment.57 It provides potentially useful information to the urologist, enabling correlation with clinical findings and any pre-operative imaging studies performed.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Extraprostatic extension - other location &#10;Since it was considered a generic element forming part of a comprehensive pathology report, the location of any extraprostatic extension present has been included in the recommended (non-core) dataset, despite the lack of published evidence for its influence on staging, prognosis or treatment. It provides potentially useful information to the urologist, enabling correlation with clinical findings and any pre-operative imaging studies performed.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4618,7 +4623,7 @@
     <Cell ss:StyleID="s174"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s174"><Data ss:Type="String">Information about the Margin</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s174"><Data ss:Type="String">Information about the Margin&#10;Margin status must be recorded.</Data><NamedCell
+    <Cell ss:StyleID="s174"><Data ss:Type="String">Margin status must be recorded.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s176"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s174"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4679,7 +4684,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Margin status</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Margin status &#10;A positive surgical margin (PSM) significantly reduces the likelihood of progression-free survival, including PSA recurrence-free survival, local recurrence-free survival and development of metastases after radical prostatectomy in multivariate analysis.58,60-64 Moreover, positive margins are associated with a 2.6- fold increased unadjusted risk of prostate cancer specific mortality.65 Careful inking of the outer surface of the radical prostatectomy specimen before macroscopic dissection (grossing) greatly facilitates the determination of margin status. A PSM can then be defined as cancer extending to the inked surface of the specimen, representing a site where the urologist has cut through cancer58,66 (See Fig. S3.05 below).&#10;PSMs are reported in between 10 – 48% of patients treated by radical prostatectomy for both organ confined and non-organ confined prostate cancer with the rates in the lower range typically found in more modern cohorts. </Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Margin status must be recorded.&#10;A positive surgical margin (PSM) significantly reduces the likelihood of progression-free survival, including PSA recurrence-free survival, local recurrence-free survival and development of metastases after radical prostatectomy in multivariate analysis. Moreover, positive margins are associated with a 2.6- fold increased unadjusted risk of prostate cancer specific mortality. Careful inking of the outer surface of the radical prostatectomy specimen before macroscopic dissection (grossing) greatly facilitates the determination of margin status. A PSM can then be defined as cancer extending to the inked surface of the specimen, representing a site where the urologist has cut through cancer (See Fig. S3.05 below).&#10;PSMs are reported in between 10 – 48% of patients treated by radical prostatectomy for both organ confined and non-organ confined prostate cancer with the rates in the lower range typically found in more modern cohorts. </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Single selection value list:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4860,7 +4865,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Involved margin extent</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Involved margin extent &#10;The extent (total) of margin involvement may be recorded.</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">The extent (total) of margin involvement may be recorded.&#10;Extent is measured as the linear cumulative length of all positive margins.&#10;Although a positive surgical marginal (PSM) has a significant adverse impact on the overall likelihood of progression-free survival, in most published series only about a third of individual patients with a PSM will experience biochemical recurrence. Studies aiming to better quantify the risk associated with a PSM have focussed on a number of factors such as number, location and extent of positive margins. However, the published data relating to these parameters are somewhat contradictory, and the expert panel considered that there is only sufficient evidence to include measurement of the length of margin involved by  carcinoma as an element in the ICCR dataset at present.  In particular, the 5 year PSA recurrence risk appears to be significantly greater when the length of the involved margin is 3mm or more, (53% versus 14%).  However, in one series, Cao et al  1found that the linear length of a positive margin was an independent prognostic factor for organ confined tumours only, i.e. pT2 not pT3, while, another investigation found that the impact of a positive surgical margin after radical prostatectomy was greater in intermediate and high risk groups (based on Gleason score and pre-biopsy PSA) than in low risk patients.63 Further studies of such factors&#10;potentially affecting the impact of PSMs are required before there is sufficient evidence justifying their inclusion as required (core) data elements.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Numeric: ___mm&#10;Notes:&#10;If more than 1 positive margin, record the&#10;cummulative length.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4919,7 +4924,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Gleason score at margin</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Gleason score at margin </Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Gleason score at involved margins may be recorded.&#10;Following review of feedback on the draft prostate cancer (radical prostatectomy) dataset and commentary, the expert panel has included the Gleason score of the tumour at the positive surgical margin as a recommended (non-core) element of the ICCR dataset. Three recently published papers have found that Gleason score or grade of the tumour at the positive surgical margin is an independent predictor of biochemical recurrence and may aid optimal selection of patients for adjuvant therapy.  In one of these studies patients with Gleason grade 4 or 5 carcinoma (score 3+4, 4+3, 4+4 or 4+5) at a PSM had double the risk of PSA relapse compared to those with only Gleason grade 3 (score 3+3) at the margin. Moreover, men with Gleason score 3 at the PSM had a similar 5-year biochemical relapse-free survival rate to those with negative margins. Another study, restricted to men with dominant nodule Gleason score 7 and nonfocal EPE, also found that the grade of cancer at the site of a PSM was associated with biochemical recurrence. In the event there are multiple positive margins with differently scored cancers present, the highest score should be recorded.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Numeric: __&#10;Notes:&#10;If more than 1 positive margin, record the&#10;highest score</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4979,7 +4984,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Type of margin positivity</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Type of margin positivity </Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">The type of margin positivity may be recorded.&#10;This should be recorded as:&#10; - EPE&#10; -  Intraprostatic (capsular incision)&#10;Intraprostatic margin involvement or capsular incision (CI) occurs when the urologist inadvertently develops the resection margin within the plane of the prostate rather than outside the capsule. CI with a positive surgical margin is diagnosed when malignant glands are cut across adjacent to benign prostatic glands.  In these&#10;cases, the edge of the prostate in this region is left in the patient. Data on the prognostic significance of CI vary among studies.  According to the largest series published, a significantly higher recurrence rate is found&#10;in patients with CI/intraprostatic margin involvement than in patients with organ confined disease with negative margins, or focal EPE with negative margins, although CI&#10;has a significantly better outcome than that associated with nonfocal EPE and positive margins. Margin involvement associated with EPE is diagnosed when malignant glands in extraprostatic tissue are transected by the resection margin. This can be difficult to distinguish from capsular incision in some cases, particularly posteriorly and posterolaterally if there is a desmoplastic reaction. Cancer extending to a margin which is beyond the normal contour of the prostate gland, or beyond the compressed fibromuscular prostatic stroma at the outer edge of the prostate, can be diagnosed as a&#10;positive surgical margin with EPE, similarly to margin involvement when there is cancer in adipose tissue. At the apex, the histological boundaries of the prostate gland can be difficult to define and again EPE with a&#10;positive margin can be difficult to differentiate from CI/intraprostatic margin involvement. Hence, if carcinoma extends to an inked margin at the apex where benign glands are not transected, this is considered a positive margin in an area of EPE by some authors. In contrast, other authors, and the majority of survey participants at the 2009 ISUP Consensus Conference, believe there is no reliable method to diagnose EPE in&#10;sections from the prostatic apex.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Multi select value list (select all that apply):</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5047,7 +5052,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Seminal vesicles</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Seminal vesicles </Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Presence or absence of seminal vesicle involvement must be recorded.&#10;State if seminal vesicles are involved or not involved.&#10;The expert panel included seminal vesicle invasion (SVI) as a required (core) element of the ICCR dataset as SVI is a well-established, independent, adverse prognostic&#10;factor58,88-89 and an integral component of the commonly used nomograms and tables that predict risk of post prostatectomy cancer recurrence. The finding of SVI at the time of radical prostatectomy is associated&#10;with a significantly increased risk of PSA recurrence and the presence of SVI and a positive surgical margin may also influence the response to adjuvant radiotherapy. Bilaterality and extent of extraprostatic SVI are not independently predictive of prognosis and were not included as required or recommended items in the ICCR dataset.&#10;Different definitions of seminal vesicle invasion have been used over the years complicating comparison of the published survival analyses.91,93 Older definitions&#10;including involvement of the adipose tissue or adventitia around the seminal vesicle are problematic with regard to distinction from EPE; while in other studies a distinction&#10;between intraprostatic and extraprostatic seminal vesicle invasion has not always been made, impeding comparisons between series. At the 2009 ISUP meeting, the proposal that SVI should be defined as&#10;carcinomatous invasion of the muscular wall of the seminal vesicle exterior to the prostate was endorsed (See Fig.S3.06 below). Only extraprostatic seminal vesicle is included in this definition of SVI, since it is difficult differentiating between intraprostatic seminal&#10;vesicle and ejaculatory duct invasion as these structures merge without a clear histological cut off. It was concluded that older definitions that include invasion of&#10;the adipose tissue around the seminal vesicle are imprecise and should be discarded.&#10;If one or more of the seminal vesicles are involved by cancer, specify whether left side, right side or both.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Single selection value list:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5108,12 +5113,13 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Bladder neck</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Bladder neck </Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Presence or absence of bladder neck involvement should be recorded.&#10;Microscopically, invasion of the urinary bladder neck can be identified when there are neoplastic glands within the thick smooth muscle bundles of the bladder neck in sections from the base of the prostate in the&#10;absence of associated benign prostatic glandular tissue (Fig. G3.08). Microscopic bladder neck involvement is a significant predictor of PSA-recurrence in univariate&#10;analysis, although not in multivariate modelling in most studies. Neoplastic glands intermixed with benign prostatic glands at the bladder neck margin is equivalent to capsular incision rather than true bladder neck invasion. In the 7th Edition of the AJCC&#10;Cancer Staging Manual microscopic bladder neck invasion is classified as stage pT3a disease since it has a similar biochemical recurrence free survival and cancer specific survival to patients with SVI or EPE.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Single selection value list:</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">G3.08</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"
      ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
@@ -5165,7 +5171,7 @@
     <Cell ss:StyleID="s114"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s114"><Data ss:Type="String">Lymph node status</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s114"><Data ss:Type="String">Lymph node status </Data><NamedCell
+    <Cell ss:StyleID="s114"><Data ss:Type="String">Lymph node status must be recorded.&#10;State the number of lymph nodes examined and the number of positive lymph nodes.&#10;Lymph node involvement is a well established&#10;independent adverse prognostic factor and is an integral component of the commonly used nomograms that predict the risk of post prostatectomy disease recurrence. There is little published data on the prognostic significance of isolated tumour cells (clusters less than &lt;200 μm in greatest dimension) in prostate cancer and insufficient evidence at present to support the routine use of immunohistochemistry as an ancillary technique in the identification of lymph node involvement.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s116"><Data ss:Type="String">This is just a group/section header and is not a result field&#10;This is conditional on receipt of LNs in S2.03.</Data><NamedCell
@@ -5198,7 +5204,7 @@
     <Cell ss:Index="42" ss:StyleID="s111"><Data ss:Type="String">28965.1000043</Data></Cell>
     <Cell><Data ss:Type="String">23.02.28965</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="32.4375">
+   <Row ss:AutoFitHeight="0" ss:Height="61.5">
     <Cell ss:StyleID="s98"><Data ss:Type="String">Prostate.micro.lymphNodeStatus.number</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5223,7 +5229,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Number of lymph nodes&#10;examined</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Number of lymph nodes&#10;examined </Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Number of lymph nodes&#10;examined &#10;</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Numeric: __</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5404,7 +5410,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Site(s) of involved nodes</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Site(s) of involved nodes </Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">The site(s) of involved lymph nodes may also be recorded.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5460,7 +5466,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Maximum dimension of largest deposit</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">The maximum dimension of the largest lymph node deposit may be&#10;recorded.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">The maximum dimension of the largest lymph node deposit may be recorded.&#10;The diameter of the largest metastatic deposit correlated with distant metastasis and cancer-specific survival in two studies but not in another and this factor has been&#10;included in the recommended (non-core) dataset rather than as a required (core) item. There was consensus (81% respondents) at the 2009 ISUP Conference that that the diameter of the largest lymph node metastasis should be included in the pathology reports on radical prostatectomy specimens.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Numeric: __</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5525,7 +5531,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Lymphovascular invasion</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Lymphovascular invasion should be recorded.</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Lymphovascular invasion should be recorded.&#10;Lymphovascular invasion is defined as the unequivocal presence of tumour cells within endothelial-lined spaces with no underlying muscular walls. Lymphatic and venous invasion should be assessed together due to the difficulties in distinguishing between the two by routine light microscopy and it is important that artefacts, such as retraction or mechanical displacement of tumour cells&#10;into vessels, are excluded.  Immunohistochemistry for endothelial markers, e.g. CD31, CD34 or D2-40, may aid&#10;in the assessment of equivocal cases but is not recommended for routine use at present.&#10;Lymphovascular (LVI) invasion has been reported to be associated with decreased time to biochemical progression, distant metastases and overall survival after&#10;radical prostatectomy.  Multivariate analysis, controlling for other pathological variables known to affect clinical outcome, showed that LVI is an independent predictor of disease recurrence in some studies.  However, the independent prognostic value of LVI is uncertain as definitions of LVI&#10;have varied between studies and most included a substantial number of patients with lymph node metastases or SVI, failing to stratify patients into clinical meaningful categories. Further well designed studies with&#10;standardised definitions are necessary to confirm the independent prognostic significance of LVI.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5583,7 +5589,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Additional microscopic comment</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Additional microscopic comment </Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Additional microscopic comment &#10;Comments should be included, if appropriate.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5639,7 +5645,7 @@
     <Cell ss:StyleID="s114"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s114"><Data ss:Type="String">Synthesis and Overview</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s116"><Data ss:Type="String">Synthesis and Overview are to be recorded</Data><NamedCell
+    <Cell ss:StyleID="s116"><Data ss:Type="String">Synthesis and Overview are to be recorded&#10;Information that is synthesised from multiple modalities and therefore cannot reside solely in any one of the preceding chapters is described here.&#10;For example, tumour stage is synthesised from multiple classes of information – clinical, macroscopic and microscopic.&#10;By definition, synthetic elements are inferential rather than observational, often&#10;representing high-level information that is likely to form part of the ‘Summary’ or&#10;‘Diagnosis’ section in the final formatted report.&#10;Overarching case comment is synthesis in narrative format. Although it may not&#10;necessarily be required in any given report, the provision of the facility for overarching commentary in a cancer report is essential.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s116"><Data ss:Type="String">This is just a group/section header and is not a result field</Data><NamedCell
@@ -5690,7 +5696,7 @@
     <Cell ss:StyleID="s114"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s114"><Data ss:Type="String">Tumour stage</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s116"><Data ss:Type="String">Tumour stage is to be recorded</Data><NamedCell
+    <Cell ss:StyleID="s116"><Data ss:Type="String">The tumour stage must be recorded according to the AJCC/UICC TNM system (7th edition).15 Used with the permission&#10;of the American Joint Committee on Cancer (AJCC), Chicago, Illinois. The original source for this material is the AJCC Cancer Staging Manual, Seventh Edition (2010) published by Springer Science and Business Media LLC, www.springerlink.com.&#10;The pathological tumour (T) and lymph node (N) categories were considered as generic required (core) elements for all ICCR cancer datasets Staging data should be assessed according to the most recent edition of the&#10;AJCC/UICC Staging Manuals (7th Edition)15 except pT2 subcategorization should be considered optional in line with ISUP recommendations as it lacks additional&#10;prognostic significance.&#10;The reference document: TNM Supplement: A commentary on uniform use, 4th Edition ( C Wittekind editor) may be of assistance when staging.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s116"><Data ss:Type="String">This is just a sub-group/sub-section header and is not a result field</Data><NamedCell
@@ -5724,7 +5730,7 @@
     <Cell ss:StyleID="s98"><Data ss:Type="String">Prostate.synthesisOverview.tumourStageT</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">1..1</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">code</Data><NamedCell
@@ -5750,7 +5756,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Primary tumour (T)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Primary Tumour stage T is to be recorded</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Primary Tumour stage T is to be recorded.&#10;Note: &#10;1)  Invasion into the prostate apex or into (but not beyond) the prostate capsule is not classified as T3, but as T2.&#10;2) There is no pathologic T1 classification for radical prostatectomy specimens&#10;3) Positive surgical margin should be indicated by an R1 descriptor (residual microscopic disease)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Single selection value list.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5789,7 +5795,7 @@
     <Cell ss:StyleID="s98"><Data ss:Type="String">Prostate.synthesisOverview.tumourStageN</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">1..1</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">code</Data><NamedCell
@@ -5847,7 +5853,7 @@
     <Cell ss:StyleID="s98"><Data ss:Type="String">Prostate.synthesisOverview.tumourStageM</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">1..1</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">code</Data><NamedCell
@@ -5867,7 +5873,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Distant metastasis (M)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Distant metastasis (M) is to be recorded</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Distant metastasis (M) is to be recorded&#10;Note:&#10;When more than one site of metastasis is present, the most advanced category is used. pM1c is most advanced.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Single selection value list.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5905,7 +5911,7 @@
     <Cell ss:StyleID="s98"><Data ss:Type="String">Prostate.synthesisOverview.tumourStage.stagingSystemDetails</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">1..1</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">string</Data><NamedCell
@@ -5924,11 +5930,12 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Year and/or edition of staging system</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Year and/or edition of staging system is to be recorded</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">The year of publication and edition of the cancer staging system used in S5.01 must be included in the report.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Numeric: year&#10;AND/OR&#10;Text: Edition eg 1st, 2nd etc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Cardinality changed to 0..1 as none of the example reports provided this information.&#10;Query change to mandatory once the reporting community is more aware of the protocol requirements.</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><Data ss:Type="String">S5.02</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5988,10 +5995,9 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Diagnostic summary</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Diagnostic summary is to be recorded</Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">The ‘Diagnostic summary’ section of the final formatted report should&#10;include:&#10;a. nature of specimen (S1.02)&#10;b. tumour type (S3.01)&#10;c. Gleason score (S3.02)&#10;d. tumour stage (S5.01 &amp; S5.02)&#10;e. whether or not the specimen margins are involved (S3.05)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><Data ss:Type="String">Include:&#10;a. specimen type&#10;b. tumour site&#10;c. Gleason score&#10;d. tumour stage&#10;e. whether or not the specimen margins are involved</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><Data ss:Type="String">G5.01</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6046,7 +6052,7 @@
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Overarching comment</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s102"><Data ss:Type="String">Synthesis and overview overarching comment </Data><NamedCell
+    <Cell ss:StyleID="s102"><Data ss:Type="String">The reporting system must provide a field for free text or narrative in which the reporting pathologist can give overarching case comment.&#10;This field may be used, for example, to:&#10;-  explain the decision-making pathway, or any elements of clinicopathological ambiguity, or factors affecting diagnostic certainty, thereby allowing communication of diagnostic subtlety or nuance that is beyond&#10;synoptic capture&#10;- give recommendations for further action or&#10;investigation&#10;- document further consultation or results still pending.&#10;Note: Use of this field is at the discretion of the reporting pathologist.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Conditional</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6456,9 +6462,9 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>47</TopRowBottomPane>
+   <TopRowBottomPane>69</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>11</LeftColumnRightPane>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -6466,7 +6472,6 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveCol>1</ActiveCol>
     </Pane>
     <Pane>
      <Number>2</Number>
@@ -6474,8 +6479,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>56</ActiveRow>
-     <ActiveCol>18</ActiveCol>
+     <ActiveRow>71</ActiveRow>
+     <ActiveCol>8</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -6532,14 +6537,14 @@
    xmlns="urn:schemas-microsoft-com:office:excel">
   </AutoFilter>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R15C19:R16C19,R39C19:R40C19,R55C19:R62C19,R2C18:R19C18,R53C19,R22C18:R84C18</Range>
+   <Range>R15C19:R16C19,R39C19:R40C19,R55C19:R62C19,R53C19,R2C18:R84C18</Range>
    <Condition>
     <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:yellow'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R78C8:R78C37,R63C8:R64C11,R14C8:R14C23,R15C9:R15C23,R79C5:R84C37,R2C8:R11C23,R12C9:R13C23,R16C8:R19C23,R2C1:R19C7,R23C1:R24C4,R23C13:R24C23,R71C8:R72C8,R49C4:R112C4,R49C5:R78C7,R29C1:R47C7,R49C1:R84C3,R34C9:R40C23,R49C8:R62C23,R63C13:R64C23,R71C15:R72C23,R73C8:R77C23,R25C1:R28C23,R65C8:R70C23,R2C24:R2C30,R6C27,R2C31:R19C37,R41C8:R47C24,R48C1:R48C24,R49C24:R58C24,R60C24:R77C24,R17C27,R19C27,R31C27,R33C27:R41C27,R43C27,R50C27:R53C27,R56C27,R58C27:R59C27,R61C27:R62C27,R70C27,R3C24:R19C25,R22C24:R40C24,R22C27:R24C27,R22C25:R77C25,R22C31:R77C37,R22C1:R22C23,R29C8:R33C23</Range>
+   <Range>R78C8:R78C37,R63C8:R64C11,R14C8:R14C23,R15C9:R15C23,R79C5:R84C37,R2C8:R11C23,R12C9:R13C23,R16C8:R19C23,R2C1:R19C7,R23C1:R24C4,R23C13:R24C23,R71C8:R72C8,R49C4:R112C4,R49C5:R78C7,R29C1:R47C7,R49C1:R84C3,R34C9:R40C23,R49C8:R62C23,R63C13:R64C23,R71C15:R72C23,R73C8:R77C23,R25C1:R28C23,R65C8:R70C23,R2C24:R2C30,R6C27,R41C8:R47C24,R48C1:R48C24,R49C24:R58C24,R60C24:R77C24,R17C27,R31C27,R33C27:R41C27,R43C27,R50C27:R53C27,R56C27,R58C27:R59C27,R61C27:R62C27,R70C27,R3C24:R19C25,R22C24:R40C24,R22C25:R77C25,R22C1:R22C23,R29C8:R33C23,R2C31:R77C37,R19C27:R24C27,R20C1:R21C25</Range>
    <Condition>
     <Value1>RC3=&quot;0..0&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
@@ -6550,7 +6555,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C1,R12C1:R13C1,R7C1:R10C1,R15C1:R16C1,R71C1:R74C1,R76C1,R78C1:R84C1,R58C1:R60C1,R62C1,R41C1:R47C1,R32C1:R33C1,R50C1:R53C1,R55C1:R56C1,R18C1:R19C1</Range>
+   <Range>R2C1,R12C1:R13C1,R7C1:R10C1,R15C1:R16C1,R71C1:R74C1,R76C1,R78C1:R84C1,R58C1:R60C1,R62C1,R41C1:R47C1,R32C1:R33C1,R50C1:R53C1,R55C1:R56C1,R18C1:R21C1</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,R[-1]C=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
@@ -6564,35 +6569,35 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C19:R19C19,R3C3:R19C3,R22C3:R84C3,R22C19:R84C19</Range>
+   <Range>R2C19:R84C19,R3C3:R84C3,R33C18</Range>
    <Condition>
     <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R63C9:R64C11,R63C13:R64C14,R2C5,R2C17:R19C17,R2C9:R19C14,R24C9:R24C12,R73C9:R84C14,R65C9:R70C14,R25C17:R84C17,R25C9:R62C14,R22C9:R22C14,R22C17</Range>
+   <Range>R63C9:R64C11,R63C13:R64C14,R2C5,R24C9:R24C12,R73C9:R84C14,R65C9:R70C14,R25C17:R84C17,R25C9:R62C14,R2C17:R22C17,R2C9:R22C14</Range>
    <Condition>
     <Value1>AND(SEARCH(&quot;|&quot;,RC5)&lt;&gt;0,RC&lt;&gt;&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C15:R19C15,R2C17:R19C17,R25C17:R84C17,R25C15:R84C15,R22C17,R22C15</Range>
+   <Range>R25C17:R84C17,R25C15:R84C15,R2C15:R22C15,R2C17:R22C17</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,NOT(EXACT(LEFT(RC5,1),LOWER(LEFT(RC5,1)))))</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C15:R19C16,R22C15:R84C16</Range>
+   <Range>R2C15:R84C16</Range>
    <Condition>
     <Value1>AND(RC15&lt;&gt;&quot;&quot;,RC16&lt;&gt;&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C18:R19C19,R22C18:R84C19</Range>
+   <Range>R2C18:R84C19</Range>
    <Condition>
     <Value1>AND(RC18&lt;&gt;&quot;&quot;,RC18=RC19)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
@@ -6606,7 +6611,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R3C31:R19C32,R22C31:R84C32</Range>
+   <Range>R3C31:R84C32</Range>
    <Condition>
     <Value1>AND(RC1&lt;&gt;&quot;&quot;,ISERR(SEARCH(&quot;N/A&quot;,R2C)),RC=&quot;&quot;)</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:orange'/>
@@ -6620,7 +6625,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R78C8:R78C37,R63C8:R64C11,R14C8:R14C23,R15C9:R15C23,R79C5:R84C37,R2C8:R11C23,R12C9:R13C23,R16C8:R19C23,R2C1:R19C7,R23C1:R24C4,R23C13:R24C23,R71C8:R72C8,R49C4:R112C4,R49C5:R78C7,R29C1:R47C7,R49C1:R84C3,R34C9:R40C23,R71C15:R72C23,R73C8:R77C23,R25C1:R28C23,R65C8:R70C23,R2C24:R2C30,R6C27,R2C31:R19C37,R41C8:R47C24,R48C1:R48C24,R49C8:R62C24,R63C13:R64C24,R65C24:R77C24,R17C27,R19C27,R31C27,R33C27:R41C27,R43C27,R50C27:R53C27,R56C27,R58C27:R59C27,R61C27:R62C27,R70C27,R3C24:R19C25,R22C24:R40C24,R22C27:R24C27,R22C25:R77C25,R22C31:R77C37,R22C1:R22C23,R29C8:R33C23</Range>
+   <Range>R78C8:R78C37,R63C8:R64C11,R14C8:R14C23,R15C9:R15C23,R79C5:R84C37,R2C8:R11C23,R12C9:R13C23,R16C8:R19C23,R2C1:R19C7,R23C1:R24C4,R23C13:R24C23,R71C8:R72C8,R49C4:R112C4,R49C5:R78C7,R29C1:R47C7,R49C1:R84C3,R34C9:R40C23,R71C15:R72C23,R73C8:R77C23,R25C1:R28C23,R65C8:R70C23,R2C24:R2C30,R6C27,R41C8:R47C24,R48C1:R48C24,R49C8:R62C24,R63C13:R64C24,R65C24:R77C24,R17C27,R31C27,R33C27:R41C27,R43C27,R50C27:R53C27,R56C27,R58C27:R59C27,R61C27:R62C27,R70C27,R3C24:R19C25,R22C24:R40C24,R22C25:R77C25,R22C1:R22C23,R29C8:R33C23,R2C31:R77C37,R19C27:R24C27,R20C1:R21C25</Range>
    <Condition>
     <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
@@ -6655,7 +6660,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R3C34:R4C34,R32C34:R33C34,R26C34:R28C34,R19C34</Range>
+   <Range>R3C34:R4C34,R32C34:R33C34,R26C34:R28C34,R19C34:R21C34</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(R[3]C1,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(R[3]C1,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
@@ -6811,211 +6816,6 @@
    <Condition>
     <Value1>RC3=&quot;0..0&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C18</Range>
-   <Condition>
-    <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:yellow'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C31:R20C37,R20C27,R20C1:R20C19,R20C21:R20C25</Range>
-   <Condition>
-    <Value1>RC3=&quot;0..0&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
-   </Condition>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,RC1=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C1</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,R[-1]C=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C19,R20C3</Range>
-   <Condition>
-    <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C17,R20C9:R20C14</Range>
-   <Condition>
-    <Value1>AND(SEARCH(&quot;|&quot;,RC5)&lt;&gt;0,RC&lt;&gt;&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C15,R20C17</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,NOT(EXACT(LEFT(RC5,1),LOWER(LEFT(RC5,1)))))</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C15:R20C16</Range>
-   <Condition>
-    <Value1>AND(RC15&lt;&gt;&quot;&quot;,RC16&lt;&gt;&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C18:R20C19</Range>
-   <Condition>
-    <Value1>AND(RC18&lt;&gt;&quot;&quot;,RC18=RC19)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C31:R20C32</Range>
-   <Condition>
-    <Value1>AND(RC1&lt;&gt;&quot;&quot;,ISERR(SEARCH(&quot;N/A&quot;,R2C)),RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:orange'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C31:R20C37,R20C27,R20C1:R20C19,R20C21:R20C25</Range>
-   <Condition>
-    <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C34</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(R[3]C1,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(R[3]C1,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C18</Range>
-   <Condition>
-    <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:yellow'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C31:R21C37,R21C27,R21C1:R21C19,R21C21:R21C25</Range>
-   <Condition>
-    <Value1>RC3=&quot;0..0&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
-   </Condition>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,RC1=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C1</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,R[-1]C=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C19,R21C3</Range>
-   <Condition>
-    <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C17,R21C9:R21C14</Range>
-   <Condition>
-    <Value1>AND(SEARCH(&quot;|&quot;,RC5)&lt;&gt;0,RC&lt;&gt;&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C15,R21C17</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,NOT(EXACT(LEFT(RC5,1),LOWER(LEFT(RC5,1)))))</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C15:R21C16</Range>
-   <Condition>
-    <Value1>AND(RC15&lt;&gt;&quot;&quot;,RC16&lt;&gt;&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C18:R21C19</Range>
-   <Condition>
-    <Value1>AND(RC18&lt;&gt;&quot;&quot;,RC18=RC19)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C31:R21C32</Range>
-   <Condition>
-    <Value1>AND(RC1&lt;&gt;&quot;&quot;,ISERR(SEARCH(&quot;N/A&quot;,R2C)),RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:orange'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C31:R21C37,R21C27,R21C1:R21C19,R21C21:R21C25</Range>
-   <Condition>
-    <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C34</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(R[3]C1,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(R[3]C1,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C20</Range>
-   <Condition>
-    <Value1>RC3=&quot;0..0&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
-   </Condition>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,RC1=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R20C20</Range>
-   <Condition>
-    <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C20</Range>
-   <Condition>
-    <Value1>RC3=&quot;0..0&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
-   </Condition>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,RC1=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R21C20</Range>
-   <Condition>
-    <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R33C18</Range>
-   <Condition>
-    <Value1>(RC1=&quot;&quot;)&lt;&gt;(RC=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
  </Worksheet>
