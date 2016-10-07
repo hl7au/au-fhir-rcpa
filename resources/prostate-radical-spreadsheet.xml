@@ -10,26 +10,23 @@
   <LastAuthor>David McKillop</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
   <LastSaved>2016-10-06T01:27:45Z</LastSaved>
-  <Version>15.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
   <SupBook>
-   <Path> </Path>
-   <SheetName> </SheetName>
-  </SupBook>
-  <SupBook>
    <Path>\work\subversion\fhir\build\source\colorectal\Archive\Invariants</Path>
    <SheetName>Invariants</SheetName>
   </SupBook>
-  <WindowHeight>10095</WindowHeight>
-  <WindowWidth>24405</WindowWidth>
+  <WindowHeight>0</WindowHeight>
+  <WindowWidth>0</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <TabRatio>735</TabRatio>
   <ActiveSheet>2</ActiveSheet>
+  <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -2563,7 +2560,7 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">string</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">SimpleQuantity</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2628,7 +2625,7 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">string</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">SimpleQuantity</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2694,7 +2691,7 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">string</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">SimpleQuantity</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6457,14 +6454,14 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
-   <Zoom>60</Zoom>
+   <Zoom>130</Zoom>
    <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>69</TopRowBottomPane>
+   <TopRowBottomPane>15</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <LeftColumnRightPane>14</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -6472,6 +6469,7 @@
     </Pane>
     <Pane>
      <Number>1</Number>
+     <ActiveCol>1</ActiveCol>
     </Pane>
     <Pane>
      <Number>2</Number>
@@ -6479,8 +6477,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>71</ActiveRow>
-     <ActiveCol>8</ActiveCol>
+     <ActiveRow>20</ActiveRow>
+     <ActiveCol>21</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -6544,7 +6542,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R78C8:R78C37,R63C8:R64C11,R14C8:R14C23,R15C9:R15C23,R79C5:R84C37,R2C8:R11C23,R12C9:R13C23,R16C8:R19C23,R2C1:R19C7,R23C1:R24C4,R23C13:R24C23,R71C8:R72C8,R49C4:R112C4,R49C5:R78C7,R29C1:R47C7,R49C1:R84C3,R34C9:R40C23,R49C8:R62C23,R63C13:R64C23,R71C15:R72C23,R73C8:R77C23,R25C1:R28C23,R65C8:R70C23,R2C24:R2C30,R6C27,R41C8:R47C24,R48C1:R48C24,R49C24:R58C24,R60C24:R77C24,R17C27,R31C27,R33C27:R41C27,R43C27,R50C27:R53C27,R56C27,R58C27:R59C27,R61C27:R62C27,R70C27,R3C24:R19C25,R22C24:R40C24,R22C25:R77C25,R22C1:R22C23,R29C8:R33C23,R2C31:R77C37,R19C27:R24C27,R20C1:R21C25</Range>
+   <Range>R78C8:R78C37,R63C8:R64C11,R14C8:R14C23,R15C9:R15C23,R79C5:R84C37,R2C8:R11C23,R12C9:R13C23,R16C8:R19C23,R23C1:R24C4,R23C13:R24C23,R71C8:R72C8,R49C4:R112C4,R49C5:R78C7,R29C1:R47C7,R49C1:R84C3,R34C9:R40C23,R49C8:R62C23,R63C13:R64C23,R71C15:R72C23,R73C8:R77C23,R25C1:R28C23,R65C8:R70C23,R2C24:R2C30,R6C27,R41C8:R47C24,R48C1:R48C24,R49C24:R58C24,R60C24:R77C24,R17C27,R31C27,R33C27:R41C27,R43C27,R50C27:R53C27,R56C27,R58C27:R59C27,R61C27:R62C27,R70C27,R3C24:R19C25,R22C24:R40C24,R22C25:R77C25,R22C1:R22C23,R29C8:R33C23,R2C31:R77C37,R19C27:R24C27,R2C1:R19C7,R20C1:R21C25</Range>
    <Condition>
     <Value1>RC3=&quot;0..0&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
@@ -6625,7 +6623,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R78C8:R78C37,R63C8:R64C11,R14C8:R14C23,R15C9:R15C23,R79C5:R84C37,R2C8:R11C23,R12C9:R13C23,R16C8:R19C23,R2C1:R19C7,R23C1:R24C4,R23C13:R24C23,R71C8:R72C8,R49C4:R112C4,R49C5:R78C7,R29C1:R47C7,R49C1:R84C3,R34C9:R40C23,R71C15:R72C23,R73C8:R77C23,R25C1:R28C23,R65C8:R70C23,R2C24:R2C30,R6C27,R41C8:R47C24,R48C1:R48C24,R49C8:R62C24,R63C13:R64C24,R65C24:R77C24,R17C27,R31C27,R33C27:R41C27,R43C27,R50C27:R53C27,R56C27,R58C27:R59C27,R61C27:R62C27,R70C27,R3C24:R19C25,R22C24:R40C24,R22C25:R77C25,R22C1:R22C23,R29C8:R33C23,R2C31:R77C37,R19C27:R24C27,R20C1:R21C25</Range>
+   <Range>R78C8:R78C37,R63C8:R64C11,R14C8:R14C23,R15C9:R15C23,R79C5:R84C37,R2C8:R11C23,R12C9:R13C23,R16C8:R19C23,R23C1:R24C4,R23C13:R24C23,R71C8:R72C8,R49C4:R112C4,R49C5:R78C7,R29C1:R47C7,R49C1:R84C3,R34C9:R40C23,R71C15:R72C23,R73C8:R77C23,R25C1:R28C23,R65C8:R70C23,R2C24:R2C30,R6C27,R41C8:R47C24,R48C1:R48C24,R49C8:R62C24,R63C13:R64C24,R65C24:R77C24,R17C27,R31C27,R33C27:R41C27,R43C27,R50C27:R53C27,R56C27,R58C27:R59C27,R61C27:R62C27,R70C27,R3C24:R19C25,R22C24:R40C24,R22C25:R77C25,R22C1:R22C23,R29C8:R33C23,R2C31:R77C37,R19C27:R24C27,R2C1:R19C7,R20C1:R21C25</Range>
    <Condition>
     <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
@@ -6639,7 +6637,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R2C34,R13C34,R22C34,R29C34:R30C34,R74C34,R76C34,R43C34:R47C34,R49C34:R69C34</Range>
+   <Range>R2C34,R13C34,R22C34,R29C34:R30C34,R74C34,R76C34,R43C34:R69C34</Range>
    <Condition>
     <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(#REF!,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(#REF!,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:red'/>
@@ -6791,20 +6789,6 @@
    <Condition>
     <Value1>LEFT(R[-2]C1,1)=&quot;!&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R37C1</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,#REF!=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R48C34</Range>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,LEFT(RC5,1)&lt;&gt;&quot;@&quot;,LEFT(#REF!,LEN(RC1)+1)&lt;&gt;(RC1&amp;&quot;.&quot;),LEFT(#REF!,LEN(RC1)+2)&lt;&gt;(&quot;!&quot;&amp;RC1&amp;&quot;.&quot;))</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
