@@ -17,10 +17,6 @@
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
   <SupBook>
-   <Path> </Path>
-   <SheetName> </SheetName>
-  </SupBook>
-  <SupBook>
    <Path>\work\subversion\fhir\build\source\colorectal\Archive\Invariants</Path>
    <SheetName>Invariants</SheetName>
   </SupBook>
@@ -1842,7 +1838,7 @@
     <Cell ss:StyleID="s117"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"
      ss:Formula="=&quot;for source.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as spa make create(&quot;&quot;Observation&quot;&quot;) as tpa, cdr.result = reference(tpa), tpa.subject = (source.subject), tpa.status = &quot;&quot;final&quot;&quot;, tpa.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;)&quot;"><Data
-      ss:Type="String">for source.preAnalytic : code 0..1 as spa make create(&quot;Observation&quot;) as tpa, cdr.result = reference(tpa), tpa.subject = (source.subject), tpa.status = &quot;final&quot;, tpa.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28992.1000043&quot;)</Data><NamedCell
+      ss:Type="String">for source.preAnalytic : code 0..1 as spa make create(&quot;Observation&quot;) as tpa, cdr.result = reference(tpa), tpa.subject = (source.subject), tpa.status = &quot;final&quot;, tpa.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28562.1000043&quot;)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s118"
@@ -1850,7 +1846,7 @@
       ss:Type="String">preAnalytic</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">http://cap.org/protocols</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s111"><Data ss:Type="String">28992.1000043</Data><NamedCell
+    <Cell ss:StyleID="s111"><Data ss:Type="String">28562.1000043</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105" ss:Formula="=LOOKUP(RC8,Bindings!C1,Bindings!C5)"><Data
@@ -6479,7 +6475,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>4</ActiveRow>
+     <ActiveRow>6</ActiveRow>
      <ActiveCol>27</ActiveCol>
     </Pane>
    </Panes>
