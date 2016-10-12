@@ -2,7 +2,7 @@
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="rcpa"/>
-  <url value="hhttp://fhir.hl7.org.au/fhir/rcpa"/>
+  <url value="http://fhir.hl7.org.au/fhir/rcpa/ImplementationGuide/rcpa"/>
   <name value="RCPA Structured Cancer Reporting Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
