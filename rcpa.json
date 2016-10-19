@@ -1,5 +1,7 @@
 {
 	"tool": "jekyll",
+	 "sct-edition" : "http://snomed.info/sct/32506021000036107",
+
   "paths" : {
     "resources" : "resources",
     "pages" : "pages",
