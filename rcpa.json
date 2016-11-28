@@ -9,7 +9,7 @@
     "output" : "output",
     "qa" : "qa",
     "txCache" : "txCache",
-    "specification" : "http://hl7-fhir.github.io"
+    "specification" : "http://build.fhir.org"
   },
 	"canonicalBase": "http://fhir.hl7.org.au/fhir/rcpa",
   "dependencyList": [
