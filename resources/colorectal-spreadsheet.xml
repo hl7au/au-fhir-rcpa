@@ -10,7 +10,7 @@
   <LastAuthor>Grahame Grieve</LastAuthor>
   <LastPrinted>2016-09-01T01:29:45Z</LastPrinted>
   <Created>2012-03-19T11:12:07Z</Created>
-  <LastSaved>2016-11-28T23:14:14Z</LastSaved>
+  <LastSaved>2016-11-29T09:35:16Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -18,10 +18,14 @@
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
   <SupBook>
+   <Path> </Path>
+   <SheetName> </SheetName>
+  </SupBook>
+  <SupBook>
    <Path>\work\subversion\fhir\build\source\colorectal\Archive\Invariants</Path>
    <SheetName>Invariants</SheetName>
   </SupBook>
-  <WindowHeight>11445</WindowHeight>
+  <WindowHeight>10845</WindowHeight>
   <WindowWidth>24690</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
@@ -2829,8 +2833,8 @@
     <Cell ss:StyleID="s107"><Data ss:Type="String">FYI - short label &amp; definition did not like apostrophe s ie surgeon's</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for spa.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for spa.surgeonsOpinion : code 0..1 as v make create(&quot;Observation&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28295.1000043&quot;, &quot;Surgeons opinion of residual cancer&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for spa.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for spa.surgeonsOpinion : code 0..1 as v make create(&quot;Observation&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28295.1000043&quot;, &quot;Surgeons opinion of residual cancer&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -2899,8 +2903,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for spa.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for spa.adjacentOrgans : code 0..1 as v make create(&quot;Observation&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28336.1000043&quot;, &quot;Adjacent organ involvement&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for spa.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for spa.adjacentOrgans : code 0..1 as v make create(&quot;Observation&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28336.1000043&quot;, &quot;Adjacent organ involvement&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -2962,8 +2966,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for spa.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for spa.newPrimaryOrRecurrence : code 0..1 as v make create(&quot;Observation&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28337.1000043&quot;, &quot;New primary cancer or recurrence&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/cancer-primary-or-recurrence&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for spa.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for spa.newPrimaryOrRecurrence : code 0..1 as v make create(&quot;Observation&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28337.1000043&quot;, &quot;New primary cancer or recurrence&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/cancer-primary-or-recurrence&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -3152,8 +3156,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for spa.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for spa.otherRelevantDetails : code 0..1 as v make create(&quot;Observation&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28301.1000043&quot;, &quot;Other details&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for spa.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for spa.otherRelevantDetails : code 0..1 as v make create(&quot;Observation&quot;) as obs, tpa.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28301.1000043&quot;, &quot;Other details&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -3213,8 +3217,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for source.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as sma make create(&quot;&quot;Observation&quot;&quot;) as tma, cdr.result = reference(tma), tma.subject = (source.subject), tma.status = &quot;&quot;final&quot;&quot;, tma.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;))&quot;"><Data
-      ss:Type="String">for source.macro : code 0..1 as sma make create(&quot;Observation&quot;) as tma, cdr.result = reference(tma), tma.subject = (source.subject), tma.status = &quot;final&quot;, tma.code = cc(&quot;http://cap.org/protocols&quot;, &quot;27906.1000043&quot;, &quot;Macroscopy&quot;))</Data><NamedCell
+     ss:Formula="=&quot;for source.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as sma make create(&quot;&quot;Observation&quot;&quot;) as tma, cdr.result = reference(tma), tma.subject = (source.subject), tma.status = &quot;&quot;final&quot;&quot;, tma.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)&quot;"><Data
+      ss:Type="String">for source.macro : code 0..1 as sma make create(&quot;Observation&quot;) as tma, cdr.result = reference(tma), tma.subject = (source.subject), tma.status = &quot;final&quot;, tma.code = cc(&quot;http://cap.org/protocols&quot;, &quot;27906.1000043&quot;, &quot;Macroscopy&quot;)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -3609,8 +3613,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sma.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for sma.distNonperitonCircumMargin : code 0..1 as v make create(&quot;Observation&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28358.1000043&quot;, &quot;Distance of tumour to the nonperitonealised circumferential margin&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for sma.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for sma.distNonperitonCircumMargin : code 0..1 as v make create(&quot;Observation&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28358.1000043&quot;, &quot;Distance of tumour to the nonperitonealised circumferential margin&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -3690,8 +3694,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sma.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for sma.tumourPerforation : code 0..1 as v make create(&quot;Observation&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;27963.1000043&quot;, &quot;Tumour perforation&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/present-absent&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for sma.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for sma.tumourPerforation : code 0..1 as v make create(&quot;Observation&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;27963.1000043&quot;, &quot;Tumour perforation&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/present-absent&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -3766,8 +3770,8 @@
     <Cell ss:StyleID="s107"><Data ss:Type="String">? Make an invariant on rectum in tumour site</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sma.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for sma.relToAntPeritonealReflection : code 0..1 as v make create(&quot;Observation&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28362.1000043&quot;, &quot;Site of rectal tumour in relation to the anterior level of the peritoneal reflection&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-rel-anterior-peritoneal-reflection&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for sma.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for sma.relToAntPeritonealReflection : code 0..1 as v make create(&quot;Observation&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28362.1000043&quot;, &quot;Site of rectal tumour in relation to the anterior level of the peritoneal reflection&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-rel-anterior-peritoneal-reflection&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -3918,8 +3922,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sma.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for sma.peritoneum : code 0..1 as v make create(&quot;Observation&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28369.1000043&quot;, &quot;Peritoneum&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-peritoneum-invasion&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for sma.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for sma.peritoneum : code 0..1 as v make create(&quot;Observation&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28369.1000043&quot;, &quot;Peritoneum&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-peritoneum-invasion&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -4131,8 +4135,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sma.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for sma.polyps : code 0..1 as v make create(&quot;Observation&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28376.1000043&quot;, &quot;The presence or absence of polyps should be recorded&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/present-absent-na&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for sma.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for sma.polyps : code 0..1 as v make create(&quot;Observation&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28376.1000043&quot;, &quot;The presence or absence of polyps should be recorded&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/present-absent-na&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -4199,8 +4203,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sma.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for sma.polypSummary : code 0..1 as v make create(&quot;Observation&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28379.1000043&quot;, &quot;The number, diameter and gross configuration of polyps should be summarised&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for sma.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for sma.polypSummary : code 0..1 as v make create(&quot;Observation&quot;) as obs, tma.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28379.1000043&quot;, &quot;The number, diameter and gross configuration of polyps should be summarised&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -4415,8 +4419,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for source.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as smi make create(&quot;&quot;Observation&quot;&quot;) as tmi, cdr.result = reference(tmi), tmi.subject = (source.subject), tmi.status = &quot;&quot;final&quot;&quot;, tmi.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;))&quot;"><Data
-      ss:Type="String">for source.micro : code 0..1 as smi make create(&quot;Observation&quot;) as tmi, cdr.result = reference(tmi), tmi.subject = (source.subject), tmi.status = &quot;final&quot;, tmi.code = cc(&quot;http://cap.org/protocols&quot;, &quot;27973.1000043&quot;, &quot;Microscopy&quot;))</Data><NamedCell
+     ss:Formula="=&quot;for source.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as smi make create(&quot;&quot;Observation&quot;&quot;) as tmi, cdr.result = reference(tmi), tmi.subject = (source.subject), tmi.status = &quot;&quot;final&quot;&quot;, tmi.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)&quot;"><Data
+      ss:Type="String">for source.micro : code 0..1 as smi make create(&quot;Observation&quot;) as tmi, cdr.result = reference(tmi), tmi.subject = (source.subject), tmi.status = &quot;final&quot;, tmi.code = cc(&quot;http://cap.org/protocols&quot;, &quot;27973.1000043&quot;, &quot;Microscopy&quot;)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -4673,8 +4677,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for smi.maxDegreeLocalInvasion : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28534.1000043&quot;, &quot;Maximum degree of local invasion into or through the bowel wall&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-deg-inv-bowel-wall&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for smi.maxDegreeLocalInvasion : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28534.1000043&quot;, &quot;Maximum degree of local invasion into or through the bowel wall&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-deg-inv-bowel-wall&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -4761,8 +4765,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/involved-notinvolved&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for smi.proximalOrDistalResectionMargins : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28348.1000043&quot;, &quot;Involvement of the proximal or distal resection (cut-end) margins&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/involved-notinvolved&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/involved-notinvolved&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for smi.proximalOrDistalResectionMargins : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28348.1000043&quot;, &quot;Involvement of the proximal or distal resection (cut-end) margins&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/involved-notinvolved&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -4905,8 +4909,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for smi.marginsMicroClearance : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28396.1000043&quot;, &quot;Microscopic Clearance&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for smi.marginsMicroClearance : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28396.1000043&quot;, &quot;Microscopic Clearance&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -4980,8 +4984,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/involved-notinvolved&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for smi.nonperitonealisedCircumMargin : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28354.1000043&quot;, &quot;Status of the nonperitonealised circumferential margin (rectal tumours)&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/involved-notinvolved&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/involved-notinvolved&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for smi.nonperitonealisedCircumMargin : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28354.1000043&quot;, &quot;Status of the nonperitonealised circumferential margin (rectal tumours)&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/involved-notinvolved&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -5053,8 +5057,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for smi.microClearanceRectum : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28400.1000043&quot;, &quot;Microscopic Clearance&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for smi.microClearanceRectum : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28400.1000043&quot;, &quot;Microscopic Clearance&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -5197,8 +5201,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as slnd make create(&quot;&quot;Observation&quot;&quot;) as tlnd, tmi.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(tlnd), tlnd.subject = (source.subject), tlnd.status = &quot;&quot;final&quot;&quot;, tlnd.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;))&quot;"><Data
-      ss:Type="String">for smi.lymphNodesDetails : code 0..1 as slnd make create(&quot;Observation&quot;) as tlnd, tmi.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(tlnd), tlnd.subject = (source.subject), tlnd.status = &quot;final&quot;, tlnd.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28404.1000043&quot;, &quot;Site(s) and numbers of lymph nodes&quot;))</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as slnd make create(&quot;&quot;Observation&quot;&quot;) as tlnd, tmi.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(tlnd), tlnd.subject = (source.subject), tlnd.status = &quot;&quot;final&quot;&quot;, tlnd.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)&quot;"><Data
+      ss:Type="String">for smi.lymphNodesDetails : code 0..1 as slnd make create(&quot;Observation&quot;) as tlnd, tmi.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(tlnd), tlnd.subject = (source.subject), tlnd.status = &quot;final&quot;, tlnd.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28404.1000043&quot;, &quot;Site(s) and numbers of lymph nodes&quot;)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -5482,8 +5486,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for smi.extramuralTumourDeposits : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28392.1000043&quot;, &quot;Isolated extra-mural tumour deposits&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/present-absent-na&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for smi.extramuralTumourDeposits : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28392.1000043&quot;, &quot;Isolated extra-mural tumour deposits&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/present-absent-na&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -5561,8 +5565,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for smi.apicalNodeInvolvement : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28407.1000043&quot;, &quot;Apical node involvement&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/present-absent-na&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for smi.apicalNodeInvolvement : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28407.1000043&quot;, &quot;Apical node involvement&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/present-absent-na&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -5708,8 +5712,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/intramural-vein-invasion&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for smi.intramuralVeinInvasion : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28412.1000043&quot;, &quot;Intramural vein invasion&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/intramural-vein-invasion&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/intramural-vein-invasion&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for smi.intramuralVeinInvasion : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28412.1000043&quot;, &quot;Intramural vein invasion&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/intramural-vein-invasion&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -5790,8 +5794,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for smi.extramuralVeinInvasion : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28415.1000043&quot;, &quot;Extramural vein invasion&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/extramural-vein-invasion&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for smi.extramuralVeinInvasion : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28415.1000043&quot;, &quot;Extramural vein invasion&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/extramural-vein-invasion&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -6453,8 +6457,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for smi.dysplasia : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28426.1000043&quot;, &quot;Dysplasia&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/dysplasia&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for smi.dysplasia : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28426.1000043&quot;, &quot;Dysplasia&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/dysplasia&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -6582,8 +6586,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for smi.microResidualTumourStatus : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28425.1000043&quot;, &quot;Microscopic residual tumour status (completeness of resection)&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for smi.microResidualTumourStatus : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28425.1000043&quot;, &quot;Microscopic residual tumour status (completeness of resection)&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -6658,8 +6662,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/response-to-neoadjuvant-therapy&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for smi.neoadjuvantTherapy : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28123.1000043&quot;, &quot;Response to neoadjuvant therapy&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/response-to-neoadjuvant-therapy&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for smi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/response-to-neoadjuvant-therapy&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for smi.neoadjuvantTherapy : code 0..1 as v make create(&quot;Observation&quot;) as obs, obs.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28123.1000043&quot;, &quot;Response to neoadjuvant therapy&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/response-to-neoadjuvant-therapy&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -6788,8 +6792,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for source.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as sat make create(&quot;&quot;Observation&quot;&quot;) as tat, cdr.result = reference(tat), tat.subject = (source.subject), tat.status = &quot;&quot;final&quot;&quot;, tat.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;))&quot;"><Data
-      ss:Type="String">for source.ancillaryTests : code 0..1 as sat make create(&quot;Observation&quot;) as tat, cdr.result = reference(tat), tat.subject = (source.subject), tat.status = &quot;final&quot;, tat.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28156.1000043&quot;, &quot;Ancillary test findings&quot;))</Data><NamedCell
+     ss:Formula="=&quot;for source.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as sat make create(&quot;&quot;Observation&quot;&quot;) as tat, cdr.result = reference(tat), tat.subject = (source.subject), tat.status = &quot;&quot;final&quot;&quot;, tat.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)&quot;"><Data
+      ss:Type="String">for source.ancillaryTests : code 0..1 as sat make create(&quot;Observation&quot;) as tat, cdr.result = reference(tat), tat.subject = (source.subject), tat.status = &quot;final&quot;, tat.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28156.1000043&quot;, &quot;Ancillary test findings&quot;)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -7230,8 +7234,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sat.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tat.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for sat.comments : code 0..1 as v make create(&quot;Observation&quot;) as obs, tat.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28436.1000043&quot;, &quot;Mismatch repair enzyme comments&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for sat.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tat.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for sat.comments : code 0..1 as v make create(&quot;Observation&quot;) as obs, tat.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28436.1000043&quot;, &quot;Mismatch repair enzyme comments&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -7288,8 +7292,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sat.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as smsi make create(&quot;&quot;Observation&quot;&quot;) as tmsi, tat.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(tmsi), tmsi.subject = (source.subject), tmsi.status = &quot;&quot;final&quot;&quot;, tmsi.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;))&quot;"><Data
-      ss:Type="String">for sat.msi : code 0..1 as smsi make create(&quot;Observation&quot;) as tmsi, tat.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(tmsi), tmsi.subject = (source.subject), tmsi.status = &quot;final&quot;, tmsi.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28399.1000043&quot;, &quot;Microsatellite instability (MSI)&quot;))</Data><NamedCell
+     ss:Formula="=&quot;for sat.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as smsi make create(&quot;&quot;Observation&quot;&quot;) as tmsi, tat.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(tmsi), tmsi.subject = (source.subject), tmsi.status = &quot;&quot;final&quot;&quot;, tmsi.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)&quot;"><Data
+      ss:Type="String">for sat.msi : code 0..1 as smsi make create(&quot;Observation&quot;) as tmsi, tat.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(tmsi), tmsi.subject = (source.subject), tmsi.status = &quot;final&quot;, tmsi.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28399.1000043&quot;, &quot;Microsatellite instability (MSI)&quot;)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -7417,8 +7421,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smsi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tmsi.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for smsi.comments : code 0..1 as v make create(&quot;Observation&quot;) as obs, tmsi.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28453.1000043&quot;, &quot;Microsatellite instability (MSI) comments&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for smsi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tmsi.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for smsi.comments : code 0..1 as v make create(&quot;Observation&quot;) as obs, tmsi.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28453.1000043&quot;, &quot;Microsatellite instability (MSI) comments&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -7478,8 +7482,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for smsi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tmsi.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for smsi.labDetails : code 0..1 as v make create(&quot;Observation&quot;) as obs, tmsi.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28447.1000043&quot;, &quot;MSI laboratory performing test and report number&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for smsi.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tmsi.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for smsi.labDetails : code 0..1 as v make create(&quot;Observation&quot;) as obs, tmsi.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28447.1000043&quot;, &quot;MSI laboratory performing test and report number&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -7536,8 +7540,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sat.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as sbraf make create(&quot;&quot;Observation&quot;&quot;) as tbraf, tat.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(tbraf), tbraf.subject = (source.subject), tbraf.status = &quot;&quot;final&quot;&quot;, tbraf.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;))&quot;"><Data
-      ss:Type="String">for sat.braf : code 0..1 as sbraf make create(&quot;Observation&quot;) as tbraf, tat.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(tbraf), tbraf.subject = (source.subject), tbraf.status = &quot;final&quot;, tbraf.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28454.1000043&quot;, &quot;BRAF (V600E mutation)&quot;))</Data><NamedCell
+     ss:Formula="=&quot;for sat.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as sbraf make create(&quot;&quot;Observation&quot;&quot;) as tbraf, tat.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(tbraf), tbraf.subject = (source.subject), tbraf.status = &quot;&quot;final&quot;&quot;, tbraf.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)&quot;"><Data
+      ss:Type="String">for sat.braf : code 0..1 as sbraf make create(&quot;Observation&quot;) as tbraf, tat.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(tbraf), tbraf.subject = (source.subject), tbraf.status = &quot;final&quot;, tbraf.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28454.1000043&quot;, &quot;BRAF (V600E mutation)&quot;)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -7665,8 +7669,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sbraf.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tbraf.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for sbraf.comments : code 0..1 as v make create(&quot;Observation&quot;) as obs, tbraf.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28460.1000043&quot;, &quot;BRAF (V600E mutation) comments&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for sbraf.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tbraf.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for sbraf.comments : code 0..1 as v make create(&quot;Observation&quot;) as obs, tbraf.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28460.1000043&quot;, &quot;BRAF (V600E mutation) comments&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -7725,8 +7729,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sbraf.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tbraf.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for sbraf.labDetails : code 0..1 as v make create(&quot;Observation&quot;) as obs, tbraf.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28459.1000043&quot;, &quot;BRAF (V600E mutation) laboratory performing test and report number&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for sbraf.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tbraf.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for sbraf.labDetails : code 0..1 as v make create(&quot;Observation&quot;) as obs, tbraf.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28459.1000043&quot;, &quot;BRAF (V600E mutation) laboratory performing test and report number&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -7785,8 +7789,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sat.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as skras make create(&quot;&quot;Observation&quot;&quot;) as tkras, tat.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(tkras), tkras.subject = (source.subject), tkras.status = &quot;&quot;final&quot;&quot;, tkras.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;))&quot;"><Data
-      ss:Type="String">for sat.kras : code 0..1 as skras make create(&quot;Observation&quot;) as tkras, tat.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(tkras), tkras.subject = (source.subject), tkras.status = &quot;final&quot;, tkras.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28461.1000043&quot;, &quot;KRAS gene mutation (codons 12 and 13)&quot;))</Data><NamedCell
+     ss:Formula="=&quot;for sat.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as skras make create(&quot;&quot;Observation&quot;&quot;) as tkras, tat.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(tkras), tkras.subject = (source.subject), tkras.status = &quot;&quot;final&quot;&quot;, tkras.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)&quot;"><Data
+      ss:Type="String">for sat.kras : code 0..1 as skras make create(&quot;Observation&quot;) as tkras, tat.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(tkras), tkras.subject = (source.subject), tkras.status = &quot;final&quot;, tkras.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28461.1000043&quot;, &quot;KRAS gene mutation (codons 12 and 13)&quot;)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -7914,8 +7918,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for skras.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tkras.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for skras.comments : code 0..1 as v make create(&quot;Observation&quot;) as obs, tkras.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28465.1000043&quot;, &quot;KRAS gene mutation (codons 12 and 13) comments&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for skras.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tkras.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for skras.comments : code 0..1 as v make create(&quot;Observation&quot;) as obs, tkras.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28465.1000043&quot;, &quot;KRAS gene mutation (codons 12 and 13) comments&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -7974,8 +7978,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for skras.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tkras.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for skras.labDetails : code 0..1 as v make create(&quot;Observation&quot;) as obs, tkras.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28466.1000043&quot;, &quot;KRAS gene mutation (codons 12 and 13) laboratory performing test and report number&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for skras.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tkras.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for skras.labDetails : code 0..1 as v make create(&quot;Observation&quot;) as obs, tkras.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28466.1000043&quot;, &quot;KRAS gene mutation (codons 12 and 13) laboratory performing test and report number&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -8034,8 +8038,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for source.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as sso make create(&quot;&quot;Observation&quot;&quot;) as tto, cdr.result = reference(tto), tto.subject = (source.subject), tto.status = &quot;&quot;final&quot;&quot;, tto.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;))&quot;"><Data
-      ss:Type="String">for source.synthesisOverview : code 0..1 as sso make create(&quot;Observation&quot;) as tto, cdr.result = reference(tto), tto.subject = (source.subject), tto.status = &quot;final&quot;, tto.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28253.1000043&quot;, &quot;Synthesis and Overview&quot;))</Data><NamedCell
+     ss:Formula="=&quot;for source.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as sso make create(&quot;&quot;Observation&quot;&quot;) as tto, cdr.result = reference(tto), tto.subject = (source.subject), tto.status = &quot;&quot;final&quot;&quot;, tto.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)&quot;"><Data
+      ss:Type="String">for source.synthesisOverview : code 0..1 as sso make create(&quot;Observation&quot;) as tto, cdr.result = reference(tto), tto.subject = (source.subject), tto.status = &quot;final&quot;, tto.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28253.1000043&quot;, &quot;Synthesis and Overview&quot;)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -8354,8 +8358,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sso.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for sso.tumourStageM : code 0..1 as v make create(&quot;Observation&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28552.1000043&quot;, &quot;M&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-tumour-stage-m&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for sso.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for sso.tumourStageM : code 0..1 as v make create(&quot;Observation&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28552.1000043&quot;, &quot;M&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/crc-tumour-stage-m&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -8750,8 +8754,8 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sso.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
-      ss:Type="String">for sso.newPrimaryOrRecurrence : code 0..1 as v make create(&quot;Observation&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28472.1000043&quot;, &quot;New primary cancer or recurrence&quot;)),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/new-cancer-or-recurrence&quot;, v)</Data><NamedCell
+     ss:Formula="=&quot;for sso.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = cc(&quot;&quot;&quot;&amp;RC[6]&amp;&quot;&quot;&quot;, v)&quot;"><Data
+      ss:Type="String">for sso.newPrimaryOrRecurrence : code 0..1 as v make create(&quot;Observation&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28472.1000043&quot;, &quot;New primary cancer or recurrence&quot;),  obs.value = cc(&quot;http://fhir.hl7.org.au/fhir/rcpa/ValueSet/new-cancer-or-recurrence&quot;, v)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -8814,8 +8818,8 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"
-     ss:Formula="=&quot;for sso.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;)),  obs.value = v&quot;"><Data
-      ss:Type="String">for sso.newDescription : code 0..1 as v make create(&quot;Observation&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28473.1000043&quot;, &quot;Describe&quot;)),  obs.value = v</Data><NamedCell
+     ss:Formula="=&quot;for sso.&quot;&amp;RC[2]&amp;&quot; : code 0..1 as v make create(&quot;&quot;Observation&quot;&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;&quot;has-member&quot;&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;&quot;final&quot;&quot;, obs.code = cc(&quot;&quot;&quot;&amp;RC[3]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[4]&amp;&quot;&quot;&quot;, &quot;&quot;&quot;&amp;RC[-6]&amp;&quot;&quot;&quot;),  obs.value = v&quot;"><Data
+      ss:Type="String">for sso.newDescription : code 0..1 as v make create(&quot;Observation&quot;) as obs, tto.related as xtmp, xtmp.type=&quot;has-member&quot;, xtmp.target = reference(obs), obs.subject = (source.subject), obs.status = &quot;final&quot;, obs.code = cc(&quot;http://cap.org/protocols&quot;, &quot;28473.1000043&quot;, &quot;Describe&quot;),  obs.value = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -9196,7 +9200,7 @@
    <FrozenNoSplit/>
    <FilterOn/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>72</TopRowBottomPane>
+   <TopRowBottomPane>5</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>22</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -9214,6 +9218,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
+     <ActiveRow>17</ActiveRow>
      <ActiveCol>28</ActiveCol>
     </Pane>
    </Panes>
