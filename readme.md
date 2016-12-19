@@ -16,3 +16,5 @@ go to [path]\html and run jekyll serve
 
 the final output will be in [path]\html\_site
 
+Current build is posted in [tba]
+
