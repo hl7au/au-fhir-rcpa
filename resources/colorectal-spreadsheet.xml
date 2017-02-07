@@ -1641,7 +1641,7 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Need to made cardinality [1..1] as the build initially gets errors with this setting.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">for source.requester : Reference 0..1 as v make create(&quot;DiagnosticRequest&quot;) as do, cdr.request = reference(do), do.subject = (source.subject), do.requester = v</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">for source.requester : Reference 0..1 as v make create(&quot;ProcedureRequest&quot;) as do, cdr.request = reference(do), do.subject = (source.subject), do.requester as prr, prr.agent = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -1717,7 +1717,7 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Need to made cardinality [1..1] as the build initially gets errors with this setting.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">for source.performer : Reference 0..1 as v make cdr.performer = v</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">for source.performer : Reference 0..1 as v make cdr.performer as prr, prr.actor = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
@@ -1846,7 +1846,7 @@
     <Cell ss:StyleID="s106"><Data ss:Type="String">S1.02</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">for spa.clinicalInformation as v make create(&quot;DiagnosticRequest&quot;) as do, do.reasonCode as dr, dr.text = v</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">for spa.clinicalInformation as v make create(&quot;ProcedureRequest&quot;) as do, do.reasonCode as dr, dr.text = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">is do available at this point?</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9212,7 +9212,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>7</ActiveRow>
+     <ActiveRow>5</ActiveRow>
      <ActiveCol>28</ActiveCol>
     </Pane>
    </Panes>
