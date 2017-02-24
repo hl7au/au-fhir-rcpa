@@ -1530,7 +1530,7 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">1..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Reference(Patient){http://fhir.hl7.org.au/fhir/base/StructureDefinition/au-patient-human}</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Reference(Patient){http://fhir.hl7.org.au/fhir/base/StructureDefinition/au-patient}</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Y</Data><NamedCell
@@ -1641,7 +1641,7 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Need to made cardinality [1..1] as the build initially gets errors with this setting.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">for source.requester : Reference 0..1 as v make create(&quot;ProcedureRequest&quot;) as do, cdr.request = reference(do), do.subject = (source.subject), do.requester as prr, prr.agent = v</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">for source.requester : Reference 0..1 as v make create(&quot;ProcedureRequest&quot;) as do, cdr.basedOn = reference(do), do.subject = (source.subject), do.requester as prr, prr.agent = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"
