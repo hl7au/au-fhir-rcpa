@@ -11,8 +11,13 @@
     "txCache" : "txCache",
     "specification" : "http://build.fhir.org"
   },
-	"canonicalBase": "http://fhir.hl7.org.au/fhir/rcpa",
-  "dependencyList": [ ], 
+  "canonicalBase": "http://fhir.hl7.org.au/fhir/rcpa",
+  "dependencyList": [ 
+    {
+       "name" : "aubase",
+       "location" : "http://fhir.hl7.org.au/fhir/base2017Apr"
+    }
+  ], 
   "special-urls": [ "http://cap.org/protocols" ],
   "defaults" : {
     "Any" : {

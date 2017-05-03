@@ -1630,7 +1630,7 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">1..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Reference(Patient|Group)</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Reference(Patient|Group){http://hl7.org.au/fhir/StructureDefinition/au-patient}</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Y</Data><NamedCell
@@ -1691,7 +1691,7 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Reference(Practitioner)</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Reference(Practitioner){http://hl7.org.au/fhir/StructureDefinition/au-practitioner}</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Y</Data><NamedCell
@@ -6461,7 +6461,7 @@
    <SplitHorizontal>1</SplitHorizontal>
    <TopRowBottomPane>1</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>19</LeftColumnRightPane>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -6469,7 +6469,6 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveCol>1</ActiveCol>
     </Pane>
     <Pane>
      <Number>2</Number>
@@ -6477,7 +6476,7 @@
     <Pane>
      <Number>0</Number>
      <ActiveRow>3</ActiveRow>
-     <ActiveCol>23</ActiveCol>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
