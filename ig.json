@@ -1,7 +1,7 @@
 {
 	"tool": "jekyll",
 	 "sct-edition" : "http://snomed.info/sct/32506021000036107",
-
+    "version": "3.0.1",
   "paths" : {
     "resources" : "resources",
     "pages" : "pages",
@@ -12,12 +12,8 @@
     "specification" : "http://build.fhir.org"
   },
 	"canonicalBase": "http://fhir.hl7.org.au/fhir/rcpa",
-  "dependencyList": [
-    {
-      "name" : "au_base",
-      "location" : "http://fhir.hl7.org.au/fhir/base"
-    }
-  ],  
+  "dependencyList": [ ], 
+  "special-urls": [ "http://cap.org/protocols" ],
   "defaults" : {
     "Any" : {
 	  	"template-format" : "instance-template-format.html",

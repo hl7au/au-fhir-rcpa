@@ -21,8 +21,8 @@
    <Path>\work\subversion\fhir\build\source\colorectal\Archive\Invariants</Path>
    <SheetName>Invariants</SheetName>
   </SupBook>
-  <WindowHeight>21930</WindowHeight>
-  <WindowWidth>-19456</WindowWidth>
+  <WindowHeight>12150</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <TabRatio>735</TabRatio>
@@ -1292,7 +1292,7 @@
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="77.25"/>
    <Column ss:StyleID="s73" ss:Width="29.25"/>
    <Column ss:StyleID="s75" ss:AutoFitWidth="0" ss:Width="42.75"/>
-   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="91.5"/>
+   <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="459.75"/>
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="28.5"/>
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="27"/>
    <Column ss:StyleID="s73" ss:AutoFitWidth="0" ss:Width="106.5"/>
@@ -1530,7 +1530,7 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">1..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Reference(Patient){http://fhir.hl7.org.au/fhir/base/StructureDefinition/au-patient}</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Reference(Patient)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Y</Data><NamedCell
@@ -9197,7 +9197,7 @@
    <SplitHorizontal>1</SplitHorizontal>
    <TopRowBottomPane>1</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>22</LeftColumnRightPane>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -9205,15 +9205,14 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveCol>1</ActiveCol>
     </Pane>
     <Pane>
      <Number>2</Number>
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>5</ActiveRow>
-     <ActiveCol>28</ActiveCol>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

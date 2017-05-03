@@ -20,8 +20,8 @@
    <Path>\work\subversion\fhir\build\source\colorectal\Archive\Invariants</Path>
    <SheetName>Invariants</SheetName>
   </SupBook>
-  <WindowHeight>8445</WindowHeight>
-  <WindowWidth>26235</WindowWidth>
+  <WindowHeight>12150</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <TabRatio>735</TabRatio>
@@ -1721,7 +1721,7 @@
     <Cell ss:StyleID="s102"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><Data ss:Type="String">Need to made cardinality [1..1] as the build initially gets errors with this setting.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s103"><Data ss:Type="String">for source.requester : Reference 0..1 as v make create(&quot;ProcedureRequest&quot;) as do, cdr.request = reference(do), do.subject = (source.subject), do.requester as prr, prr.agent = v</Data><NamedCell
+    <Cell ss:StyleID="s103"><Data ss:Type="String">for source.requester : Reference 0..1 as v make create(&quot;ProcedureRequest&quot;) as do, cdr.basedOn = reference(do), do.subject = (source.subject), do.requester as prr, prr.agent = v</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"
@@ -6476,7 +6476,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>5</ActiveRow>
+     <ActiveRow>3</ActiveRow>
      <ActiveCol>23</ActiveCol>
     </Pane>
    </Panes>
@@ -6541,7 +6541,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R78C8:R78C37,R63C8:R64C11,R14C8:R14C23,R15C9:R15C23,R79C5:R84C37,R2C8:R11C23,R12C9:R13C23,R16C8:R19C23,R23C1:R24C4,R23C13:R24C23,R71C8:R72C8,R49C4:R112C4,R49C5:R78C7,R29C1:R47C7,R49C1:R84C3,R34C9:R40C23,R49C8:R62C23,R63C13:R64C23,R71C15:R72C23,R73C8:R77C23,R25C1:R28C23,R65C8:R70C23,R2C24:R2C30,R6C27,R41C8:R47C24,R48C1:R48C24,R49C24:R58C24,R60C24:R77C24,R17C27,R31C27,R33C27:R41C27,R43C27,R50C27:R53C27,R56C27,R58C27:R59C27,R61C27:R62C27,R70C27,R3C24:R3C25,R22C24:R40C24,R22C25:R77C25,R22C1:R22C23,R29C8:R33C23,R2C31:R77C37,R19C27:R24C27,R2C1:R19C7,R20C1:R21C25,R5C24:R19C25,R4C25</Range>
+   <Range>R78C8:R78C37,R63C8:R64C11,R14C8:R14C23,R15C9:R15C23,R79C5:R84C37,R2C8:R11C23,R12C9:R13C23,R16C8:R19C23,R23C1:R24C4,R23C13:R24C23,R71C8:R72C8,R49C4:R112C4,R49C5:R78C7,R29C1:R47C7,R49C1:R84C3,R34C9:R40C23,R49C8:R62C23,R63C13:R64C23,R71C15:R72C23,R73C8:R77C23,R25C1:R28C23,R65C8:R70C23,R2C24:R2C30,R6C27,R41C8:R47C24,R48C1:R48C24,R49C24:R58C24,R60C24:R77C24,R17C27,R31C27,R33C27:R41C27,R43C27,R50C27:R53C27,R56C27,R58C27:R59C27,R61C27:R62C27,R70C27,R22C24:R40C24,R22C25:R77C25,R22C1:R22C23,R29C8:R33C23,R2C31:R77C37,R19C27:R24C27,R2C1:R19C7,R20C1:R21C25,R3C24:R19C25</Range>
    <Condition>
     <Value1>RC3=&quot;0..0&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
@@ -6622,7 +6622,7 @@
    </Condition>
   </ConditionalFormatting>
   <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R78C8:R78C37,R63C8:R64C11,R14C8:R14C23,R15C9:R15C23,R79C5:R84C37,R2C8:R11C23,R12C9:R13C23,R16C8:R19C23,R23C1:R24C4,R23C13:R24C23,R71C8:R72C8,R49C4:R112C4,R49C5:R78C7,R29C1:R47C7,R49C1:R84C3,R34C9:R40C23,R71C15:R72C23,R73C8:R77C23,R25C1:R28C23,R65C8:R70C23,R2C24:R2C30,R6C27,R41C8:R47C24,R48C1:R48C24,R49C8:R62C24,R63C13:R64C24,R65C24:R77C24,R17C27,R31C27,R33C27:R41C27,R43C27,R50C27:R53C27,R56C27,R58C27:R59C27,R61C27:R62C27,R70C27,R3C24:R3C25,R22C24:R40C24,R22C25:R77C25,R22C1:R22C23,R29C8:R33C23,R2C31:R77C37,R19C27:R24C27,R2C1:R19C7,R20C1:R21C25,R5C24:R19C25,R4C25</Range>
+   <Range>R78C8:R78C37,R63C8:R64C11,R14C8:R14C23,R15C9:R15C23,R79C5:R84C37,R2C8:R11C23,R12C9:R13C23,R16C8:R19C23,R23C1:R24C4,R23C13:R24C23,R71C8:R72C8,R49C4:R112C4,R49C5:R78C7,R29C1:R47C7,R49C1:R84C3,R34C9:R40C23,R71C15:R72C23,R73C8:R77C23,R25C1:R28C23,R65C8:R70C23,R2C24:R2C30,R6C27,R41C8:R47C24,R48C1:R48C24,R49C8:R62C24,R63C13:R64C24,R65C24:R77C24,R17C27,R31C27,R33C27:R41C27,R43C27,R50C27:R53C27,R56C27,R58C27:R59C27,R61C27:R62C27,R70C27,R22C24:R40C24,R22C25:R77C25,R22C1:R22C23,R29C8:R33C23,R2C31:R77C37,R19C27:R24C27,R2C1:R19C7,R20C1:R21C25,R3C24:R19C25</Range>
    <Condition>
     <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
@@ -6799,24 +6799,6 @@
    <Condition>
     <Value1>RC3=&quot;0..0&quot;</Value1>
     <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R4C24</Range>
-   <Condition>
-    <Value1>RC3=&quot;0..0&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#F2F2F2'/>
-   </Condition>
-   <Condition>
-    <Value1>AND(RC&lt;&gt;&quot;&quot;,RC1=&quot;&quot;)</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:red'/>
-   </Condition>
-  </ConditionalFormatting>
-  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
-   <Range>R4C24</Range>
-   <Condition>
-    <Value1>LEFT(RC1,1)=&quot;!&quot;</Value1>
-    <Format Style='border:.5pt solid #D8D8D8;background:#A5A5A5'/>
    </Condition>
   </ConditionalFormatting>
  </Worksheet>
