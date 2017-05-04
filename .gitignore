@@ -2,3 +2,5 @@
 /qa
 /temp
 txCache/
+build.bat
+org.hl7.fhir.igpublisher.jar
