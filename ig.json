@@ -35,7 +35,7 @@
   "gen-examples" : "true",
   "do-transforms" : "true",
 	"spreadsheets": [
-	  "colorectal-spreadsheet.xml",
+	"colorectal-spreadsheet.xml",
     "prostate-radical-spreadsheet.xml"
   ],
 	"resources": {
